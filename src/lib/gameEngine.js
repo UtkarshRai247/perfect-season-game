@@ -274,37 +274,85 @@ export function simulateSeason(run, sport, random = Math.random) {
   const exactAverage = totalRating / run.slots.length
   const averageRating = Math.round(exactAverage)
 
-  const winProb = Math.max(0.18, Math.min(0.88, 0.5 + (exactAverage - 85) / 45))
+  const minRating = Math.min(...run.slots.map((s) => s.player.rating))
+  // Weak link penalty: in high-level competition, any liability below 90 is exploited by opponents
+  const weakLinkPenalty = Math.max(0, 90 - minRating) * 0.35
+  const effectiveRating = exactAverage - weakLinkPenalty
+
+  const seasonLength = sport.seasonLength
   const isSoccer = sport.recordType === 'wins-draws-losses'
-  const drawProb = isSoccer
-    ? Math.max(0.08, Math.min(0.22, 0.18 - (exactAverage - 85) / 250))
-    : 0
+
+  // Authentic non-linear target win rate curve from the original 82-0 challenge
+  let targetWinRate = 0.5
+  if (sport.id === 'nba') {
+    if (effectiveRating <= 80) {
+      targetWinRate = 0.12 + ((effectiveRating - 70) / 10) * 0.32
+    } else if (effectiveRating <= 86) {
+      targetWinRate = 0.44 + ((effectiveRating - 80) / 6) * 0.18
+    } else if (effectiveRating <= 92) {
+      targetWinRate = 0.62 + ((effectiveRating - 86) / 6) * 0.18
+    } else if (effectiveRating <= 96) {
+      targetWinRate = 0.8 + ((effectiveRating - 92) / 4) * 0.14
+    } else {
+      // 96 to 98.5: diminishing returns, reaching 1.0 (82-0) for an all-time God squad
+      targetWinRate = 0.94 + ((effectiveRating - 96) / 2.5) * 0.06
+    }
+  } else if (sport.id === 'nfl') {
+    if (effectiveRating <= 80) {
+      targetWinRate = 0.15 + ((effectiveRating - 70) / 10) * 0.25
+    } else if (effectiveRating <= 86) {
+      targetWinRate = 0.4 + ((effectiveRating - 80) / 6) * 0.22
+    } else if (effectiveRating <= 92) {
+      targetWinRate = 0.62 + ((effectiveRating - 86) / 6) * 0.2
+    } else if (effectiveRating <= 96) {
+      targetWinRate = 0.82 + ((effectiveRating - 92) / 4) * 0.12
+    } else {
+      targetWinRate = 0.94 + ((effectiveRating - 96) / 2.5) * 0.06
+    }
+  } else {
+    // Soccer
+    if (effectiveRating <= 80) {
+      targetWinRate = 0.2 + ((effectiveRating - 70) / 10) * 0.25
+    } else if (effectiveRating <= 86) {
+      targetWinRate = 0.45 + ((effectiveRating - 80) / 6) * 0.22
+    } else if (effectiveRating <= 92) {
+      targetWinRate = 0.67 + ((effectiveRating - 86) / 6) * 0.18
+    } else if (effectiveRating <= 96) {
+      targetWinRate = 0.85 + ((effectiveRating - 92) / 4) * 0.1
+    } else {
+      targetWinRate = 0.95 + ((effectiveRating - 96) / 2.5) * 0.05
+    }
+  }
+
+  targetWinRate = Math.max(0.08, Math.min(1.0, targetWinRate))
 
   const results = []
   let wins = 0
   let draws = 0
   let losses = 0
 
-  for (let i = 0; i < sport.seasonLength; i += 1) {
+  for (let i = 0; i < seasonLength; i += 1) {
     let outcome = 'L'
     const roll = typeof random === 'function' ? random() : Math.random()
+    const difficulty = (i + 0.5) / seasonLength
+    const variance = (roll - 0.5) * 0.16
+    const gamePerformance = targetWinRate + variance
 
     if (isSoccer) {
-      if (roll < drawProb) {
+      // Draw occurs when team performance is very close to game difficulty
+      const diff = Math.abs(gamePerformance - difficulty)
+      if (diff < 0.035 && targetWinRate < 0.98) {
         outcome = 'D'
         draws += 1
+      } else if (gamePerformance >= difficulty) {
+        outcome = 'W'
+        wins += 1
       } else {
-        const roll2 = typeof random === 'function' ? random() : Math.random()
-        if (roll2 < winProb) {
-          outcome = 'W'
-          wins += 1
-        } else {
-          outcome = 'L'
-          losses += 1
-        }
+        outcome = 'L'
+        losses += 1
       }
     } else {
-      if (roll < winProb) {
+      if (gamePerformance >= difficulty) {
         outcome = 'W'
         wins += 1
       } else {

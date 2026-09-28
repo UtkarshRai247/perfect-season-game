@@ -218,4 +218,63 @@ describe('game engine season simulation with new roster sizes', () => {
     expect(season.results).toHaveLength(17)
     expect(season.record.wins + season.record.losses).toBe(17)
   })
+
+  it('allows an all-time God squad with no weak links (97+ rating) to achieve a perfect 82-0 season', () => {
+    const run = createRun('nba', nba)
+    const godPlayers = [
+      { id: 'p1', name: 'Magic Johnson', roles: ['PG'], rating: 98 },
+      { id: 'p2', name: 'Michael Jordan', roles: ['SG'], rating: 99 },
+      { id: 'p3', name: 'LeBron James', roles: ['SF'], rating: 99 },
+      { id: 'p4', name: 'Tim Duncan', roles: ['PF'], rating: 98 },
+      { id: 'p5', name: 'Wilt Chamberlain', roles: ['C'], rating: 99 },
+    ]
+    const godRun = {
+      ...run,
+      slots: run.slots.map((s, idx) => ({ ...s, player: godPlayers[idx] })),
+    }
+
+    const season = simulateSeason(godRun, nba, () => 0.5)
+    expect(season.record.wins).toBe(82)
+    expect(season.record.losses).toBe(0)
+  })
+
+  it('penalizes a team with a weak link hole preventing an 82-0 perfect season', () => {
+    const run = createRun('nba', nba)
+    // 4 superstars and 1 weak hole (rating 74)
+    const weakLinkPlayers = [
+      { id: 'p1', name: 'Magic Johnson', roles: ['PG'], rating: 98 },
+      { id: 'p2', name: 'Michael Jordan', roles: ['SG'], rating: 99 },
+      { id: 'p3', name: 'LeBron James', roles: ['SF'], rating: 99 },
+      { id: 'p4', name: 'Tim Duncan', roles: ['PF'], rating: 98 },
+      { id: 'p5', name: 'Bill Wennington', roles: ['C'], rating: 74 },
+    ]
+    const weakRun = {
+      ...run,
+      slots: run.slots.map((s, idx) => ({ ...s, player: weakLinkPlayers[idx] })),
+    }
+
+    const season = simulateSeason(weakRun, nba, () => 0.5)
+    // Weak link penalty prevents 82-0 perfection
+    expect(season.record.wins).toBeLessThan(75)
+    expect(season.record.losses).toBeGreaterThan(0)
+  })
+
+  it('projects a lottery record (under 25 wins) for a team with 70s ratings', () => {
+    const run = createRun('nba', nba)
+    const lotteryPlayers = [
+      { id: 'p1', name: 'Rookie PG', roles: ['PG'], rating: 74 },
+      { id: 'p2', name: 'Bench SG', roles: ['SG'], rating: 75 },
+      { id: 'p3', name: 'Hustle SF', roles: ['SF'], rating: 76 },
+      { id: 'p4', name: 'Backup PF', roles: ['PF'], rating: 74 },
+      { id: 'p5', name: 'Raw C', roles: ['C'], rating: 72 },
+    ]
+    const lotteryRun = {
+      ...run,
+      slots: run.slots.map((s, idx) => ({ ...s, player: lotteryPlayers[idx] })),
+    }
+
+    const season = simulateSeason(lotteryRun, nba, () => 0.5)
+    expect(season.record.wins).toBeLessThan(25)
+    expect(season.record.losses).toBeGreaterThan(57)
+  })
 })

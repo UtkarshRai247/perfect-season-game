@@ -47,6 +47,7 @@ export default function App({ random = Math.random }) {
   }, [])
 
   const currentSport = selectedSportId ? SPORTS[selectedSportId] : null
+  const totalEras = Object.values(SPORTS).reduce((sum, s) => sum + s.draws.length, 0)
 
   function handleSelectSport(sportId) {
     setSelectedSportId(sportId)
@@ -278,7 +279,7 @@ export default function App({ random = Math.random }) {
               className="btn btn-browse-catalog"
               onClick={() => setShowCatalogModal(true)}
             >
-              📖 Browse All Teams, Eras & Rosters (48 Eras)
+              📖 Browse All Teams, Eras & Rosters ({totalEras} Eras)
             </button>
           </div>
         </section>
