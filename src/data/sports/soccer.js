@@ -21,14 +21,13 @@ export const soccerSport = {
   "draws": [
     {
       "franchise": "Arsenal",
-      "era": "2003–2004 (The Invincibles 26-12-0)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-ars-04-henry",
           "name": "Thierry Henry",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 98,
@@ -39,7 +38,6 @@ export const soccerSport = {
           "name": "Patrick Vieira",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 93,
@@ -50,23 +48,10 @@ export const soccerSport = {
           "name": "Sol Campbell",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 92,
           "stats": "Rock-solid defensive anchor, 26 goals conceded all season"
-        },
-        {
-          "id": "pl-ars-04-pires",
-          "name": "Robert Pires",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 91,
-          "stats": "14 Goals, 9 Assists, Silky French winger with telepathic Henry linkup"
         },
         {
           "id": "pl-ars-04-cole",
@@ -79,26 +64,24 @@ export const soccerSport = {
           "stats": "World's premier attacking left-back, Flawless defensive coverage"
         },
         {
+          "id": "pl-ars-04-pires",
+          "name": "Robert Pires",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 91,
+          "stats": "14 Goals, 9 Assists, Silky French winger with telepathic Henry linkup"
+        },
+        {
           "id": "pl-ars-04-bergkamp",
           "name": "Dennis Bergkamp",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 90,
           "stats": "The Dutch master, sublime vision, 7 goals and 8 assists"
-        },
-        {
-          "id": "pl-ars-04-ljungberg",
-          "name": "Freddie Ljungberg",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 89,
-          "stats": "10 Goals, Relentless engine and trademark diagonal runs from the right"
         },
         {
           "id": "pl-ars-04-lehmann",
@@ -110,12 +93,20 @@ export const soccerSport = {
           "stats": "Started all 38 unbeaten league matches, 15 clean sheets"
         },
         {
+          "id": "pl-ars-04-ljungberg",
+          "name": "Freddie Ljungberg",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 89,
+          "stats": "10 Goals, Relentless engine and trademark diagonal runs from the right"
+        },
+        {
           "id": "pl-ars-04-toure",
           "name": "Kolo Touré",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 88,
@@ -126,7 +117,6 @@ export const soccerSport = {
           "name": "Gilberto Silva",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 87,
@@ -147,7 +137,6 @@ export const soccerSport = {
           "name": "Sylvain Wiltord",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 84,
@@ -157,7 +146,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Arsenal",
-      "era": "1997–1998 (Arsène Wenger First Double)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-ars-98-bergkamp",
@@ -174,23 +163,10 @@ export const soccerSport = {
           "name": "Tony Adams",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 92,
           "stats": "Mr. Arsenal, Iconic captain, Smashed iconic goal vs Everton to seal title"
-        },
-        {
-          "id": "pl-ars-98-vieira",
-          "name": "Patrick Vieira",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 91,
-          "stats": "Breakout midfield sensation, Power, stamina and supreme technical authority"
         },
         {
           "id": "pl-ars-98-seaman",
@@ -202,11 +178,20 @@ export const soccerSport = {
           "stats": "Safe Hands, England number one, 13 clean sheets"
         },
         {
+          "id": "pl-ars-98-vieira",
+          "name": "Patrick Vieira",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 91,
+          "stats": "Breakout midfield sensation, Power, stamina and supreme technical authority"
+        },
+        {
           "id": "pl-ars-98-overmars",
           "name": "Marc Overmars",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 90,
@@ -217,7 +202,6 @@ export const soccerSport = {
           "name": "Ian Wright",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 89,
@@ -228,7 +212,6 @@ export const soccerSport = {
           "name": "Emmanuel Petit",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 88,
@@ -239,8 +222,6 @@ export const soccerSport = {
           "name": "Steve Bould",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 86,
@@ -251,7 +232,6 @@ export const soccerSport = {
           "name": "Ray Parlour",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 86,
@@ -282,7 +262,6 @@ export const soccerSport = {
           "name": "Nicolas Anelka",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 84,
@@ -292,14 +271,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Arsenal",
-      "era": "2015–2016 (Runners-Up & Özil Peak)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-ars-16-ozil",
           "name": "Mesut Özil",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 91,
@@ -310,7 +288,6 @@ export const soccerSport = {
           "name": "Alexis Sánchez",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 91,
@@ -330,7 +307,6 @@ export const soccerSport = {
           "name": "Santi Cazorla",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 88,
@@ -341,8 +317,6 @@ export const soccerSport = {
           "name": "Laurent Koscielny",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 86,
@@ -353,21 +327,10 @@ export const soccerSport = {
           "name": "Aaron Ramsey",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 84,
           "stats": "5 Goals, 4 Assists, Dynamic box-to-box engine"
-        },
-        {
-          "id": "pl-ars-16-giroud",
-          "name": "Olivier Giroud",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "16 Premier League Goals, Powerful target man and aerial threat"
         },
         {
           "id": "pl-ars-16-bellerin",
@@ -380,6 +343,16 @@ export const soccerSport = {
           "stats": "PFA Team of the Year right-back, Blistering sprint speed"
         },
         {
+          "id": "pl-ars-16-giroud",
+          "name": "Olivier Giroud",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "16 Premier League Goals, Powerful target man and aerial threat"
+        },
+        {
           "id": "pl-ars-16-monreal",
           "name": "Nacho Monreal",
           "roles": [
@@ -390,34 +363,30 @@ export const soccerSport = {
           "stats": "Reliable Spanish left-back, Steady defensive presence in 37 appearances"
         },
         {
-          "id": "pl-ars-16-walcott",
-          "name": "Theo Walcott",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "Rapid English winger, 5 goals and key stretch runs"
-        },
-        {
           "id": "pl-ars-16-mertersacker",
           "name": "Per Mertesacker",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
           "stats": "BFG, Masterful positioning and aerial presence alongside Koscielny"
         },
         {
+          "id": "pl-ars-16-walcott",
+          "name": "Theo Walcott",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "Rapid English winger, 5 goals and key stretch runs"
+        },
+        {
           "id": "pl-ars-16-coquelin",
           "name": "Francis Coquelin",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -427,149 +396,23 @@ export const soccerSport = {
     },
     {
       "franchise": "Arsenal",
-      "era": "2020–2021 (8th Place Banter Era)",
+      "era": "2020s",
       "players": [
         {
-          "id": "pl-ars-21-saka",
-          "name": "Bukayo Saka",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 84,
-          "stats": "Arsenal Player of the Season, 5 Goals, 3 Assists, Shining bright light"
-        },
-        {
-          "id": "pl-ars-21-aubameyang",
-          "name": "Pierre-Emerick Aubameyang",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "10 Goals, Slumped post-contract season with discipline issues"
-        },
-        {
-          "id": "pl-ars-21-tierney",
-          "name": "Kieran Tierney",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 82,
-          "stats": "Heart and soul left-back, Dangerous whipped crosses despite hamstring injuries"
-        },
-        {
-          "id": "pl-ars-21-leno",
-          "name": "Bernd Leno",
-          "roles": [
-            "GK"
-          ],
-          "rating": 82,
-          "stats": "Kept Arsenal in matches with reflex saves, 11 clean sheets"
-        },
-        {
-          "id": "pl-ars-21-gabriel",
-          "name": "Gabriel Magalhães",
+          "id": "pl-ars-24-saliba",
+          "name": "William Saliba",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
-          "rating": 82,
-          "stats": "Debut season from Lille, Imposing physical presence and aerial strength"
+          "rating": 90,
+          "stats": "Played every single minute of the PL season, Best young defender in Europe"
         },
-        {
-          "id": "pl-ars-21-partey",
-          "name": "Thomas Partey",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 82,
-          "stats": "Arrived from Atlético, Marred by injuries, Showed glimpses of midfield power"
-        },
-        {
-          "id": "pl-ars-21-lacazette",
-          "name": "Alexandre Lacazette",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "Arsenal top scorer with 13 league goals, Linked play in difficult campaign"
-        },
-        {
-          "id": "pl-ars-21-xhaka",
-          "name": "Granit Xhaka",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 79,
-          "stats": "Polarizing midfielder, Filled in at left-back, Red card vs Burnley"
-        },
-        {
-          "id": "pl-ars-21-pepe",
-          "name": "Nicolas Pépé",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "Record £72m signing, 10 Premier League goals in flashes of brilliance"
-        },
-        {
-          "id": "pl-ars-21-bellerin",
-          "name": "Héctor Bellerín",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Diminished pace post-ACL tear, Lost starting spot later in campaign"
-        },
-        {
-          "id": "pl-ars-21-holding",
-          "name": "Rob Holding",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Started 28 matches in patchwork backline during transitional season"
-        },
-        {
-          "id": "pl-ars-21-willian",
-          "name": "Willian",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Disastrous free transfer from Chelsea, 1 goal all season, High wages"
-        }
-      ]
-    },
-    {
-      "franchise": "Arsenal",
-      "era": "2023–2024 (Title Contenders 89 Pts)",
-      "players": [
         {
           "id": "pl-ars-24-odegaard",
           "name": "Martin Ødegaard",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 90,
@@ -580,30 +423,16 @@ export const soccerSport = {
           "name": "Declan Rice",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 90,
           "stats": "Transformational £105m signing, 7 Goals, 8 Assists, Elite defensive presence"
         },
         {
-          "id": "pl-ars-24-saliba",
-          "name": "William Saliba",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 90,
-          "stats": "Played every single minute of the PL season, Best young defender in Europe"
-        },
-        {
           "id": "pl-ars-24-saka",
           "name": "Bukayo Saka",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 89,
@@ -614,8 +443,6 @@ export const soccerSport = {
           "name": "Gabriel Magalhães",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 88,
@@ -645,7 +472,6 @@ export const soccerSport = {
           "name": "Gabriel Martinelli",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 86,
@@ -662,26 +488,24 @@ export const soccerSport = {
           "stats": "13 Goals, 7 Assists, Transformed into lethal pressing false 9"
         },
         {
-          "id": "pl-ars-24-trossard",
-          "name": "Leandro Trossard",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 84,
-          "stats": "12 Premier League Goals, Elite clutch finisher in huge title matches"
-        },
-        {
           "id": "pl-ars-24-partey",
           "name": "Thomas Partey",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 84,
           "stats": "Midfield anchor when healthy, Controlled late-season winning streak"
+        },
+        {
+          "id": "pl-ars-24-trossard",
+          "name": "Leandro Trossard",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 84,
+          "stats": "12 Premier League Goals, Elite clutch finisher in huge title matches"
         },
         {
           "id": "pl-ars-24-zinchenko",
@@ -696,16 +520,264 @@ export const soccerSport = {
       ]
     },
     {
+      "franchise": "AFC Bournemouth",
+      "era": "2010s",
+      "players": [
+        {
+          "id": "pl-bou-17-king",
+          "name": "Joshua King",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "16 Premier League Goals including hat-trick vs Swansea, Explosive forward"
+        },
+        {
+          "id": "pl-bou-17-wilson",
+          "name": "Callum Wilson",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "6 Goals before second ACL injury, Lethal movement inside the penalty box"
+        },
+        {
+          "id": "pl-bou-17-ake",
+          "name": "Nathan Aké",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 81,
+          "stats": "Sensational loan spell from Chelsea, Scored 93rd-minute winner vs Liverpool"
+        },
+        {
+          "id": "pl-bou-17-boruc",
+          "name": "Artur Boruc",
+          "roles": [
+            "GK"
+          ],
+          "rating": 80,
+          "stats": "Holy Goalie, Polish international made crucial penalty stops, 9 clean sheets"
+        },
+        {
+          "id": "pl-bou-17-wilshere",
+          "name": "Jack Wilshere",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Arsenal loanee provided moments of pure technical quality in midfield"
+        },
+        {
+          "id": "pl-bou-17-fraser",
+          "name": "Ryan Fraser",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Scottish pocket dynamo sparked famous 4-3 comeback win over Liverpool"
+        },
+        {
+          "id": "pl-bou-17-cook",
+          "name": "Steve Cook",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Heroic English center-back played every minute of the Premier League campaign"
+        },
+        {
+          "id": "pl-bou-17-daniels",
+          "name": "Charlie Daniels",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "4 Goals, 3 Assists, Scored wonder-goal vs Man City, Attacking full-back"
+        },
+        {
+          "id": "pl-bou-17-stanislas",
+          "name": "Junior Stanislas",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 79,
+          "stats": "7 Goals, 5 Assists, Smooth technique and clinical finishing"
+        },
+        {
+          "id": "pl-bou-17-francis",
+          "name": "Simon Francis",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Cherries captain led the backline with experience and vocal leadership"
+        },
+        {
+          "id": "pl-bou-17-arter",
+          "name": "Harry Arter",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "Combative midfielder played with ferocious tenacity and emotional fire"
+        },
+        {
+          "id": "pl-bou-17-gosling",
+          "name": "Dan Gosling",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Industrious midfielder provided tactical discipline and tireless running"
+        }
+      ]
+    },
+    {
+      "franchise": "AFC Bournemouth",
+      "era": "2020s",
+      "players": [
+        {
+          "id": "pl-bou-24-solanke",
+          "name": "Dominic Solanke",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 86,
+          "stats": "19 Premier League Goals, Complete number 9, Relentless high-pressing machine"
+        },
+        {
+          "id": "pl-bou-24-zabarnyi",
+          "name": "Illia Zabarnyi",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 82,
+          "stats": "Ukrainian defensive prodigy played every single minute, Composed and elegant"
+        },
+        {
+          "id": "pl-bou-24-neto",
+          "name": "Neto",
+          "roles": [
+            "GK"
+          ],
+          "rating": 81,
+          "stats": "Experienced Brazilian captain provided commanding authority in goal"
+        },
+        {
+          "id": "pl-bou-24-senesi",
+          "name": "Marcos Senesi",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 81,
+          "stats": "Argentine center-back with 4 assists from sublime pinpoint long balls"
+        },
+        {
+          "id": "pl-bou-24-christie",
+          "name": "Ryan Christie",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Reborn as tenacious ball-winning central midfielder under Iraola"
+        },
+        {
+          "id": "pl-bou-24-semenyo",
+          "name": "Antoine Semenyo",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "8 Goals, Explosive physical power and two-footed finishing on the wing"
+        },
+        {
+          "id": "pl-bou-24-kluivert",
+          "name": "Justin Kluivert",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "7 Goals, Rapid Dutch winger scored in all top 5 European leagues"
+        },
+        {
+          "id": "pl-bou-24-cook",
+          "name": "Lewis Cook",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Midfield metronome with exceptional recovery tackles and distribution"
+        },
+        {
+          "id": "pl-bou-24-tavernier",
+          "name": "Marcus Tavernier",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Direct, hardworking English winger with dangerous set-piece delivery"
+        },
+        {
+          "id": "pl-bou-24-kerkez",
+          "name": "Milos Kerkez",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Dynamic Hungarian left-back with relentless stamina and aggressive tackling"
+        },
+        {
+          "id": "pl-bou-24-billing",
+          "name": "Philip Billing",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Giant Danish midfielder provided aerial threat and late goals from the bench"
+        },
+        {
+          "id": "pl-bou-24-smith",
+          "name": "Adam Smith",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 77,
+          "stats": "Cherries veteran right-back provided invaluable defensive discipline"
+        }
+      ]
+    },
+    {
       "franchise": "Aston Villa",
-      "era": "1992–1993 (Inaugural Premier League Runners-Up)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-avl-93-mcgrath",
           "name": "Paul McGrath",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 90,
@@ -726,7 +798,6 @@ export const soccerSport = {
           "name": "Dalian Atkinson",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 85,
@@ -747,23 +818,10 @@ export const soccerSport = {
           "name": "Ray Houghton",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 84,
           "stats": "Experienced Irish midfielder with boundless energy and creative vision"
-        },
-        {
-          "id": "pl-avl-93-teale",
-          "name": "Shaun Teale",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 83,
-          "stats": "Formed rock-solid partnership with McGrath, Conceded only 40 goals in 42 games"
         },
         {
           "id": "pl-avl-93-spink",
@@ -775,11 +833,20 @@ export const soccerSport = {
           "stats": "European Cup veteran goalkeeper, 15 clean sheets in inaugural campaign"
         },
         {
+          "id": "pl-avl-93-teale",
+          "name": "Shaun Teale",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 83,
+          "stats": "Formed rock-solid partnership with McGrath, Conceded only 40 goals in 42 games"
+        },
+        {
           "id": "pl-avl-93-richardson",
           "name": "Kevin Richardson",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -800,7 +867,6 @@ export const soccerSport = {
           "name": "Dwight Yorke",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
@@ -811,7 +877,6 @@ export const soccerSport = {
           "name": "Garry Parker",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -822,7 +887,6 @@ export const soccerSport = {
           "name": "Kevin King",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
@@ -832,14 +896,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Aston Villa",
-      "era": "2009–2010 (Martin O'Neill 6th Place Peak)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-avl-10-milner",
           "name": "James Milner",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 87,
@@ -869,8 +932,6 @@ export const soccerSport = {
           "name": "Richard Dunne",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 84,
@@ -881,40 +942,36 @@ export const soccerSport = {
           "name": "Gabriel Agbonlahor",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 84,
           "stats": "13 Premier League Goals, Blistering straight-line sprint speed on the counter"
         },
         {
-          "id": "pl-avl-10-downing",
-          "name": "Stewart Downing",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "Pinpoint left-footed crossing delivery from the right wing"
-        },
-        {
           "id": "pl-avl-10-petrov",
           "name": "Stiliyan Petrov",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 83,
           "stats": "Villa captain with thunderous long-range shooting and defensive grit"
         },
         {
+          "id": "pl-avl-10-downing",
+          "name": "Stewart Downing",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "Pinpoint left-footed crossing delivery from the right wing"
+        },
+        {
           "id": "pl-avl-10-carew",
           "name": "John Carew",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 82,
@@ -925,8 +982,6 @@ export const soccerSport = {
           "name": "James Collins",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
@@ -957,7 +1012,6 @@ export const soccerSport = {
           "name": "Fabian Delph",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -967,14 +1021,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Aston Villa",
-      "era": "2015–2016 (17-Point Relegation Banter)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-avl-16-gueye",
           "name": "Idrissa Gueye",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 76,
@@ -985,30 +1038,16 @@ export const soccerSport = {
           "name": "Jordan Ayew",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
           "stats": "Top scorer with just 7 goals in a dismal 17-point campaign"
         },
         {
-          "id": "pl-avl-16-grealish",
-          "name": "Jack Grealish",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 74,
-          "stats": "Young talent lost 16 consecutive Premier League matches appeared in"
-        },
-        {
           "id": "pl-avl-16-lescott",
           "name": "Joleon Lescott",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 74,
@@ -1035,11 +1074,30 @@ export const soccerSport = {
           "stats": "French midfielder struggled for rhythm in chaotic dressing room"
         },
         {
+          "id": "pl-avl-16-grealish",
+          "name": "Jack Grealish",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 74,
+          "stats": "Young talent lost 16 consecutive Premier League matches appeared in"
+        },
+        {
+          "id": "pl-avl-16-clark",
+          "name": "Ciaran Clark",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 73,
+          "stats": "Committed defender often overwhelmed by relentless opponent attacks"
+        },
+        {
           "id": "pl-avl-16-westwood",
           "name": "Ashley Westwood",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 73,
@@ -1050,23 +1108,10 @@ export const soccerSport = {
           "name": "Rudy Gestede",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 73,
           "stats": "Aerial specialist scored 5 goals, limited movement outside the box"
-        },
-        {
-          "id": "pl-avl-16-clark",
-          "name": "Ciaran Clark",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 73,
-          "stats": "Committed defender often overwhelmed by relentless opponent attacks"
         },
         {
           "id": "pl-avl-16-guzan",
@@ -1101,7 +1146,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Aston Villa",
-      "era": "2023–2024 (Champions League Return 4th Place)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-avl-24-martinez",
@@ -1127,41 +1172,36 @@ export const soccerSport = {
           "name": "Douglas Luiz",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 86,
           "stats": "9 Goals, 5 Assists, Set-piece wizard and midfield conductor"
         },
         {
-          "id": "pl-avl-24-bailey",
-          "name": "Leon Bailey",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 85,
-          "stats": "10 Goals, 9 Assists, Electric Jamaican winger in career-best form"
-        },
-        {
           "id": "pl-avl-24-mcginn",
           "name": "John McGinn",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 85,
           "stats": "Meatball captain, Elite ball protection and unstoppable box-to-box drive"
         },
         {
+          "id": "pl-avl-24-bailey",
+          "name": "Leon Bailey",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 85,
+          "stats": "10 Goals, 9 Assists, Electric Jamaican winger in career-best form"
+        },
+        {
           "id": "pl-avl-24-torres",
           "name": "Pau Torres",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 84,
@@ -1172,8 +1212,6 @@ export const soccerSport = {
           "name": "Ezri Konsa",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 84,
@@ -1184,7 +1222,6 @@ export const soccerSport = {
           "name": "Moussa Diaby",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 84,
@@ -1195,7 +1232,6 @@ export const soccerSport = {
           "name": "Boubacar Kamara",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -1206,7 +1242,6 @@ export const soccerSport = {
           "name": "Youri Tielemans",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -1236,25 +1271,33 @@ export const soccerSport = {
     },
     {
       "franchise": "Barnsley",
-      "era": "1997–1998 (Only Premier League Season)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-bny-98-redfearn",
           "name": "Neil Redfearn",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 79,
           "stats": "Talismanic captain scored 10 Premier League goals from midfield"
         },
         {
+          "id": "pl-bny-98-dezeeuw",
+          "name": "Arjan de Zeeuw",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 76,
+          "stats": "Composed Dutch defender was the defensive bedrock of Oakwell"
+        },
+        {
           "id": "pl-bny-98-fjortoft",
           "name": "Jan Åge Fjørtoft",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -1271,38 +1314,14 @@ export const soccerSport = {
           "stats": "Hard-working target man scored historic winner at Anfield"
         },
         {
-          "id": "pl-bny-98-dezeeuw",
-          "name": "Arjan de Zeeuw",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Composed Dutch defender was the defensive bedrock of Oakwell"
-        },
-        {
           "id": "pl-bny-98-hignett",
           "name": "Craig Hignett",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 75,
           "stats": "Creative spark who arrived late in season to inject quality"
-        },
-        {
-          "id": "pl-bny-98-marcelle",
-          "name": "Clint Marcelle",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 74,
-          "stats": "Trinidadian cult hero winger with dazzling trickery on the flank"
         },
         {
           "id": "pl-bny-98-watson",
@@ -1312,6 +1331,16 @@ export const soccerSport = {
           ],
           "rating": 74,
           "stats": "Courageous goalkeeper made dozens of saves behind open backline"
+        },
+        {
+          "id": "pl-bny-98-marcelle",
+          "name": "Clint Marcelle",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 74,
+          "stats": "Trinidadian cult hero winger with dazzling trickery on the flank"
         },
         {
           "id": "pl-bny-98-eaden",
@@ -1334,23 +1363,10 @@ export const soccerSport = {
           "stats": "Welsh international left-back with ferocious long-range shooting"
         },
         {
-          "id": "pl-bny-98-sheridan",
-          "name": "Darren Sheridan",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 72,
-          "stats": "Tenacious midfield ball-winner who put in crunching tackles"
-        },
-        {
           "id": "pl-bny-98-morgan",
           "name": "Chris Morgan",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 72,
@@ -1361,25 +1377,32 @@ export const soccerSport = {
           "name": "Adie Moses",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 72,
           "stats": "Youth academy graduate who fought courageously in 22 appearances"
+        },
+        {
+          "id": "pl-bny-98-sheridan",
+          "name": "Darren Sheridan",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 72,
+          "stats": "Tenacious midfield ball-winner who put in crunching tackles"
         }
       ]
     },
     {
       "franchise": "Birmingham City",
-      "era": "2003–2004 (Steve Bruce 10th Place Peak)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-bir-04-forssell",
           "name": "Mikael Forssell",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
@@ -1409,8 +1432,6 @@ export const soccerSport = {
           "name": "Matthew Upson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -1421,7 +1442,6 @@ export const soccerSport = {
           "name": "Robbie Savage",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -1432,8 +1452,6 @@ export const soccerSport = {
           "name": "Kenny Cunningham",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -1454,21 +1472,10 @@ export const soccerSport = {
           "name": "Clinton Morrison",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
           "stats": "Sharp-shooting Irish forward with 4 league goals and tireless running"
-        },
-        {
-          "id": "pl-bir-04-johnson",
-          "name": "Damien Johnson",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Northern Irish workhorse covered every blade of grass in midfield"
         },
         {
           "id": "pl-bir-04-grainger",
@@ -1479,6 +1486,16 @@ export const soccerSport = {
           ],
           "rating": 77,
           "stats": "Dead-ball specialist with vicious left-footed free-kicks"
+        },
+        {
+          "id": "pl-bir-04-johnson",
+          "name": "Damien Johnson",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Northern Irish workhorse covered every blade of grass in midfield"
         },
         {
           "id": "pl-bir-04-tebily",
@@ -1495,7 +1512,6 @@ export const soccerSport = {
           "name": "Stephen Clemence",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 76,
@@ -1505,7 +1521,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Birmingham City",
-      "era": "2010–2011 (League Cup Glory & Relegation)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-bir-11-foster",
@@ -1521,40 +1537,16 @@ export const soccerSport = {
           "name": "Sebastian Larsson",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
           "stats": "Deadly free-kick specialist, 4 goals and 6 assists from the right wing"
         },
         {
-          "id": "pl-bir-11-gardner",
-          "name": "Craig Gardner",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "Top scorer with 8 league goals from midfield, fierce long shots"
-        },
-        {
-          "id": "pl-bir-11-zigic",
-          "name": "Nikola Žigić",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "6ft 8in Serbian giant, Scored header in Wembley final victory"
-        },
-        {
           "id": "pl-bir-11-dann",
           "name": "Scott Dann",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
@@ -1565,23 +1557,40 @@ export const soccerSport = {
           "name": "Roger Johnson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
           "stats": "Warrior center-back who threw himself into blocks in all 38 matches"
         },
         {
+          "id": "pl-bir-11-gardner",
+          "name": "Craig Gardner",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "Top scorer with 8 league goals from midfield, fierce long shots"
+        },
+        {
           "id": "pl-bir-11-ferguson",
           "name": "Barry Ferguson",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 78,
           "stats": "Experienced Scottish playmaker held midfield together with broken ribs"
+        },
+        {
+          "id": "pl-bir-11-zigic",
+          "name": "Nikola Žigić",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "6ft 8in Serbian giant, Scored header in Wembley final victory"
         },
         {
           "id": "pl-bir-11-ridgewell",
@@ -1608,7 +1617,6 @@ export const soccerSport = {
           "name": "Cameron Jerome",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -1629,7 +1637,6 @@ export const soccerSport = {
           "name": "Keith Fahey",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 74,
@@ -1639,7 +1646,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Blackburn Rovers",
-      "era": "1994–1995 (Premier League Champions)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-blb-95-shearer",
@@ -1650,16 +1657,6 @@ export const soccerSport = {
           ],
           "rating": 97,
           "stats": "34 Premier League Goals, Record Golden Boot, PFA Player of the Year, Unstoppable legend"
-        },
-        {
-          "id": "pl-blb-95-sutton",
-          "name": "Chris Sutton",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 89,
-          "stats": "15 Goals, 10 Assists, Formed the iconic SAS strikeforce with Shearer"
         },
         {
           "id": "pl-blb-95-flowers",
@@ -1675,12 +1672,20 @@ export const soccerSport = {
           "name": "Colin Hendry",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 89,
           "stats": "Braveheart Scottish titan, Unflinching aerial supremacy and last-ditch blocks"
+        },
+        {
+          "id": "pl-blb-95-sutton",
+          "name": "Chris Sutton",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 89,
+          "stats": "15 Goals, 10 Assists, Formed the iconic SAS strikeforce with Shearer"
         },
         {
           "id": "pl-blb-95-lesaux",
@@ -1713,11 +1718,20 @@ export const soccerSport = {
           "stats": "Norwegian international defender, Ice-cool positioning at right-back"
         },
         {
+          "id": "pl-blb-95-batty",
+          "name": "David Batty",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 85,
+          "stats": "Ferocious midfield pitbull who set the team's ruthless tone"
+        },
+        {
           "id": "pl-blb-95-ripley",
           "name": "Stuart Ripley",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 85,
@@ -1728,30 +1742,16 @@ export const soccerSport = {
           "name": "Jason Wilcox",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 85,
           "stats": "Dynamic left-winger provided relentless service and scored 5 league goals"
         },
         {
-          "id": "pl-blb-95-batty",
-          "name": "David Batty",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 85,
-          "stats": "Ferocious midfield pitbull who set the team's ruthless tone"
-        },
-        {
           "id": "pl-blb-95-pearce",
           "name": "Ian Pearce",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -1762,7 +1762,6 @@ export const soccerSport = {
           "name": "Mark Atkins",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 82,
@@ -1772,7 +1771,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Blackburn Rovers",
-      "era": "2005–2006 (Mark Hughes 6th Place Europe)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-blb-06-friedel",
@@ -1798,7 +1797,6 @@ export const soccerSport = {
           "name": "Morten Gamst Pedersen",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 84,
@@ -1819,8 +1817,6 @@ export const soccerSport = {
           "name": "Ryan Nelsen",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -1841,18 +1837,26 @@ export const soccerSport = {
           "name": "David Bentley",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 81,
           "stats": "Scored sensational hat-trick against Manchester United at Ewood Park"
         },
         {
+          "id": "pl-blb-06-todd",
+          "name": "Andy Todd",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Physical center-back who gave strikers a torrid afternoon"
+        },
+        {
           "id": "pl-blb-06-savage",
           "name": "Robbie Savage",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -1863,23 +1867,10 @@ export const soccerSport = {
           "name": "Steven Reid",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
           "stats": "Midfielder scored record 98mph rocket vs Wigan, dynamic runner"
-        },
-        {
-          "id": "pl-blb-06-todd",
-          "name": "Andy Todd",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 80,
-          "stats": "Physical center-back who gave strikers a torrid afternoon"
         },
         {
           "id": "pl-blb-06-gray",
@@ -1905,7 +1896,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Blackburn Rovers",
-      "era": "2011–2012 (Steve Kean Relegation Banter)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-blb-12-yakubu",
@@ -1918,34 +1909,30 @@ export const soccerSport = {
           "stats": "17 Premier League Goals including four against Swansea, Lone bright spark"
         },
         {
-          "id": "pl-blb-12-nzonzi",
-          "name": "Steven Nzonzi",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Towering French midfielder was vastly superior to the chaotic side around him"
-        },
-        {
           "id": "pl-blb-12-samba",
           "name": "Christopher Samba",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
           "stats": "Dominant center-back who went on strike before moving to Anzhi in January"
         },
         {
+          "id": "pl-blb-12-nzonzi",
+          "name": "Steven Nzonzi",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Towering French midfielder was vastly superior to the chaotic side around him"
+        },
+        {
           "id": "pl-blb-12-hoilett",
           "name": "Junior Hoilett",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
@@ -1965,23 +1952,10 @@ export const soccerSport = {
           "name": "Scott Dann",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 77,
           "stats": "Arrived from Birmingham, Left exposed repeatedly in disorganized defense"
-        },
-        {
-          "id": "pl-blb-12-dunn",
-          "name": "David Dunn",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Homegrown playmaker battled persistent injuries to provide creative vision"
         },
         {
           "id": "pl-blb-12-givet",
@@ -1994,11 +1968,20 @@ export const soccerSport = {
           "stats": "Combative French defender with legendary beard, Committed but limited"
         },
         {
+          "id": "pl-blb-12-dunn",
+          "name": "David Dunn",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 76,
+          "stats": "Homegrown playmaker battled persistent injuries to provide creative vision"
+        },
+        {
           "id": "pl-blb-12-pedersen",
           "name": "Morten Gamst Pedersen",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -2019,7 +2002,6 @@ export const soccerSport = {
           "name": "Mauro Formica",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 74,
@@ -2030,7 +2012,6 @@ export const soccerSport = {
           "name": "David Goodwillie",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 72,
@@ -2040,7 +2021,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Blackpool",
-      "era": "2010–2011 (Ian Holloway Attacking All-Out)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-blk-11-adam",
@@ -2067,22 +2048,10 @@ export const soccerSport = {
           "name": "David Vaughan",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 78,
           "stats": "Metronomic Welsh midfielder was the quiet heartbeat of the Seasiders"
-        },
-        {
-          "id": "pl-blk-11-taylorfletcher",
-          "name": "Gary Taylor-Fletcher",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 76,
-          "stats": "6 Goals, Unorthodox intelligence, Completed scoring in all top 5 English tiers"
         },
         {
           "id": "pl-blk-11-gilks",
@@ -2094,15 +2063,14 @@ export const soccerSport = {
           "stats": "Scotland international made acrobatic reflex saves during famous early wins"
         },
         {
-          "id": "pl-blk-11-varney",
-          "name": "Luke Varney",
+          "id": "pl-blk-11-taylorfletcher",
+          "name": "Gary Taylor-Fletcher",
           "roles": [
-            "LW",
-            "WING",
+            "RW",
             "ATT"
           ],
-          "rating": 75,
-          "stats": "5 Goals including thunderous volley vs Wolves, High-energy running"
+          "rating": 76,
+          "stats": "6 Goals, Unorthodox intelligence, Completed scoring in all top 5 English tiers"
         },
         {
           "id": "pl-blk-11-crainey",
@@ -2115,12 +2083,20 @@ export const soccerSport = {
           "stats": "Experienced Scottish left-back with disciplined tackling and crossing"
         },
         {
+          "id": "pl-blk-11-varney",
+          "name": "Luke Varney",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 75,
+          "stats": "5 Goals including thunderous volley vs Wolves, High-energy running"
+        },
+        {
           "id": "pl-blk-11-cathcart",
           "name": "Craig Cathcart",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 74,
@@ -2131,8 +2107,6 @@ export const soccerSport = {
           "name": "Ian Evatt",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 74,
@@ -2153,7 +2127,6 @@ export const soccerSport = {
           "name": "Elliot Grandin",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 74,
@@ -2164,7 +2137,6 @@ export const soccerSport = {
           "name": "Brett Ormerod",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 73,
@@ -2174,14 +2146,128 @@ export const soccerSport = {
     },
     {
       "franchise": "Bolton Wanderers",
-      "era": "2004–2005 (Sam Allardyce 6th Place Europe)",
+      "era": "1990s",
+      "players": [
+        {
+          "id": "bw-90-thompson",
+          "name": "Alan Thompson",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 82,
+          "stats": "Deadly left-footed free kick specialist and midfield playmaker"
+        },
+        {
+          "id": "bw-90-mcginlay",
+          "name": "John McGinlay",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "Legendary talismanic striker, 118 goals in 245 appearances for Bolton"
+        },
+        {
+          "id": "bw-90-stubbs",
+          "name": "Alan Stubbs",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 81,
+          "stats": "Dominant central defender with immaculate aerial timing"
+        },
+        {
+          "id": "bw-90-bergsson",
+          "name": "Gudni Bergsson",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 81,
+          "stats": "Icelandic international defender and cult hero captain"
+        },
+        {
+          "id": "bw-90-blake",
+          "name": "Nathan Blake",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "Physical and athletic Welsh target striker, Premier League regular"
+        },
+        {
+          "id": "bw-90-frandsen",
+          "name": "Per Frandsen",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Tough Danish holding midfielder with fierce long-range shooting"
+        },
+        {
+          "id": "bw-90-johansen",
+          "name": "Michael Johansen",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Creative Danish playmaker with silky technical footwork"
+        },
+        {
+          "id": "bw-90-branagan",
+          "name": "Keith Branagan",
+          "roles": [
+            "GK"
+          ],
+          "rating": 78,
+          "stats": "Irish goalkeeper who made over 200 appearances for Wanderers"
+        },
+        {
+          "id": "bw-90-phillips",
+          "name": "Jimmy Phillips",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Dependable left-back and long-serving local favorite"
+        },
+        {
+          "id": "bw-90-lee",
+          "name": "David Lee",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "Tricky left winger renowned for mazy dribbling runs down the flank"
+        },
+        {
+          "id": "bw-90-green",
+          "name": "Scott Green",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 77,
+          "stats": "Reliable right-back with great work-rate and discipline"
+        }
+      ]
+    },
+    {
+      "franchise": "Bolton Wanderers",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-bol-05-okocha",
           "name": "Jay-Jay Okocha",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 88,
@@ -2197,6 +2283,16 @@ export const soccerSport = {
           "stats": "Finnish wall made miraculous double saves, 15 clean sheets in Europe push"
         },
         {
+          "id": "pl-bol-05-hierro",
+          "name": "Fernando Hierro",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 84,
+          "stats": "Real Madrid icon brought aristocratic composure to Reebok Stadium"
+        },
+        {
           "id": "pl-bol-05-speed",
           "name": "Gary Speed",
           "roles": [
@@ -2205,18 +2301,6 @@ export const soccerSport = {
           ],
           "rating": 84,
           "stats": "Premier League appearance legend, Invaluable aerial power and leadership"
-        },
-        {
-          "id": "pl-bol-05-hierro",
-          "name": "Fernando Hierro",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 84,
-          "stats": "Real Madrid icon brought aristocratic composure to Reebok Stadium"
         },
         {
           "id": "pl-bol-05-davies",
@@ -2233,41 +2317,36 @@ export const soccerSport = {
           "name": "El Hadji Diouf",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
           "stats": "9 Goals, Fiery winger with exceptional ball-carrying and crossing skills"
         },
         {
-          "id": "pl-bol-05-giannakopoulos",
-          "name": "Stelios Giannakopoulos",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "7 Goals, Euro 2004 winner with knack for ghosting into the box unmarked"
-        },
-        {
           "id": "pl-bol-05-campo",
           "name": "Iván Campo",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 82,
           "stats": "Curly-haired Spaniard transformed into beloved deep-lying midfield anchor"
         },
         {
+          "id": "pl-bol-05-giannakopoulos",
+          "name": "Stelios Giannakopoulos",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "7 Goals, Euro 2004 winner with knack for ghosting into the box unmarked"
+        },
+        {
           "id": "pl-bol-05-ngotty",
           "name": "Bruno N'Gotty",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
@@ -2278,8 +2357,6 @@ export const soccerSport = {
           "name": "Radhi Jaïdi",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -2309,30 +2386,17 @@ export const soccerSport = {
     },
     {
       "franchise": "Bolton Wanderers",
-      "era": "2011–2012 (Owen Coyle Relegation Heartbreak)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-bol-12-cahill",
           "name": "Gary Cahill",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
           "stats": "Star defender sold to Chelsea in January for £7m, leaving defense fatally weakened"
-        },
-        {
-          "id": "pl-bol-12-petrov",
-          "name": "Martin Petrov",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "Bulgarian winger provided fierce left-footed strikes and 4 league goals"
         },
         {
           "id": "pl-bol-12-jaaskelainen",
@@ -2342,6 +2406,46 @@ export const soccerSport = {
           ],
           "rating": 78,
           "stats": "Veteran goalkeeper shared duties with Bogdán as Bolton conceded 77 goals"
+        },
+        {
+          "id": "pl-bol-12-petrov",
+          "name": "Martin Petrov",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "Bulgarian winger provided fierce left-footed strikes and 4 league goals"
+        },
+        {
+          "id": "pl-bol-12-davies-m",
+          "name": "Mark Davies",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Dribbling midfielder with explosive surges from deep positions"
+        },
+        {
+          "id": "pl-bol-12-reocoker",
+          "name": "Nigel Reo-Coker",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Experienced midfield enforcer played in 37 matches"
+        },
+        {
+          "id": "pl-bol-12-muamba",
+          "name": "Fabrice Muamba",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Suffered cardiac arrest at White Hart Lane, miraculous recovery united world"
         },
         {
           "id": "pl-bol-12-davies-k",
@@ -2354,68 +2458,30 @@ export const soccerSport = {
           "stats": "Club captain fought courageously but managed just 4 league goals"
         },
         {
-          "id": "pl-bol-12-davies-m",
-          "name": "Mark Davies",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Dribbling midfielder with explosive surges from deep positions"
-        },
-        {
-          "id": "pl-bol-12-reocoker",
-          "name": "Nigel Reo-Coker",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Experienced midfield enforcer played in 37 matches"
-        },
-        {
-          "id": "pl-bol-12-muamba",
-          "name": "Fabrice Muamba",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Suffered cardiac arrest at White Hart Lane, miraculous recovery united world"
-        },
-        {
-          "id": "pl-bol-12-eagles",
-          "name": "Chris Eagles",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 76,
-          "stats": "4 Goals, Former Man United winger had moments of brilliance from distance"
-        },
-        {
           "id": "pl-bol-12-wheater",
           "name": "David Wheater",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
           "stats": "Towering English center-back suffered cruciate ligament injury late in year"
         },
         {
+          "id": "pl-bol-12-eagles",
+          "name": "Chris Eagles",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 76,
+          "stats": "4 Goals, Former Man United winger had moments of brilliance from distance"
+        },
+        {
           "id": "pl-bol-12-knight",
           "name": "Zat Knight",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -2444,277 +2510,8 @@ export const soccerSport = {
       ]
     },
     {
-      "franchise": "AFC Bournemouth",
-      "era": "2016–2017 (Eddie Howe 9th Place Finish)",
-      "players": [
-        {
-          "id": "pl-bou-17-king",
-          "name": "Joshua King",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "16 Premier League Goals including hat-trick vs Swansea, Explosive forward"
-        },
-        {
-          "id": "pl-bou-17-wilson",
-          "name": "Callum Wilson",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "6 Goals before second ACL injury, Lethal movement inside the penalty box"
-        },
-        {
-          "id": "pl-bou-17-ake",
-          "name": "Nathan Aké",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 81,
-          "stats": "Sensational loan spell from Chelsea, Scored 93rd-minute winner vs Liverpool"
-        },
-        {
-          "id": "pl-bou-17-fraser",
-          "name": "Ryan Fraser",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "Scottish pocket dynamo sparked famous 4-3 comeback win over Liverpool"
-        },
-        {
-          "id": "pl-bou-17-boruc",
-          "name": "Artur Boruc",
-          "roles": [
-            "GK"
-          ],
-          "rating": 80,
-          "stats": "Holy Goalie, Polish international made crucial penalty stops, 9 clean sheets"
-        },
-        {
-          "id": "pl-bou-17-wilshere",
-          "name": "Jack Wilshere",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Arsenal loanee provided moments of pure technical quality in midfield"
-        },
-        {
-          "id": "pl-bou-17-stanislas",
-          "name": "Junior Stanislas",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "7 Goals, 5 Assists, Smooth technique and clinical finishing"
-        },
-        {
-          "id": "pl-bou-17-cook",
-          "name": "Steve Cook",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "Heroic English center-back played every minute of the Premier League campaign"
-        },
-        {
-          "id": "pl-bou-17-daniels",
-          "name": "Charlie Daniels",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "4 Goals, 3 Assists, Scored wonder-goal vs Man City, Attacking full-back"
-        },
-        {
-          "id": "pl-bou-17-arter",
-          "name": "Harry Arter",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "Combative midfielder played with ferocious tenacity and emotional fire"
-        },
-        {
-          "id": "pl-bou-17-francis",
-          "name": "Simon Francis",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Cherries captain led the backline with experience and vocal leadership"
-        },
-        {
-          "id": "pl-bou-17-gosling",
-          "name": "Dan Gosling",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Industrious midfielder provided tactical discipline and tireless running"
-        }
-      ]
-    },
-    {
-      "franchise": "AFC Bournemouth",
-      "era": "2023–2024 (Andoni Iraola Record Points)",
-      "players": [
-        {
-          "id": "pl-bou-24-solanke",
-          "name": "Dominic Solanke",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 86,
-          "stats": "19 Premier League Goals, Complete number 9, Relentless high-pressing machine"
-        },
-        {
-          "id": "pl-bou-24-zabarnyi",
-          "name": "Illia Zabarnyi",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 82,
-          "stats": "Ukrainian defensive prodigy played every single minute, Composed and elegant"
-        },
-        {
-          "id": "pl-bou-24-senesi",
-          "name": "Marcos Senesi",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 81,
-          "stats": "Argentine center-back with 4 assists from sublime pinpoint long balls"
-        },
-        {
-          "id": "pl-bou-24-semenyo",
-          "name": "Antoine Semenyo",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 81,
-          "stats": "8 Goals, Explosive physical power and two-footed finishing on the wing"
-        },
-        {
-          "id": "pl-bou-24-kluivert",
-          "name": "Justin Kluivert",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 81,
-          "stats": "7 Goals, Rapid Dutch winger scored in all top 5 European leagues"
-        },
-        {
-          "id": "pl-bou-24-christie",
-          "name": "Ryan Christie",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 81,
-          "stats": "Reborn as tenacious ball-winning central midfielder under Iraola"
-        },
-        {
-          "id": "pl-bou-24-neto",
-          "name": "Neto",
-          "roles": [
-            "GK"
-          ],
-          "rating": 81,
-          "stats": "Experienced Brazilian captain provided commanding authority in goal"
-        },
-        {
-          "id": "pl-bou-24-cook",
-          "name": "Lewis Cook",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Midfield metronome with exceptional recovery tackles and distribution"
-        },
-        {
-          "id": "pl-bou-24-tavernier",
-          "name": "Marcus Tavernier",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "Direct, hardworking English winger with dangerous set-piece delivery"
-        },
-        {
-          "id": "pl-bou-24-kerkez",
-          "name": "Milos Kerkez",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "Dynamic Hungarian left-back with relentless stamina and aggressive tackling"
-        },
-        {
-          "id": "pl-bou-24-billing",
-          "name": "Philip Billing",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 79,
-          "stats": "Giant Danish midfielder provided aerial threat and late goals from the bench"
-        },
-        {
-          "id": "pl-bou-24-smith",
-          "name": "Adam Smith",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Cherries veteran right-back provided invaluable defensive discipline"
-        }
-      ]
-    },
-    {
       "franchise": "Bradford City",
-      "era": "1999–2000 (Paul Jewell Great Escape)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-bra-00-carbone",
@@ -2741,8 +2538,6 @@ export const soccerSport = {
           "name": "David Wetherall",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 77,
@@ -2759,17 +2554,6 @@ export const soccerSport = {
           "stats": "Inspirational captain and midfield heartbeat of Valley Parade"
         },
         {
-          "id": "pl-bra-00-beagrie",
-          "name": "Peter Beagrie",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 76,
-          "stats": "Somersault celebrations, Veteran winger tormented full-backs with stepovers"
-        },
-        {
           "id": "pl-bra-00-clarke",
           "name": "Matt Clarke",
           "roles": [
@@ -2783,12 +2567,20 @@ export const soccerSport = {
           "name": "Andy O'Brien",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
           "stats": "Young Republic of Ireland defender with immense aerial authority"
+        },
+        {
+          "id": "pl-bra-00-beagrie",
+          "name": "Peter Beagrie",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 76,
+          "stats": "Somersault celebrations, Veteran winger tormented full-backs with stepovers"
         },
         {
           "id": "pl-bra-00-halle",
@@ -2805,8 +2597,6 @@ export const soccerSport = {
           "name": "Darren Moore",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -2817,7 +2607,6 @@ export const soccerSport = {
           "name": "Dean Saunders",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 75,
@@ -2838,7 +2627,6 @@ export const soccerSport = {
           "name": "Gareth Whalley",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 73,
@@ -2848,14 +2636,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Bradford City",
-      "era": "2000–2001 (Bottom Relegation)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-bra-01-carbone",
           "name": "Benito Carbone",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
@@ -2886,11 +2673,20 @@ export const soccerSport = {
           "name": "Stan Collymore",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 75,
           "stats": "Scored stunning bicycle kick on debut vs Leeds, but brief chaotic stay"
+        },
+        {
+          "id": "pl-bra-01-wetherall",
+          "name": "David Wetherall",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 74,
+          "stats": "Committed center-back battled manfully against rampant Premier League attacks"
         },
         {
           "id": "pl-bra-01-mccall",
@@ -2901,18 +2697,6 @@ export const soccerSport = {
           ],
           "rating": 74,
           "stats": "Veteran warrior captain gave everything in doomed 26-point campaign"
-        },
-        {
-          "id": "pl-bra-01-wetherall",
-          "name": "David Wetherall",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 74,
-          "stats": "Committed center-back battled manfully against rampant Premier League attacks"
         },
         {
           "id": "pl-bra-01-walsh",
@@ -2928,8 +2712,6 @@ export const soccerSport = {
           "name": "Robert Molenaar",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 73,
@@ -2950,7 +2732,6 @@ export const soccerSport = {
           "name": "Claus Jørgensen",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 72,
@@ -2971,7 +2752,6 @@ export const soccerSport = {
           "name": "Gareth Grant",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 70,
@@ -2981,141 +2761,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Brentford",
-      "era": "2021–2022 (Inaugural Premier League Debut 13th)",
-      "players": [
-        {
-          "id": "pl-bre-22-eriksen",
-          "name": "Christian Eriksen",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 85,
-          "stats": "Miraculous return to football, Transformed Brentford with 1 goal and 4 assists"
-        },
-        {
-          "id": "pl-bre-22-toney",
-          "name": "Ivan Toney",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "12 Premier League Goals, 5 Assists, Elite physical hold-up play and penalty perfection"
-        },
-        {
-          "id": "pl-bre-22-raya",
-          "name": "David Raya",
-          "roles": [
-            "GK"
-          ],
-          "rating": 82,
-          "stats": "Revolutionary ball-playing goalkeeper, Vital reflex saves in 24 appearances"
-        },
-        {
-          "id": "pl-bre-22-mbeumo",
-          "name": "Bryan Mbeumo",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "4 Goals, 7 Assists, Hit woodwork record 7 times, Relentless running"
-        },
-        {
-          "id": "pl-bre-22-jansson",
-          "name": "Pontus Jansson",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 80,
-          "stats": "Inspirational Swedish captain led team to opening-night win over Arsenal"
-        },
-        {
-          "id": "pl-bre-22-norgaard",
-          "name": "Christian Nørgaard",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Premier League leader in tackles made (109), Masterful defensive screener"
-        },
-        {
-          "id": "pl-bre-22-pinnock",
-          "name": "Ethan Pinnock",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "Non-league to Premier League fairy tale, Dominant aerial monster"
-        },
-        {
-          "id": "pl-bre-22-wissa",
-          "name": "Yoane Wissa",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "7 Premier League Goals including late equalizer against Liverpool"
-        },
-        {
-          "id": "pl-bre-22-henry",
-          "name": "Rico Henry",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Rapid English left-back pocketed top Premier League wingers with ease"
-        },
-        {
-          "id": "pl-bre-22-janelt",
-          "name": "Vitaly Janelt",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "4 Goals including famous brace at Stamford Bridge in 4-1 thrashing of Chelsea"
-        },
-        {
-          "id": "pl-bre-22-canos",
-          "name": "Sergi Canós",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "Scored Brentford's first-ever Premier League goal on historic opening night"
-        },
-        {
-          "id": "pl-bre-22-roerslev",
-          "name": "Mads Roerslev",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 75,
-          "stats": "Danish right-back provided defensive discipline and scored winner vs Villa"
-        }
-      ]
-    },
-    {
-      "franchise": "Brentford",
-      "era": "2022–2023 (Thomas Frank 9th Place 59 Pts)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-bre-23-toney",
@@ -3141,7 +2787,6 @@ export const soccerSport = {
           "name": "Bryan Mbeumo",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 84,
@@ -3152,8 +2797,6 @@ export const soccerSport = {
           "name": "Ethan Pinnock",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -3164,7 +2807,6 @@ export const soccerSport = {
           "name": "Christian Nørgaard",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -3175,8 +2817,6 @@ export const soccerSport = {
           "name": "Ben Mee",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -3197,7 +2837,6 @@ export const soccerSport = {
           "name": "Yoane Wissa",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
@@ -3218,7 +2857,6 @@ export const soccerSport = {
           "name": "Vitaly Janelt",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -3239,7 +2877,6 @@ export const soccerSport = {
           "name": "Mikkel Damsgaard",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
@@ -3249,19 +2886,8 @@ export const soccerSport = {
     },
     {
       "franchise": "Brighton & Hove Albion",
-      "era": "2017–2018 (Chris Hughton Inaugural Survival)",
+      "era": "2010s",
       "players": [
-        {
-          "id": "pl-bha-18-gross",
-          "name": "Pascal Groß",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 81,
-          "stats": "7 Goals, 8 Assists, Scored historic first PL goal and winner vs Man United"
-        },
         {
           "id": "pl-bha-18-ryan",
           "name": "Mat Ryan",
@@ -3272,12 +2898,20 @@ export const soccerSport = {
           "stats": "Australian goalkeeper kept 10 clean sheets, sensational reflex saves"
         },
         {
+          "id": "pl-bha-18-gross",
+          "name": "Pascal Groß",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "7 Goals, 8 Assists, Scored historic first PL goal and winner vs Man United"
+        },
+        {
           "id": "pl-bha-18-dunk",
           "name": "Lewis Dunk",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -3288,8 +2922,6 @@ export const soccerSport = {
           "name": "Shane Duffy",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -3320,33 +2952,10 @@ export const soccerSport = {
           "name": "Anthony Knockaert",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
           "stats": "3 Goals, French winger provided flair, tricky dribbling and passion"
-        },
-        {
-          "id": "pl-bha-18-izquierdo",
-          "name": "José Izquierdo",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "5 Goals, Colombian rocket scored sensational long-range stunners vs West Ham & Stoke"
-        },
-        {
-          "id": "pl-bha-18-stephens",
-          "name": "Dale Stephens",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Tenacious midfield general protected Dunk and Duffy relentlessly"
         },
         {
           "id": "pl-bha-18-bruno",
@@ -3359,11 +2968,30 @@ export const soccerSport = {
           "stats": "El Capitán, Spanish veteran right-back led with poise and wisdom"
         },
         {
+          "id": "pl-bha-18-stephens",
+          "name": "Dale Stephens",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Tenacious midfield general protected Dunk and Duffy relentlessly"
+        },
+        {
+          "id": "pl-bha-18-izquierdo",
+          "name": "José Izquierdo",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 77,
+          "stats": "5 Goals, Colombian rocket scored sensational long-range stunners vs West Ham & Stoke"
+        },
+        {
           "id": "pl-bha-18-march",
           "name": "Solly March",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 77,
@@ -3383,14 +3011,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Brighton & Hove Albion",
-      "era": "2022–2023 (De Zerbi 6th Place Europa League)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-bha-23-caicedo",
           "name": "Moisés Caicedo",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 88,
@@ -3401,7 +3028,6 @@ export const soccerSport = {
           "name": "Alexis Mac Allister",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 87,
@@ -3412,7 +3038,6 @@ export const soccerSport = {
           "name": "Kaoru Mitoma",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 86,
@@ -3423,8 +3048,6 @@ export const soccerSport = {
           "name": "Lewis Dunk",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 85,
@@ -3455,8 +3078,6 @@ export const soccerSport = {
           "name": "Levi Colwill",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -3467,7 +3088,6 @@ export const soccerSport = {
           "name": "Solly March",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
@@ -3507,7 +3127,6 @@ export const soccerSport = {
           "name": "Julio Enciso",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -3517,7 +3136,122 @@ export const soccerSport = {
     },
     {
       "franchise": "Burnley",
-      "era": "2017–2018 (Sean Dyche 7th Place Europe)",
+      "era": "2000s",
+      "players": [
+        {
+          "id": "bur-00-alexander",
+          "name": "Graham Alexander",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Veteran penalty specialist with 100% record and tactical composure"
+        },
+        {
+          "id": "bur-00-fletcher",
+          "name": "Steven Fletcher",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "Club record signing who scored 8 Premier League goals"
+        },
+        {
+          "id": "bur-00-jensen",
+          "name": "Brian Jensen",
+          "roles": [
+            "GK"
+          ],
+          "rating": 80,
+          "stats": "'The Beast', famously saved a Michael Carrick penalty in win vs Man Utd"
+        },
+        {
+          "id": "bur-00-blake",
+          "name": "Robbie Blake",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Scored iconic volleyed winner against reigning champions Manchester United"
+        },
+        {
+          "id": "bur-00-carlisle",
+          "name": "Clarke Carlisle",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Towering, articulate central defender and aerial rock"
+        },
+        {
+          "id": "bur-00-elliott",
+          "name": "Wade Elliott",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 79,
+          "stats": "Wembley playoff final match-winner who offered pace on the wing"
+        },
+        {
+          "id": "bur-00-eagles",
+          "name": "Chris Eagles",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 79,
+          "stats": "Former Man United youth winger with flair and trickery"
+        },
+        {
+          "id": "bur-00-mears",
+          "name": "Tyrone Mears",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Athletic attacking right-back with searing recovery speed"
+        },
+        {
+          "id": "bur-00-caldwell",
+          "name": "Steven Caldwell",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Scottish international center-back and commanding vocal leader"
+        },
+        {
+          "id": "bur-00-mccann",
+          "name": "Chris McCann",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "Dynamic box-to-box midfielder with sharp passing range"
+        },
+        {
+          "id": "bur-00-jordan",
+          "name": "Stephen Jordan",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 77,
+          "stats": "Disciplined former Man City left-back who solidified defense"
+        }
+      ]
+    },
+    {
+      "franchise": "Burnley",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-bur-18-pope",
@@ -3533,8 +3267,6 @@ export const soccerSport = {
           "name": "James Tarkowski",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -3545,8 +3277,6 @@ export const soccerSport = {
           "name": "Ben Mee",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -3567,33 +3297,30 @@ export const soccerSport = {
           "name": "Jack Cork",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 81,
           "stats": "Played every single minute of the Premier League season, Midfield glue"
         },
         {
-          "id": "pl-bur-18-gudmundsson",
-          "name": "Jóhann Berg Guðmundsson",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "8 Assists, Icelandic winger possessed a magical left-footed delivery"
-        },
-        {
           "id": "pl-bur-18-defour",
           "name": "Steven Defour",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 80,
           "stats": "Belgian playmaker brought international class and passing vision to midfield"
+        },
+        {
+          "id": "pl-bur-18-gudmundsson",
+          "name": "Jóhann Berg Guðmundsson",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "8 Assists, Icelandic winger possessed a magical left-footed delivery"
         },
         {
           "id": "pl-bur-18-barnes",
@@ -3630,7 +3357,6 @@ export const soccerSport = {
           "name": "Jeff Hendrick",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -3641,7 +3367,6 @@ export const soccerSport = {
           "name": "Robbie Brady",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
@@ -3651,7 +3376,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Burnley",
-      "era": "2021–2022 (Relegation & Dyche Dismissal)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-bur-22-pope",
@@ -3663,23 +3388,10 @@ export const soccerSport = {
           "stats": "Heroic saves kept Burnley in the fight until final day, 9 clean sheets"
         },
         {
-          "id": "pl-bur-22-cornet",
-          "name": "Maxwel Cornet",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "9 Premier League Goals including wonder-strikes, Electric Ivorian attacker"
-        },
-        {
           "id": "pl-bur-22-tarkowski",
           "name": "James Tarkowski",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -3690,12 +3402,30 @@ export const soccerSport = {
           "name": "Ben Mee",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
           "stats": "Captain took over as player-assistant coach after Dyche's shock April sacking"
+        },
+        {
+          "id": "pl-bur-22-cornet",
+          "name": "Maxwel Cornet",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "9 Premier League Goals including wonder-strikes, Electric Ivorian attacker"
+        },
+        {
+          "id": "pl-bur-22-brownhill",
+          "name": "Josh Brownhill",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "2 Goals, Midfield workhorse ran miles in battling engine room"
         },
         {
           "id": "pl-bur-22-weghorst",
@@ -3712,32 +3442,10 @@ export const soccerSport = {
           "name": "Dwight McNeil",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
           "stats": "Created chances but zero goals scored in difficult campaign"
-        },
-        {
-          "id": "pl-bur-22-brownhill",
-          "name": "Josh Brownhill",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "2 Goals, Midfield workhorse ran miles in battling engine room"
-        },
-        {
-          "id": "pl-bur-22-cork",
-          "name": "Jack Cork",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Veteran midfielder scored dramatic late equalizer at Watford"
         },
         {
           "id": "pl-bur-22-taylor",
@@ -3748,6 +3456,16 @@ export const soccerSport = {
           ],
           "rating": 77,
           "stats": "Solid English left-back battled tenaciously on the flank in 31 appearances"
+        },
+        {
+          "id": "pl-bur-22-cork",
+          "name": "Jack Cork",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Veteran midfielder scored dramatic late equalizer at Watford"
         },
         {
           "id": "pl-bur-22-roberts",
@@ -3764,7 +3482,6 @@ export const soccerSport = {
           "name": "Ashley Westwood",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 76,
@@ -3784,7 +3501,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Cardiff City",
-      "era": "2013–2014 (Malky Mackay & Solskjær Relegation)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-car-14-marshall",
@@ -3800,7 +3517,6 @@ export const soccerSport = {
           "name": "Gary Medel",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -3811,23 +3527,10 @@ export const soccerSport = {
           "name": "Steven Caulker",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
           "stats": "Cardiff captain scored winner in historic South Wales derby vs Swansea"
-        },
-        {
-          "id": "pl-car-14-bellamy",
-          "name": "Craig Bellamy",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "Welsh hero scored in Premier League for record 7th different club"
         },
         {
           "id": "pl-car-14-whittingham",
@@ -3838,6 +3541,16 @@ export const soccerSport = {
           ],
           "rating": 78,
           "stats": "Cult hero left-foot wand, Deadly set-piece delivery and 3 goals"
+        },
+        {
+          "id": "pl-car-14-bellamy",
+          "name": "Craig Bellamy",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "Welsh hero scored in Premier League for record 7th different club"
         },
         {
           "id": "pl-car-14-campbell",
@@ -3854,7 +3567,6 @@ export const soccerSport = {
           "name": "Jordon Mutch",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 76,
@@ -3865,7 +3577,6 @@ export const soccerSport = {
           "name": "Aron Gunnarsson",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 75,
@@ -3876,8 +3587,6 @@ export const soccerSport = {
           "name": "Ben Turner",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 74,
@@ -3898,7 +3607,6 @@ export const soccerSport = {
           "name": "Craig Noone",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 74,
@@ -3917,149 +3625,129 @@ export const soccerSport = {
       ]
     },
     {
-      "franchise": "Cardiff City",
-      "era": "2018–2019 (Neil Warnock Battle to the Wire)",
+      "franchise": "Charlton Athletic",
+      "era": "1990s",
       "players": [
         {
-          "id": "pl-car-19-etheridge",
-          "name": "Neil Etheridge",
+          "id": "cha-90-rufus",
+          "name": "Richard Rufus",
           "roles": [
-            "GK"
+            "CB",
+            "DEF"
           ],
-          "rating": 80,
-          "stats": "Saved 3 Premier League penalties, 10 clean sheets, Philippine international star"
+          "rating": 82,
+          "stats": "Legendary Charlton central defender and 3x Player of the Year"
         },
         {
-          "id": "pl-car-19-camarasa",
-          "name": "Víctor Camarasa",
+          "id": "cha-90-kinsella",
+          "name": "Mark Kinsella",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
-          "rating": 78,
-          "stats": "5 Goals, 4 Assists, Spanish loanee was team's primary technical creator"
+          "rating": 82,
+          "stats": "Charlton captain and Republic of Ireland midfield general"
         },
         {
-          "id": "pl-car-19-bamba",
-          "name": "Sol Bamba",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "4 Goals, Cult hero center-back played with immense heart before ACL tear"
-        },
-        {
-          "id": "pl-car-19-reid",
-          "name": "Bobby Decordova-Reid",
+          "id": "cha-90-mendonc",
+          "name": "Clive Mendonca",
           "roles": [
             "ST",
             "ATT"
           ],
-          "rating": 76,
-          "stats": "5 Premier League Goals, Sharp movement and pressing from the front"
+          "rating": 82,
+          "stats": "Prolific finisher who scored the iconic Wembley playoff hat-trick"
         },
         {
-          "id": "pl-car-19-arter",
-          "name": "Harry Arter",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Loanee from Bournemouth added aggressive bite and tenacity to midfield"
-        },
-        {
-          "id": "pl-car-19-morrison",
-          "name": "Sean Morrison",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Bluebirds captain dominated aerial duels and attacked opposition boxes"
-        },
-        {
-          "id": "pl-car-19-manga",
-          "name": "Bruno Ecuele Manga",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Gabonese defender demonstrated versatility across the back four"
-        },
-        {
-          "id": "pl-car-19-paterson",
-          "name": "Callum Paterson",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 75,
-          "stats": "4 Goals, Utility player transformed into bruising center-forward target man"
-        },
-        {
-          "id": "pl-car-19-gunnarsson",
-          "name": "Aron Gunnarsson",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Icelandic midfield enforcer scored sensational scissor kick vs Wolves"
-        },
-        {
-          "id": "pl-car-19-hoilett",
-          "name": "Junior Hoilett",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 75,
-          "stats": "3 Goals including breathtaking curling strike from 25 yards vs Wolves"
-        },
-        {
-          "id": "pl-car-19-mendezlaing",
-          "name": "Nathaniel Mendez-Laing",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 75,
-          "stats": "4 Goals including sensational final-day brace at Old Trafford"
-        },
-        {
-          "id": "pl-car-19-bennett",
-          "name": "Joe Bennett",
+          "id": "cha-90-powell",
+          "name": "Chris Powell",
           "roles": [
             "LB",
             "DEF"
           ],
-          "rating": 74,
-          "stats": "Steady English left-back with disciplined tackling in 30 starts"
+          "rating": 81,
+          "stats": "Beloved England international left-back with boundless stamina"
+        },
+        {
+          "id": "cha-90-mills",
+          "name": "Danny Mills",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Aggressive, combative right-back who rose through the ranks"
+        },
+        {
+          "id": "cha-90-redfearn",
+          "name": "Neil Redfearn",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Veteran top-flight midfielder who brought leadership and goals"
+        },
+        {
+          "id": "cha-90-robinson",
+          "name": "John Robinson",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Hardworking Welsh winger with a ferocious engine down the right"
+        },
+        {
+          "id": "cha-90-brown",
+          "name": "Steve Brown",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Versatile defensive stalwart with over 200 appearances"
+        },
+        {
+          "id": "cha-90-jones",
+          "name": "Keith Jones",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Experienced holding midfielder who screened the back four"
+        },
+        {
+          "id": "cha-90-ilic",
+          "name": "Sasa Ilic",
+          "roles": [
+            "GK"
+          ],
+          "rating": 78,
+          "stats": "Yugoslav goalkeeper famous for saving Michael Gray's penalty"
+        },
+        {
+          "id": "cha-90-pringle",
+          "name": "Martin Pringle",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "Swedish winger whose pace troubled top-flight fullbacks"
         }
       ]
     },
     {
       "franchise": "Charlton Athletic",
-      "era": "2003–2004 (Alan Curbishley 7th Place Peak)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-cha-04-parker",
           "name": "Scott Parker",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 85,
@@ -4070,7 +3758,6 @@ export const soccerSport = {
           "name": "Paolo Di Canio",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 84,
@@ -4090,7 +3777,6 @@ export const soccerSport = {
           "name": "Claus Jensen",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -4101,23 +3787,10 @@ export const soccerSport = {
           "name": "Mark Fish",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
           "stats": "South African center-back read the game brilliantly alongside Rufus and Fortune"
-        },
-        {
-          "id": "pl-cha-04-holland",
-          "name": "Matt Holland",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Republic of Ireland captain never missed a training session, Midfield glue"
         },
         {
           "id": "pl-cha-04-young",
@@ -4128,6 +3801,16 @@ export const soccerSport = {
           ],
           "rating": 80,
           "stats": "England international right-back, Dependable defender and overlapping threat"
+        },
+        {
+          "id": "pl-cha-04-holland",
+          "name": "Matt Holland",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Republic of Ireland captain never missed a training session, Midfield glue"
         },
         {
           "id": "pl-cha-04-euell",
@@ -4150,6 +3833,16 @@ export const soccerSport = {
           "stats": "Beloved England international left-back, Consistent performer and fan favorite"
         },
         {
+          "id": "pl-cha-04-rufus",
+          "name": "Richard Rufus",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Charlton academy legend at center-back before knee injury curtailed career"
+        },
+        {
           "id": "pl-cha-04-bartlett",
           "name": "Shaun Bartlett",
           "roles": [
@@ -4160,23 +3853,10 @@ export const soccerSport = {
           "stats": "5 Goals, South African international with immense aerial presence"
         },
         {
-          "id": "pl-cha-04-rufus",
-          "name": "Richard Rufus",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "Charlton academy legend at center-back before knee injury curtailed career"
-        },
-        {
           "id": "pl-cha-04-stuart",
           "name": "Graham Stuart",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
@@ -4185,142 +3865,123 @@ export const soccerSport = {
       ]
     },
     {
-      "franchise": "Charlton Athletic",
-      "era": "2006–2007 (Relegation & The Fall from The Valley)",
+      "franchise": "Chelsea",
+      "era": "1990s",
       "players": [
         {
-          "id": "pl-cha-07-bent",
-          "name": "Darren Bent",
+          "id": "che-90-zola",
+          "name": "Gianfranco Zola",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 93,
+          "stats": "FWA Footballer of the Year, Maestro whose magician feet transformed Chelsea"
+        },
+        {
+          "id": "che-90-desailly",
+          "name": "Marcel Desailly",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 91,
+          "stats": "'The Rock', World Cup winner and dominant world-class central defender"
+        },
+        {
+          "id": "che-90-vialli",
+          "name": "Gianluca Vialli",
           "roles": [
             "ST",
             "ATT"
           ],
-          "rating": 82,
-          "stats": "13 Premier League Goals, England international scored nearly half of team's total"
+          "rating": 89,
+          "stats": "Italian legend who scored prolifically and player-managed Chelsea to European glory"
         },
         {
-          "id": "pl-cha-07-carson",
-          "name": "Scott Carson",
+          "id": "che-90-poyet",
+          "name": "Gustavo Poyet",
           "roles": [
-            "GK"
+            "CAM",
+            "MID"
           ],
-          "rating": 78,
-          "stats": "Charlton Player of the Year on loan from Liverpool, Kept scores respectable"
+          "rating": 88,
+          "stats": "Uruguayan midfield dynamo renowned for sensational aerial volleys"
         },
         {
-          "id": "pl-cha-07-young",
-          "name": "Luke Young",
+          "id": "che-90-leboeuf",
+          "name": "Frank Leboeuf",
           "roles": [
-            "RB",
+            "CB",
             "DEF"
           ],
-          "rating": 77,
-          "stats": "England full-back battled loyally as captain through managerial changes"
+          "rating": 87,
+          "stats": "World Cup winning French sweeper with pinpoint diagonal passes and penalties"
         },
         {
-          "id": "pl-cha-07-hreidarsson",
-          "name": "Hermann Hreiðarsson",
+          "id": "che-90-dimatteo",
+          "name": "Roberto Di Matteo",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 87,
+          "stats": "Scored fastest FA Cup final goal at old Wembley, classy midfield orchestrator"
+        },
+        {
+          "id": "che-90-lesaux",
+          "name": "Graeme Le Saux",
           "roles": [
             "LB",
             "DEF"
           ],
-          "rating": 77,
-          "stats": "Icelandic warrior gave 100% on the left side of defense"
+          "rating": 86,
+          "stats": "England international left-back with blistering pace and lethal crossing"
         },
         {
-          "id": "pl-cha-07-thomas",
-          "name": "Jerome Thomas",
+          "id": "che-90-petrescu",
+          "name": "Dan Petrescu",
           "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 76,
-          "stats": "Tricky English winger provided pace and dribbling down the left wing"
-        },
-        {
-          "id": "pl-cha-07-elkarkouri",
-          "name": "Talal El Karkouri",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
+            "RB",
             "DEF"
           ],
-          "rating": 76,
-          "stats": "Moroccan center-back famous for thunderous 35-yard free-kicks"
+          "rating": 86,
+          "stats": "Romanian wing-back who bombed up and down the right flank with great quality"
         },
         {
-          "id": "pl-cha-07-holland",
-          "name": "Matt Holland",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Tireless midfielder battled through turbulent season under three managers"
-        },
-        {
-          "id": "pl-cha-07-bent-m",
-          "name": "Marcus Bent",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 76,
-          "stats": "Physical striker complemented Darren Bent with aerial battles"
-        },
-        {
-          "id": "pl-cha-07-faye",
-          "name": "Amdy Faye",
+          "id": "che-90-wise",
+          "name": "Dennis Wise",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
-          "rating": 75,
-          "stats": "Senegalese midfield enforcer provided bite in central midfield"
+          "rating": 86,
+          "stats": "Combative Chelsea captain, fearless midfield leader and heartbeat of the team"
         },
         {
-          "id": "pl-cha-07-diawara",
-          "name": "Souleymane Diawara",
+          "id": "che-90-degoey",
+          "name": "Ed de Goey",
           "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
+            "GK"
           ],
-          "rating": 75,
-          "stats": "Senegalese international center-back endured turbulent season in England"
+          "rating": 85,
+          "stats": "Towering Dutch goalkeeper who set Chelsea clean sheet records"
         },
         {
-          "id": "pl-cha-07-zhi",
-          "name": "Zheng Zhi",
+          "id": "che-90-flo",
+          "name": "Tore Andre Flo",
           "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Chinese superstar arrived on loan and scored memorable goal vs Newcastle"
-        },
-        {
-          "id": "pl-cha-07-rommedahl",
-          "name": "Dennis Rommedahl",
-          "roles": [
-            "LW",
-            "WING",
+            "RW",
             "ATT"
           ],
-          "rating": 75,
-          "stats": "Danish international winger with blistering pace on the right wing"
+          "rating": 83,
+          "stats": "Giant Norwegian striker who tormented defenses with subtle skill"
         }
       ]
     },
     {
       "franchise": "Chelsea",
-      "era": "2004–2005 (Mourinho 15 Goals Conceded Champions)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-che-05-cech",
@@ -4336,8 +3997,6 @@ export const soccerSport = {
           "name": "John Terry",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 93,
@@ -4358,34 +4017,30 @@ export const soccerSport = {
           "name": "Claude Makélélé",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 92,
           "stats": "Defined the modern defensive midfield role, Perfect positional awareness"
         },
         {
-          "id": "pl-che-05-robben",
-          "name": "Arjen Robben",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 91,
-          "stats": "7 Goals, 9 Assists, Blistering wing play that electrified the Premier League"
-        },
-        {
           "id": "pl-che-05-carvalho",
           "name": "Ricardo Carvalho",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 91,
           "stats": "Flawless reading of the game, Formed impenetrable barrier with Terry"
+        },
+        {
+          "id": "pl-che-05-robben",
+          "name": "Arjen Robben",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 91,
+          "stats": "7 Goals, 9 Assists, Blistering wing play that electrified the Premier League"
         },
         {
           "id": "pl-che-05-gallas",
@@ -4412,21 +4067,10 @@ export const soccerSport = {
           "name": "Damien Duff",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 87,
           "stats": "10 Goals, Relentless wing partner to Robben in Mourinho's devastating 4-3-3"
-        },
-        {
-          "id": "pl-che-05-gudjohnsen",
-          "name": "Eiður Guðjohnsen",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 86,
-          "stats": "12 Goals, Silky Icelandic forward with sublime linkup play and vision"
         },
         {
           "id": "pl-che-05-ferreira",
@@ -4439,11 +4083,20 @@ export const soccerSport = {
           "stats": "Rock-solid Portuguese right-back followed Mourinho from Porto"
         },
         {
+          "id": "pl-che-05-gudjohnsen",
+          "name": "Eiður Guðjohnsen",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 86,
+          "stats": "12 Goals, Silky Icelandic forward with sublime linkup play and vision"
+        },
+        {
           "id": "pl-che-05-tiago",
           "name": "Tiago Mendes",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 85,
@@ -4453,148 +4106,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Chelsea",
-      "era": "2009–2010 (Carlo Ancelotti 103 Goals Double)",
-      "players": [
-        {
-          "id": "pl-che-10-lampard",
-          "name": "Frank Lampard",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 93,
-          "stats": "22 Premier League Goals, 14 Assists from midfield, Mind-boggling numbers"
-        },
-        {
-          "id": "pl-che-10-drogba",
-          "name": "Didier Drogba",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 93,
-          "stats": "29 Goals, 10 Assists, Premier League Golden Boot, Unplayable physical dominance"
-        },
-        {
-          "id": "pl-che-10-terry",
-          "name": "John Terry",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 91,
-          "stats": "Captain lifted Premier League & FA Cup double, Commanded the back four"
-        },
-        {
-          "id": "pl-che-10-cech",
-          "name": "Petr Čech",
-          "roles": [
-            "GK"
-          ],
-          "rating": 91,
-          "stats": "Premier League Golden Glove with 17 clean sheets, Imposing presence"
-        },
-        {
-          "id": "pl-che-10-cole",
-          "name": "Ashley Cole",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 91,
-          "stats": "World-class attacking left-back, 4 league goals, Flawless defensive record"
-        },
-        {
-          "id": "pl-che-10-essien",
-          "name": "Michael Essien",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 89,
-          "stats": "The Bison, Unstoppable physical powerhouse before mid-season injury"
-        },
-        {
-          "id": "pl-che-10-anelka",
-          "name": "Nicolas Anelka",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 88,
-          "stats": "11 Goals, 10 Assists, Elegant French forward completed lethal front three"
-        },
-        {
-          "id": "pl-che-10-ballack",
-          "name": "Michael Ballack",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 88,
-          "stats": "German midfield general brought tactical intelligence and leadership"
-        },
-        {
-          "id": "pl-che-10-carvalho",
-          "name": "Ricardo Carvalho",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 88,
-          "stats": "Experienced Portuguese master defender in final title-winning Chelsea year"
-        },
-        {
-          "id": "pl-che-10-malouda",
-          "name": "Florent Malouda",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 87,
-          "stats": "12 Goals, 8 Assists, Explosive French winger in career-best goalscoring season"
-        },
-        {
-          "id": "pl-che-10-ivanovic",
-          "name": "Branislav Ivanović",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 86,
-          "stats": "PFA Team of the Year right-back, Imposing physical presence and defensive wall"
-        },
-        {
-          "id": "pl-che-10-mikel",
-          "name": "John Obi Mikel",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 83,
-          "stats": "Disciplined defensive midfielder filled in flawlessly during Essien's injury"
-        }
-      ]
-    },
-    {
-      "franchise": "Chelsea",
-      "era": "2014–2015 (Mourinho Title & Hazard Peak)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-che-15-hazard",
           "name": "Eden Hazard",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 93,
@@ -4611,6 +4129,15 @@ export const soccerSport = {
           "stats": "18 Premier League Assists, Unlocked defenses with pinpoint telepathic passes"
         },
         {
+          "id": "pl-che-15-courtois",
+          "name": "Thibaut Courtois",
+          "roles": [
+            "GK"
+          ],
+          "rating": 89,
+          "stats": "Belgian giant took over from Čech, Command of penalty box and 12 clean sheets"
+        },
+        {
           "id": "pl-che-15-costa",
           "name": "Diego Costa",
           "roles": [
@@ -4621,21 +4148,10 @@ export const soccerSport = {
           "stats": "20 Premier League Goals in 26 games, Fierce competitive warrior up front"
         },
         {
-          "id": "pl-che-15-courtois",
-          "name": "Thibaut Courtois",
-          "roles": [
-            "GK"
-          ],
-          "rating": 89,
-          "stats": "Belgian giant took over from Čech, Command of penalty box and 12 clean sheets"
-        },
-        {
           "id": "pl-che-15-terry",
           "name": "John Terry",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 88,
@@ -4646,7 +4162,6 @@ export const soccerSport = {
           "name": "Nemanja Matić",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 88,
@@ -4667,8 +4182,6 @@ export const soccerSport = {
           "name": "Gary Cahill",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 86,
@@ -4689,7 +4202,6 @@ export const soccerSport = {
           "name": "Oscar",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 85,
@@ -4700,7 +4212,6 @@ export const soccerSport = {
           "name": "Willian",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 85,
@@ -4720,166 +4231,17 @@ export const soccerSport = {
     },
     {
       "franchise": "Chelsea",
-      "era": "2016–2017 (Antonio Conte 3-4-3 Title 93 Pts)",
-      "players": [
-        {
-          "id": "pl-che-17-hazard",
-          "name": "Eden Hazard",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 92,
-          "stats": "16 Goals, 5 Assists, Devastating solo dribbles including famous goal vs Arsenal"
-        },
-        {
-          "id": "pl-che-17-kante",
-          "name": "N'Golo Kanté",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 91,
-          "stats": "PFA & FWA Player of the Year, Back-to-back Premier League title winner"
-        },
-        {
-          "id": "pl-che-17-courtois",
-          "name": "Thibaut Courtois",
-          "roles": [
-            "GK"
-          ],
-          "rating": 89,
-          "stats": "Premier League Golden Glove winner with 16 clean sheets"
-        },
-        {
-          "id": "pl-che-17-costa",
-          "name": "Diego Costa",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 88,
-          "stats": "20 Goals, 7 Assists, Relentless focal point of Conte's explosive attack"
-        },
-        {
-          "id": "pl-che-17-azpilicueta",
-          "name": "César Azpilicueta",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 88,
-          "stats": "Played every minute of the title season as right-sided center-back"
-        },
-        {
-          "id": "pl-che-17-luiz",
-          "name": "David Luiz",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 86,
-          "stats": "Triumphant return to Chelsea, Masterful libero sweeping in 3-man defense"
-        },
-        {
-          "id": "pl-che-17-matic",
-          "name": "Nemanja Matić",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 86,
-          "stats": "7 Assists, Towering presence formed impenetrable midfield axis with Kanté"
-        },
-        {
-          "id": "pl-che-17-fabregas",
-          "name": "Cesc Fàbregas",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 86,
-          "stats": "Super-sub playmaker provided 12 assists in limited starts"
-        },
-        {
-          "id": "pl-che-17-pedro",
-          "name": "Pedro",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 85,
-          "stats": "9 Goals, 8 Assists, Two-footed Spanish winger scored sensational screamers"
-        },
-        {
-          "id": "pl-che-17-cahill",
-          "name": "Gary Cahill",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 85,
-          "stats": "Captain stepped up with 6 Premier League goals and solid defending"
-        },
-        {
-          "id": "pl-che-17-alonso",
-          "name": "Marcos Alonso",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 84,
-          "stats": "6 Goals from left wing-back including free-kick masterclasses"
-        },
-        {
-          "id": "pl-che-17-moses",
-          "name": "Victor Moses",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 82,
-          "stats": "Revolutionary transformation into tireless right wing-back"
-        }
-      ]
-    },
-    {
-      "franchise": "Chelsea",
-      "era": "2022–2023 (12th Place £600m Banter Era)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-che-23-silva",
           "name": "Thiago Silva",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 84,
           "stats": "Chelsea Player of the Year, Masterclass defending at age 38 amidst chaos"
-        },
-        {
-          "id": "pl-che-23-fernandez",
-          "name": "Enzo Fernández",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 83,
-          "stats": "£107m British record signing, Exceptionally talented passer in broken side"
         },
         {
           "id": "pl-che-23-james",
@@ -4890,6 +4252,16 @@ export const soccerSport = {
           ],
           "rating": 83,
           "stats": "World-class right-back restricted to 14 league starts due to knee injuries"
+        },
+        {
+          "id": "pl-che-23-fernandez",
+          "name": "Enzo Fernández",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 83,
+          "stats": "£107m British record signing, Exceptionally talented passer in broken side"
         },
         {
           "id": "pl-che-23-kovacic",
@@ -4906,7 +4278,6 @@ export const soccerSport = {
           "name": "N'Golo Kanté",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
@@ -4917,29 +4288,16 @@ export const soccerSport = {
           "name": "Raheem Sterling",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 81,
           "stats": "6 Goals, Signed from Man City, struggled for service under Potter and Lampard"
         },
         {
-          "id": "pl-che-23-havertz",
-          "name": "Kai Havertz",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "Top scorer with just 7 league goals, Played out of position as lonely striker"
-        },
-        {
           "id": "pl-che-23-koulibaly",
           "name": "Kalidou Koulibaly",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -4956,6 +4314,16 @@ export const soccerSport = {
           "stats": "Attacking left-back suffered hamstring issues in stop-start season"
         },
         {
+          "id": "pl-che-23-havertz",
+          "name": "Kai Havertz",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Top scorer with just 7 league goals, Played out of position as lonely striker"
+        },
+        {
           "id": "pl-che-23-kepa",
           "name": "Kepa Arrizabalaga",
           "roles": [
@@ -4969,7 +4337,6 @@ export const soccerSport = {
           "name": "Mason Mount",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 79,
@@ -4989,7 +4356,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Coventry City",
-      "era": "1997–1998 (Gordon Strachan Mid-Table & Dublin Golden Boot)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-cov-98-dublin",
@@ -5002,17 +4369,6 @@ export const soccerSport = {
           "stats": "18 Premier League Goals, Joint-winner of Premier League Golden Boot"
         },
         {
-          "id": "pl-cov-98-huckerby",
-          "name": "Darren Huckerby",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "14 Premier League Goals, Electric solo goal vs Manchester United"
-        },
-        {
           "id": "pl-cov-98-mcallister",
           "name": "Gary McAllister",
           "roles": [
@@ -5023,6 +4379,16 @@ export const soccerSport = {
           "stats": "Scottish midfield maestro dictated play with supreme passing range and penalties"
         },
         {
+          "id": "pl-cov-98-huckerby",
+          "name": "Darren Huckerby",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "14 Premier League Goals, Electric solo goal vs Manchester United"
+        },
+        {
           "id": "pl-cov-98-ogrizovic",
           "name": "Steve Ogrizovic",
           "roles": [
@@ -5030,17 +4396,6 @@ export const soccerSport = {
           ],
           "rating": 81,
           "stats": "Coventry goalkeeping icon made 421 appearances for the Sky Blues"
-        },
-        {
-          "id": "pl-cov-98-boateng",
-          "name": "George Boateng",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Dutch midfield destroyer broke up opposition attacks with ferocious tenacity"
         },
         {
           "id": "pl-cov-98-nilsson",
@@ -5053,11 +4408,20 @@ export const soccerSport = {
           "stats": "Swedish international right-back, Ice-cool positioning and technique"
         },
         {
+          "id": "pl-cov-98-boateng",
+          "name": "George Boateng",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Dutch midfield destroyer broke up opposition attacks with ferocious tenacity"
+        },
+        {
           "id": "pl-cov-98-whelan",
           "name": "Noel Whelan",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
@@ -5078,8 +4442,6 @@ export const soccerSport = {
           "name": "Richard Shaw",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
@@ -5090,8 +4452,6 @@ export const soccerSport = {
           "name": "Paul Williams",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 77,
@@ -5112,7 +4472,6 @@ export const soccerSport = {
           "name": "John Salako",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 77,
@@ -5122,14 +4481,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Coventry City",
-      "era": "2000–2001 (End of 34-Year Top Flight Stay Relegation)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-cov-01-hadji",
           "name": "Mustapha Hadji",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 81,
@@ -5179,7 +4537,6 @@ export const soccerSport = {
           "name": "Lee Carsley",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 77,
@@ -5190,7 +4547,6 @@ export const soccerSport = {
           "name": "David Thompson",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 77,
@@ -5201,7 +4557,6 @@ export const soccerSport = {
           "name": "Carlton Palmer",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 76,
@@ -5212,8 +4567,6 @@ export const soccerSport = {
           "name": "Paul Williams",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -5224,8 +4577,6 @@ export const soccerSport = {
           "name": "Gary Breen",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -5255,7 +4606,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Crystal Palace",
-      "era": "1992–1993 (Inaugural Relegation Despite 49 Pts)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-cry-93-martyn",
@@ -5287,34 +4638,30 @@ export const soccerSport = {
           "stats": "Scored before moving to Sheffield Wednesday, Iconic Palace goalscorer"
         },
         {
-          "id": "pl-cry-93-salako",
-          "name": "John Salako",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 81,
-          "stats": "England international winger tormented right-backs with pace and trickery"
-        },
-        {
           "id": "pl-cry-93-thomas",
           "name": "Geoff Thomas",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 81,
           "stats": "Inspirational midfield captain with immense box-to-box engine"
         },
         {
+          "id": "pl-cry-93-salako",
+          "name": "John Salako",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "England international winger tormented right-backs with pace and trickery"
+        },
+        {
           "id": "pl-cry-93-southgate",
           "name": "Gareth Southgate",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -5325,22 +4672,10 @@ export const soccerSport = {
           "name": "Eric Young",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
           "stats": "Ninja, Iconic headband-wearing center-back, Uncompromising aerial defender"
-        },
-        {
-          "id": "pl-cry-93-gray",
-          "name": "Andy Gray",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "Skillful midfielder provided goals and creativity from midfield"
         },
         {
           "id": "pl-cry-93-shaw",
@@ -5357,12 +4692,20 @@ export const soccerSport = {
           "name": "Chris Coleman",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
           "stats": "Welsh international center-back with fierce tackling and aerial presence"
+        },
+        {
+          "id": "pl-cry-93-gray",
+          "name": "Andy Gray",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "Skillful midfielder provided goals and creativity from midfield"
         },
         {
           "id": "pl-cry-93-humphrey",
@@ -5379,7 +4722,6 @@ export const soccerSport = {
           "name": "Simon Rodger",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 76,
@@ -5389,14 +4731,128 @@ export const soccerSport = {
     },
     {
       "franchise": "Crystal Palace",
-      "era": "2014–2015 (Alan Pardew 10th Place Finish)",
+      "era": "2000s",
+      "players": [
+        {
+          "id": "cry-00-johnson",
+          "name": "Andy Johnson",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 86,
+          "stats": "21 Premier League Goals, Electric striker who earned England caps"
+        },
+        {
+          "id": "cry-00-speroni",
+          "name": "Julian Speroni",
+          "roles": [
+            "GK"
+          ],
+          "rating": 81,
+          "stats": "Cult hero Argentine goalkeeper who became an all-time Palace legend"
+        },
+        {
+          "id": "cry-00-routledge",
+          "name": "Wayne Routledge",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "Fleet-footed young winger with wicked acceleration and delivery"
+        },
+        {
+          "id": "cry-00-popovic",
+          "name": "Tony Popovic",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Australian international central defender with colossal aerial power"
+        },
+        {
+          "id": "cry-00-hughes",
+          "name": "Michael Hughes",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Northern Irish international midfield general who dictated play"
+        },
+        {
+          "id": "cry-00-hall",
+          "name": "Fitz Hall",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Athletic center-back whose physical presence commanded the penalty box"
+        },
+        {
+          "id": "cry-00-riihilahti",
+          "name": "Aki Riihilahti",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Finnish warrior midfielder beloved for relentless work ethic"
+        },
+        {
+          "id": "cry-00-granville",
+          "name": "Danny Granville",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Solid left-back with Champions League experience from Chelsea"
+        },
+        {
+          "id": "cry-00-butterfield",
+          "name": "Danny Butterfield",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Dependable and rugged right-back who gave everything for the shirt"
+        },
+        {
+          "id": "cry-00-kolkka",
+          "name": "Joonas Kolkka",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "Experienced Finnish winger providing crossing quality from the left"
+        },
+        {
+          "id": "cry-00-andrews",
+          "name": "Wayne Andrews",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Pacy attacking midfielder who provided energy between the lines"
+        }
+      ]
+    },
+    {
+      "franchise": "Crystal Palace",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-cry-15-bolasie",
           "name": "Yannick Bolasie",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
@@ -5407,22 +4863,10 @@ export const soccerSport = {
           "name": "Wilfried Zaha",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
           "stats": "Returned from Man United, Dazzling dribbling that terrorized defenses"
-        },
-        {
-          "id": "pl-cry-15-jedinak",
-          "name": "Mile Jedinak",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 81,
-          "stats": "Bearded Aussie captain was the Premier League's premier midfield destroyer"
         },
         {
           "id": "pl-cry-15-speroni",
@@ -5438,19 +4882,26 @@ export const soccerSport = {
           "name": "Scott Dann",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
           "stats": "Palace Player of the Year, Colossal center-back and set-piece aerial threat"
         },
         {
+          "id": "pl-cry-15-jedinak",
+          "name": "Mile Jedinak",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Bearded Aussie captain was the Premier League's premier midfield destroyer"
+        },
+        {
           "id": "pl-cry-15-puncheon",
           "name": "Jason Puncheon",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 81,
@@ -5491,8 +4942,6 @@ export const soccerSport = {
           "name": "Damien Delaney",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -5503,7 +4952,6 @@ export const soccerSport = {
           "name": "Marouane Chamakh",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -5523,14 +4971,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Crystal Palace",
-      "era": "2023–2024 (Oliver Glasner Late-Season Surge 10th)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-cry-24-olise",
           "name": "Michael Olise",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 87,
@@ -5541,7 +4988,6 @@ export const soccerSport = {
           "name": "Eberechi Eze",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 87,
@@ -5552,8 +4998,6 @@ export const soccerSport = {
           "name": "Marc Guéhi",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 85,
@@ -5574,8 +5018,6 @@ export const soccerSport = {
           "name": "Joachim Andersen",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -5586,7 +5028,6 @@ export const soccerSport = {
           "name": "Adam Wharton",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -5597,7 +5038,6 @@ export const soccerSport = {
           "name": "Cheick Doucouré",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 82,
@@ -5637,8 +5077,6 @@ export const soccerSport = {
           "name": "Jefferson Lerma",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -5649,7 +5087,6 @@ export const soccerSport = {
           "name": "Will Hughes",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -5659,30 +5096,27 @@ export const soccerSport = {
     },
     {
       "franchise": "Derby County",
-      "era": "1998–1999 (Jim Smith 8th Place Peak)",
+      "era": "1990s",
       "players": [
-        {
-          "id": "pl-der-99-wanchope",
-          "name": "Paulo Wanchope",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "9 Premier League Goals, Costa Rican cult hero with gangly, unplayable dribbling"
-        },
         {
           "id": "pl-der-99-stimac",
           "name": "Igor Štimac",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
           "stats": "Croatian World Cup bronze medalist, Elegant sweeping master at center-back"
+        },
+        {
+          "id": "pl-der-99-wanchope",
+          "name": "Paulo Wanchope",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "9 Premier League Goals, Costa Rican cult hero with gangly, unplayable dribbling"
         },
         {
           "id": "pl-der-99-poom",
@@ -5708,7 +5142,6 @@ export const soccerSport = {
           "name": "Stefano Eranio",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 81,
@@ -5719,7 +5152,6 @@ export const soccerSport = {
           "name": "Dean Sturridge",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -5740,8 +5172,6 @@ export const soccerSport = {
           "name": "Horacio Carbonari",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
@@ -5772,7 +5202,6 @@ export const soccerSport = {
           "name": "Darryl Powell",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 77,
@@ -5783,7 +5212,6 @@ export const soccerSport = {
           "name": "Paul Boertien",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 74,
@@ -5793,14 +5221,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Derby County",
-      "era": "2007–2008 (Record Worst 11 Points in PL History)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-der-08-miller",
           "name": "Kenny Miller",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -5811,7 +5238,6 @@ export const soccerSport = {
           "name": "Robbie Savage",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 75,
@@ -5822,7 +5248,6 @@ export const soccerSport = {
           "name": "Giles Barnes",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 73,
@@ -5833,8 +5258,6 @@ export const soccerSport = {
           "name": "Darren Moore",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 72,
@@ -5894,7 +5317,6 @@ export const soccerSport = {
           "name": "Benny Feilhaber",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 70,
@@ -5915,8 +5337,6 @@ export const soccerSport = {
           "name": "Claude Davis",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 68,
@@ -5926,7 +5346,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Everton",
-      "era": "1994–1995 (Joe Royle 'Dogs of War' FA Cup & Survival)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-eve-95-southall",
@@ -5952,8 +5372,6 @@ export const soccerSport = {
           "name": "Dave Watson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -5964,8 +5382,6 @@ export const soccerSport = {
           "name": "David Unsworth",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -5976,22 +5392,10 @@ export const soccerSport = {
           "name": "Anders Limpar",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
           "stats": "Swedish winger provided magical dribbling spark in Dogs of War midfield"
-        },
-        {
-          "id": "pl-eve-95-rideout",
-          "name": "Paul Rideout",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 81,
-          "stats": "Scored famous Wembley winning header vs Manchester United, 14 league goals"
         },
         {
           "id": "pl-eve-95-hinchcliffe",
@@ -6004,11 +5408,20 @@ export const soccerSport = {
           "stats": "England international left-back with world-class corner and free-kick delivery"
         },
         {
+          "id": "pl-eve-95-rideout",
+          "name": "Paul Rideout",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "Scored famous Wembley winning header vs Manchester United, 14 league goals"
+        },
+        {
           "id": "pl-eve-95-horne",
           "name": "Barry Horne",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -6019,7 +5432,6 @@ export const soccerSport = {
           "name": "Joe Parkinson",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -6030,7 +5442,6 @@ export const soccerSport = {
           "name": "John Ebbrell",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 79,
@@ -6060,8 +5471,17 @@ export const soccerSport = {
     },
     {
       "franchise": "Everton",
-      "era": "2004–2005 (David Moyes 4th Place UCL Miracle)",
+      "era": "2000s",
       "players": [
+        {
+          "id": "pl-eve-05-martyn",
+          "name": "Nigel Martyn",
+          "roles": [
+            "GK"
+          ],
+          "rating": 86,
+          "stats": "Moyes hailed him as his 'greatest signing', 12 clean sheets and legendary reflex saves"
+        },
         {
           "id": "pl-eve-05-cahill",
           "name": "Tim Cahill",
@@ -6073,20 +5493,10 @@ export const soccerSport = {
           "stats": "11 Premier League Goals, Master of arriving late in the box and corner flag boxing"
         },
         {
-          "id": "pl-eve-05-martyn",
-          "name": "Nigel Martyn",
-          "roles": [
-            "GK"
-          ],
-          "rating": 86,
-          "stats": "Moyes hailed him as his 'greatest signing', 12 clean sheets and legendary reflex saves"
-        },
-        {
           "id": "pl-eve-05-gravesen",
           "name": "Thomas Gravesen",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 85,
@@ -6097,7 +5507,6 @@ export const soccerSport = {
           "name": "Mikel Arteta",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 84,
@@ -6108,8 +5517,6 @@ export const soccerSport = {
           "name": "David Weir",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -6120,8 +5527,6 @@ export const soccerSport = {
           "name": "Alan Stubbs",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -6132,18 +5537,26 @@ export const soccerSport = {
           "name": "Leon Osman",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 81,
           "stats": "6 Goals, Silky academy graduate with two-footed balance and smart linkup"
         },
         {
+          "id": "pl-eve-05-ferguson",
+          "name": "Duncan Ferguson",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Scored iconic diving header winner against Manchester United at Goodison"
+        },
+        {
           "id": "pl-eve-05-kilbane",
           "name": "Kevin Kilbane",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -6158,17 +5571,6 @@ export const soccerSport = {
           ],
           "rating": 80,
           "stats": "Tireless lone striker held the ball up brilliantly in Moyes' 4-5-1 system"
-        },
-        {
-          "id": "pl-eve-05-ferguson",
-          "name": "Duncan Ferguson",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Scored iconic diving header winner against Manchester United at Goodison"
         },
         {
           "id": "pl-eve-05-hibbert",
@@ -6194,7 +5596,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Everton",
-      "era": "2013–2014 (Roberto Martínez 72 Points 5th Place)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-eve-14-baines",
@@ -6205,6 +5607,15 @@ export const soccerSport = {
           ],
           "rating": 87,
           "stats": "World-class left-back, 5 Goals, Scored two direct free-kicks in single game vs West Ham"
+        },
+        {
+          "id": "pl-eve-14-howard",
+          "name": "Tim Howard",
+          "roles": [
+            "GK"
+          ],
+          "rating": 86,
+          "stats": "15 Clean sheets, American hero before his record-breaking World Cup campaign"
         },
         {
           "id": "pl-eve-14-coleman",
@@ -6227,58 +5638,34 @@ export const soccerSport = {
           "stats": "15 Premier League Goals on loan from Chelsea, Unstoppable teenage beast"
         },
         {
-          "id": "pl-eve-14-howard",
-          "name": "Tim Howard",
-          "roles": [
-            "GK"
-          ],
-          "rating": 86,
-          "stats": "15 Clean sheets, American hero before his record-breaking World Cup campaign"
-        },
-        {
-          "id": "pl-eve-14-barkley",
-          "name": "Ross Barkley",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 84,
-          "stats": "6 Goals, Explosive solo runs including sensational goal at Newcastle"
-        },
-        {
           "id": "pl-eve-14-jagielka",
           "name": "Phil Jagielka",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 84,
           "stats": "Everton captain led defense that conceded only 39 league goals"
         },
         {
+          "id": "pl-eve-14-barkley",
+          "name": "Ross Barkley",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 84,
+          "stats": "6 Goals, Explosive solo runs including sensational goal at Newcastle"
+        },
+        {
           "id": "pl-eve-14-barry",
           "name": "Gareth Barry",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 83,
           "stats": "Loan signing from Man City anchored midfield with peerless tactical intelligence"
-        },
-        {
-          "id": "pl-eve-14-mirallas",
-          "name": "Kevin Mirallas",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "8 Goals, 8 Assists, Direct Belgian winger with dangerous set-pieces"
         },
         {
           "id": "pl-eve-14-mccarthy",
@@ -6291,45 +5678,50 @@ export const soccerSport = {
           "stats": "Tenacious Irish midfielder was the pressing engine in Martínez's fluid midfield"
         },
         {
+          "id": "pl-eve-14-mirallas",
+          "name": "Kevin Mirallas",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "8 Goals, 8 Assists, Direct Belgian winger with dangerous set-pieces"
+        },
+        {
           "id": "pl-eve-14-distin",
           "name": "Sylvain Distin",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
           "stats": "Incredible physical recovery pace at age 36 alongside Jagielka"
         },
         {
-          "id": "pl-eve-14-pienaar",
-          "name": "Steven Pienaar",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "Telepathic combination play with Baines down Everton's famous left flank"
-        },
-        {
           "id": "pl-eve-14-stones",
           "name": "John Stones",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
           "stats": "Silky 19-year-old ball-playing center-back broke into the first team"
+        },
+        {
+          "id": "pl-eve-14-pienaar",
+          "name": "Steven Pienaar",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "Telepathic combination play with Baines down Everton's famous left flank"
         }
       ]
     },
     {
       "franchise": "Everton",
-      "era": "2022–2023 (Dyche Final-Day Survival Banter)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-eve-23-pickford",
@@ -6345,8 +5737,6 @@ export const soccerSport = {
           "name": "James Tarkowski",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -6357,7 +5747,6 @@ export const soccerSport = {
           "name": "Abdoulaye Doucouré",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -6368,7 +5757,6 @@ export const soccerSport = {
           "name": "Amadou Onana",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -6379,7 +5767,6 @@ export const soccerSport = {
           "name": "Dwight McNeil",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -6390,7 +5777,6 @@ export const soccerSport = {
           "name": "Alex Iwobi",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -6411,34 +5797,30 @@ export const soccerSport = {
           "name": "Conor Coady",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
           "stats": "Vocal leader on loan from Wolves stepped up in crucial defensive moments"
         },
         {
-          "id": "pl-eve-23-gray",
-          "name": "Demarai Gray",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "4 Goals including stunning 25-yard equalizer away at champions Man City"
-        },
-        {
           "id": "pl-eve-23-gueye",
           "name": "Idrissa Gueye",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 78,
           "stats": "Returned from PSG to add veteran ball-winning bite to the midfield"
+        },
+        {
+          "id": "pl-eve-23-gray",
+          "name": "Demarai Gray",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "4 Goals including stunning 25-yard equalizer away at champions Man City"
         },
         {
           "id": "pl-eve-23-mykolenko",
@@ -6464,7 +5846,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Fulham",
-      "era": "2003–2004 (Chris Coleman 9th Place Finish)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-ful-04-vandresar",
@@ -6490,7 +5872,6 @@ export const soccerSport = {
           "name": "Steed Malbranque",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -6501,7 +5882,6 @@ export const soccerSport = {
           "name": "Luís Boa Morte",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
@@ -6522,8 +5902,6 @@ export const soccerSport = {
           "name": "Alain Goma",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -6534,7 +5912,6 @@ export const soccerSport = {
           "name": "Sylvain Legwinski",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 79,
@@ -6565,8 +5942,6 @@ export const soccerSport = {
           "name": "Zat Knight",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
@@ -6587,7 +5962,6 @@ export const soccerSport = {
           "name": "Barry Hayles",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 77,
@@ -6597,153 +5971,123 @@ export const soccerSport = {
     },
     {
       "franchise": "Fulham",
-      "era": "2009–2010 (Roy Hodgson Europa League Final & Top 10)",
+      "era": "2010s",
       "players": [
         {
-          "id": "pl-ful-10-dempsey",
+          "id": "ful-10-dempsey",
           "name": "Clint Dempsey",
           "roles": [
-            "LW",
-            "WING",
-            "ATT"
+            "CAM",
+            "MID"
           ],
-          "rating": 85,
-          "stats": "7 Goals, Deuce, Scored unforgettable chip vs Juventus in historic Europa run"
+          "rating": 87,
+          "stats": "17 Premier League Goals in 2011-12, Fulham's all-time Premier League top scorer"
         },
         {
-          "id": "pl-ful-10-schwarzer",
-          "name": "Mark Schwarzer",
+          "id": "ful-10-dembele",
+          "name": "Mousa Dembele",
           "roles": [
-            "GK"
+            "CM",
+            "MID"
           ],
-          "rating": 85,
-          "stats": "Australian goalkeeper kept 13 Premier League clean sheets, rock in goal"
+          "rating": 86,
+          "stats": "Unpressable Belgian midfielder whose dribbling through midfield was legendary"
         },
         {
-          "id": "pl-ful-10-hangeland",
-          "name": "Brede Hangeland",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 85,
-          "stats": "Giant Norwegian center-back was one of the finest defenders in the Premier League"
-        },
-        {
-          "id": "pl-ful-10-zamora",
-          "name": "Bobby Zamora",
+          "id": "ful-10-berbatov",
+          "name": "Dimitar Berbatov",
           "roles": [
             "ST",
             "ATT"
           ],
-          "rating": 83,
-          "stats": "8 Premier League Goals, Masterclass hold-up play and aerial target man"
+          "rating": 86,
+          "stats": "Pure nonchalant wizardry, 15 league goals in stunning debut season"
         },
         {
-          "id": "pl-ful-10-murphy",
-          "name": "Danny Murphy",
+          "id": "ful-10-hangeland",
+          "name": "Brede Hangeland",
           "roles": [
-            "CM",
-            "MID"
+            "CB",
+            "DEF"
           ],
-          "rating": 83,
-          "stats": "5 Goals, Club captain, Ice-cool penalty taker and master of midfield tempo"
+          "rating": 85,
+          "stats": "Giant Norwegian captain and one of the finest aerial defenders in England"
         },
         {
-          "id": "pl-ful-10-duff",
+          "id": "ful-10-schwarzer",
+          "name": "Mark Schwarzer",
+          "roles": [
+            "GK"
+          ],
+          "rating": 84,
+          "stats": "Australian goalkeeping legend who made over 170 Premier League appearances"
+        },
+        {
+          "id": "ful-10-duff",
           "name": "Damien Duff",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
-          "stats": "6 Goals, Two-time title winner brought elite crossing and work rate to the flank"
+          "stats": "Irish international winger with trademark jinking runs and crossing accuracy"
         },
         {
-          "id": "pl-ful-10-gera",
-          "name": "Zoltán Gera",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "Hungarian magician scored legendary volleys and linked play seamlessly"
-        },
-        {
-          "id": "pl-ful-10-hughes",
+          "id": "ful-10-hughes",
           "name": "Aaron Hughes",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
-          "stats": "Composed Northern Ireland defender never booked in hundreds of appearances"
+          "stats": "Composed Northern Irish defender who rarely ever committed a foul"
         },
         {
-          "id": "pl-ful-10-konchesky",
-          "name": "Paul Konchesky",
+          "id": "ful-10-riise",
+          "name": "John Arne Riise",
           "roles": [
             "LB",
             "DEF"
           ],
-          "rating": 80,
-          "stats": "Consistent English left-back with ferocious tackling and crossing ability"
+          "rating": 81,
+          "stats": "Powerhouse left-back with a sledgehammer left foot from range"
         },
         {
-          "id": "pl-ful-10-pantsil",
-          "name": "John Paintsil",
+          "id": "ful-10-ruiz",
+          "name": "Bryan Ruiz",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "Costa Rican playmaker with sumptuous technique and exquisite touch"
+        },
+        {
+          "id": "ful-10-riether",
+          "name": "Sascha Riether",
           "roles": [
             "RB",
             "DEF"
           ],
-          "rating": 79,
-          "stats": "Ghanaian cult hero right-back lap of honor after every home match"
+          "rating": 80,
+          "stats": "Reliable German international right-back who was voted Player of the Season"
         },
         {
-          "id": "pl-ful-10-etuhu",
-          "name": "Dickson Etuhu",
+          "id": "ful-10-sidwell",
+          "name": "Steve Sidwell",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
-          "rating": 79,
-          "stats": "Towering Nigerian defensive midfielder anchored Hodgson's rigid two banks of four"
-        },
-        {
-          "id": "pl-ful-10-nevland",
-          "name": "Erik Nevland",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Super-sub Norwegian striker with sharp movement and clinical finishes"
+          "rating": 80,
+          "stats": "Tenacious combative midfielder with an eye for spectacular long-range strikes"
         }
       ]
     },
     {
       "franchise": "Fulham",
-      "era": "2022–2023 (Marco Silva 10th Place Return)",
+      "era": "2020s",
       "players": [
-        {
-          "id": "pl-ful-23-palhinha",
-          "name": "João Palhinha",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 85,
-          "stats": "Premier League leader in tackles (147), Uncompromising Portuguese midfield destroyer"
-        },
         {
           "id": "pl-ful-23-leno",
           "name": "Bernd Leno",
@@ -6752,6 +6096,16 @@ export const soccerSport = {
           ],
           "rating": 85,
           "stats": "Bargain £8m signing from Arsenal, Prevented second-highest xG in Europe, 8 clean sheets"
+        },
+        {
+          "id": "pl-ful-23-palhinha",
+          "name": "João Palhinha",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 85,
+          "stats": "Premier League leader in tackles (147), Uncompromising Portuguese midfield destroyer"
         },
         {
           "id": "pl-ful-23-mitrovic",
@@ -6768,22 +6122,10 @@ export const soccerSport = {
           "name": "Willian",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
           "stats": "5 Goals, 6 Assists, Rolling back the years with majestic dribbling and goals"
-        },
-        {
-          "id": "pl-ful-23-pereira",
-          "name": "Andreas Pereira",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 81,
-          "stats": "4 Goals, 6 Assists, Transformational playmaker and set-piece specialist"
         },
         {
           "id": "pl-ful-23-robinson",
@@ -6800,12 +6142,20 @@ export const soccerSport = {
           "name": "Tim Ream",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
           "stats": "American captain rolled back the years with immaculate passing out from the back"
+        },
+        {
+          "id": "pl-ful-23-pereira",
+          "name": "Andreas Pereira",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "4 Goals, 6 Assists, Transformational playmaker and set-piece specialist"
         },
         {
           "id": "pl-ful-23-tete",
@@ -6822,8 +6172,6 @@ export const soccerSport = {
           "name": "Issa Diop",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -6844,7 +6192,6 @@ export const soccerSport = {
           "name": "Harry Wilson",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
@@ -6864,8 +6211,18 @@ export const soccerSport = {
     },
     {
       "franchise": "Huddersfield Town",
-      "era": "2017–2018 (David Wagner Survival Miracle)",
+      "era": "2010s",
       "players": [
+        {
+          "id": "pl-hud-18-schindler",
+          "name": "Christopher Schindler",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Huddersfield Player of the Year, Masterful reading of the game and tackles"
+        },
         {
           "id": "pl-hud-18-mooy",
           "name": "Aaron Mooy",
@@ -6875,18 +6232,6 @@ export const soccerSport = {
           ],
           "rating": 80,
           "stats": "Australian midfield general, 4 Goals, 3 Assists, Dictated team tempo"
-        },
-        {
-          "id": "pl-hud-18-schindler",
-          "name": "Christopher Schindler",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 80,
-          "stats": "Huddersfield Player of the Year, Masterful reading of the game and tackles"
         },
         {
           "id": "pl-hud-18-lossl",
@@ -6902,8 +6247,6 @@ export const soccerSport = {
           "name": "Mathias Jørgensen",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 77,
@@ -6914,7 +6257,6 @@ export const soccerSport = {
           "name": "Jonathan Hogg",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 77,
@@ -6931,6 +6273,16 @@ export const soccerSport = {
           "stats": "7 Premier League Goals including double on debut at Crystal Palace"
         },
         {
+          "id": "pl-hud-18-pritchard",
+          "name": "Alex Pritchard",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 76,
+          "stats": "January signing from Norwich brought creative spark and quick feet"
+        },
+        {
           "id": "pl-hud-18-depoitre",
           "name": "Laurent Depoitre",
           "roles": [
@@ -6939,17 +6291,6 @@ export const soccerSport = {
           ],
           "rating": 76,
           "stats": "6 Goals, Scored famous solo winner vs Man United and equalizer at Chelsea"
-        },
-        {
-          "id": "pl-hud-18-pritchard",
-          "name": "Alex Pritchard",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "January signing from Norwich brought creative spark and quick feet"
         },
         {
           "id": "pl-hud-18-smith",
@@ -6976,7 +6317,6 @@ export const soccerSport = {
           "name": "Rajiv van La Parra",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 75,
@@ -6987,7 +6327,6 @@ export const soccerSport = {
           "name": "Elias Kachunga",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 74,
@@ -6996,147 +6335,14 @@ export const soccerSport = {
       ]
     },
     {
-      "franchise": "Huddersfield Town",
-      "era": "2018–2019 (16-Point Relegation Banter)",
-      "players": [
-        {
-          "id": "pl-hud-19-mooy",
-          "name": "Aaron Mooy",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "3 Goals, Class above his teammates but missed crucial months with knee injury"
-        },
-        {
-          "id": "pl-hud-19-schindler",
-          "name": "Christopher Schindler",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Club captain gave everything in doomed campaign, scoring equalizer vs Burnley"
-        },
-        {
-          "id": "pl-hud-19-billing",
-          "name": "Philip Billing",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "2 Goals, Giant Danish midfielder stood out before falling out with management"
-        },
-        {
-          "id": "pl-hud-19-lossl",
-          "name": "Jonas Lössl",
-          "roles": [
-            "GK"
-          ],
-          "rating": 75,
-          "stats": "Conceded 76 goals as Terriers won just 3 league matches all season"
-        },
-        {
-          "id": "pl-hud-19-kongolo",
-          "name": "Terence Kongolo",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 75,
-          "stats": "Dutch record signing struggled with fitness across difficult campaign"
-        },
-        {
-          "id": "pl-hud-19-grant",
-          "name": "Karlan Grant",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 75,
-          "stats": "January signing scored 4 goals in 13 games, lone clinical finisher"
-        },
-        {
-          "id": "pl-hud-19-hogg",
-          "name": "Jonathan Hogg",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 74,
-          "stats": "Combative midfielder battled bravely despite constant team defeats"
-        },
-        {
-          "id": "pl-hud-19-mounie",
-          "name": "Steve Mounié",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 74,
-          "stats": "Managed only 2 league goals as Huddersfield scored record-low 22 all season"
-        },
-        {
-          "id": "pl-hud-19-hadergjonaj",
-          "name": "Florent Hadergjonaj",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 73,
-          "stats": "Swiss right-back featured in 24 appearances without an assist"
-        },
-        {
-          "id": "pl-hud-19-pritchard",
-          "name": "Alex Pritchard",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 73,
-          "stats": "Creative playmaker smothered by lack of attacking movement around him"
-        },
-        {
-          "id": "pl-hud-19-durm",
-          "name": "Erik Durm",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 73,
-          "stats": "World Cup winner arrived from Dortmund, Failed to make lasting impact"
-        },
-        {
-          "id": "pl-hud-19-lowe",
-          "name": "Chris Löwe",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 72,
-          "stats": "German full-back admitted team lacked Premier League quality in honest interviews"
-        }
-      ]
-    },
-    {
       "franchise": "Hull City",
-      "era": "2008–2009 (Phil Brown On-Pitch Half-Time Talk & Survival)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-hul-09-geovanni",
           "name": "Geovanni",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 81,
@@ -7147,8 +6353,6 @@ export const soccerSport = {
           "name": "Michael Turner",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -7164,6 +6368,16 @@ export const soccerSport = {
           "stats": "Welsh goalkeeper kept 6 clean sheets including heroics at Emirates Stadium"
         },
         {
+          "id": "pl-hul-09-boateng",
+          "name": "George Boateng",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Experienced Dutch international midfielder added Premier League pedigree"
+        },
+        {
           "id": "pl-hul-09-king",
           "name": "Marlon King",
           "roles": [
@@ -7174,15 +6388,14 @@ export const soccerSport = {
           "stats": "5 Goals during Hull's sensational early-season run to 3rd in the table"
         },
         {
-          "id": "pl-hul-09-boateng",
-          "name": "George Boateng",
+          "id": "pl-hul-09-zayatte",
+          "name": "Kamil Zayatte",
           "roles": [
-            "CDM",
-            "CM",
-            "MID"
+            "CB",
+            "DEF"
           ],
-          "rating": 77,
-          "stats": "Experienced Dutch international midfielder added Premier League pedigree"
+          "rating": 76,
+          "stats": "Guinean center-back with incredible athletic recovery tackles"
         },
         {
           "id": "pl-hul-09-cousin",
@@ -7195,37 +6408,14 @@ export const soccerSport = {
           "stats": "5 Goals including famous headed winner against Arsenal at Emirates"
         },
         {
-          "id": "pl-hul-09-zayatte",
-          "name": "Kamil Zayatte",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Guinean center-back with incredible athletic recovery tackles"
-        },
-        {
           "id": "pl-hul-09-barmby",
           "name": "Nick Barmby",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
           "stats": "Hull-born former England international scored emotional goal vs Sunderland"
-        },
-        {
-          "id": "pl-hul-09-marney",
-          "name": "Dean Marney",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Former Spurs midfielder provided energy and passing in engine room"
         },
         {
           "id": "pl-hul-09-dawson",
@@ -7238,15 +6428,14 @@ export const soccerSport = {
           "stats": "Local legend completed climb from third tier to top flight with Hull"
         },
         {
-          "id": "pl-hul-09-ashbee",
-          "name": "Ian Ashbee",
+          "id": "pl-hul-09-marney",
+          "name": "Dean Marney",
           "roles": [
-            "CAM",
             "CM",
             "MID"
           ],
-          "rating": 74,
-          "stats": "Captained Hull in all four divisions of English football, True club icon"
+          "rating": 75,
+          "stats": "Former Spurs midfielder provided energy and passing in engine room"
         },
         {
           "id": "pl-hul-09-ricketts",
@@ -7257,35 +6446,42 @@ export const soccerSport = {
           ],
           "rating": 74,
           "stats": "Welsh international full-back featured across 29 matches"
+        },
+        {
+          "id": "pl-hul-09-ashbee",
+          "name": "Ian Ashbee",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 74,
+          "stats": "Captained Hull in all four divisions of English football, True club icon"
         }
       ]
     },
     {
       "franchise": "Hull City",
-      "era": "2013–2014 (Steve Bruce 16th & FA Cup Final)",
+      "era": "2010s",
       "players": [
-        {
-          "id": "pl-hul-14-huddlestone",
-          "name": "Tom Huddlestone",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Cut hair after scoring vs Fulham, Majestic 60-yard passing range"
-        },
         {
           "id": "pl-hul-14-davies",
           "name": "Curtis Davies",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
           "stats": "Hull captain, Colossal season at center-back, Scored in FA Cup final"
+        },
+        {
+          "id": "pl-hul-14-huddlestone",
+          "name": "Tom Huddlestone",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Cut hair after scoring vs Fulham, Majestic 60-yard passing range"
         },
         {
           "id": "pl-hul-14-mcgregor",
@@ -7301,7 +6497,6 @@ export const soccerSport = {
           "name": "Nikica Jelavić",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
@@ -7332,8 +6527,6 @@ export const soccerSport = {
           "name": "James Chester",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 77,
@@ -7344,22 +6537,10 @@ export const soccerSport = {
           "name": "Ahmed Elmohamady",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 77,
           "stats": "Egyptian winger played every match, Pinpoint crossing down the right"
-        },
-        {
-          "id": "pl-hul-14-koren",
-          "name": "Robert Koren",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Slovenian international captain scored 2 goals and linked play"
         },
         {
           "id": "pl-hul-14-rosenior",
@@ -7382,6 +6563,16 @@ export const soccerSport = {
           "stats": "Honduran left-back brought experienced defending to back four"
         },
         {
+          "id": "pl-hul-14-koren",
+          "name": "Robert Koren",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 76,
+          "stats": "Slovenian international captain scored 2 goals and linked play"
+        },
+        {
           "id": "pl-hul-14-meyler",
           "name": "David Meyler",
           "roles": [
@@ -7395,14 +6586,128 @@ export const soccerSport = {
     },
     {
       "franchise": "Ipswich Town",
-      "era": "2000–2001 (George Burley 5th Place UEFA Cup Miracle)",
+      "era": "1990s",
+      "players": [
+        {
+          "id": "ips-90-wark",
+          "name": "John Wark",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 83,
+          "stats": "Legendary Scottish veteran whose positional intelligence anchored Town"
+        },
+        {
+          "id": "ips-90-kiwomya",
+          "name": "Chris Kiwomya",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "Pacy striker who was Ipswich's top scorer in early Premier League years"
+        },
+        {
+          "id": "ips-90-dozzell",
+          "name": "Jason Dozzell",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Classy attacking midfielder who was the youngest goalscorer in English top-flight history"
+        },
+        {
+          "id": "ips-90-yallop",
+          "name": "Frank Yallop",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Canadian international right-back with nearly 400 appearances for the club"
+        },
+        {
+          "id": "ips-90-stockwell",
+          "name": "Mick Stockwell",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Tireless midfield servant whose energy drove the engine room"
+        },
+        {
+          "id": "ips-90-linighan",
+          "name": "David Linighan",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "No-nonsense captain and commanding aerial powerhouse"
+        },
+        {
+          "id": "ips-90-thompson",
+          "name": "Neil Thompson",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Left-back with a booming shot and reliable set-piece delivery"
+        },
+        {
+          "id": "ips-90-mason",
+          "name": "Paul Mason",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Hardworking holding midfielder who brought composure from Dutch football"
+        },
+        {
+          "id": "ips-90-baker",
+          "name": "Clive Baker",
+          "roles": [
+            "GK"
+          ],
+          "rating": 78,
+          "stats": "Dependable shot-stopper in the inaugural Premier League campaign"
+        },
+        {
+          "id": "ips-90-johnson",
+          "name": "Gavin Johnson",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "Direct winger who scored Ipswich's first-ever Premier League goal"
+        },
+        {
+          "id": "ips-90-whitton",
+          "name": "Steve Whitton",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "Experienced forward who provided muscle and aerial presence in attack"
+        }
+      ]
+    },
+    {
+      "franchise": "Ipswich Town",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-ips-01-stewart",
           "name": "Marcus Stewart",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 85,
@@ -7442,7 +6747,6 @@ export const soccerSport = {
           "name": "Jim Magilton",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -7453,8 +6757,6 @@ export const soccerSport = {
           "name": "Mark Venus",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -7465,7 +6767,6 @@ export const soccerSport = {
           "name": "James Scowcroft",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
@@ -7476,12 +6777,20 @@ export const soccerSport = {
           "name": "John McGreal",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
           "stats": "Composed defender read opposition attacks to perfection"
+        },
+        {
+          "id": "pl-ips-01-wright-j",
+          "name": "Jermaine Wright",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "Tireless midfielder covered huge ground to protect back four"
         },
         {
           "id": "pl-ips-01-armstrong",
@@ -7492,17 +6801,6 @@ export const soccerSport = {
           ],
           "rating": 78,
           "stats": "Winter signing scored 5 goals in 10 games, including winner at Arsenal"
-        },
-        {
-          "id": "pl-ips-01-wright-j",
-          "name": "Jermaine Wright",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "Tireless midfielder covered huge ground to protect back four"
         },
         {
           "id": "pl-ips-01-wilnis",
@@ -7528,149 +6826,243 @@ export const soccerSport = {
     },
     {
       "franchise": "Ipswich Town",
-      "era": "2001–2002 (Relegation & Second Season Syndrome)",
+      "era": "2020s",
       "players": [
         {
-          "id": "pl-ips-02-holland",
-          "name": "Matt Holland",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Ever-present captain scored 3 goals but could not halt team's sudden slide"
-        },
-        {
-          "id": "pl-ips-02-stewart",
-          "name": "Marcus Stewart",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "Managed only 6 league goals after suffering fractured jaw in autumn"
-        },
-        {
-          "id": "pl-ips-02-george",
-          "name": "Finidi George",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "Champions League winner with Ajax arrived for £3m, scored 6 goals in flashes"
-        },
-        {
-          "id": "pl-ips-02-hreidarsson",
-          "name": "Hermann Hreiðarsson",
+          "id": "ips-20-davis",
+          "name": "Leif Davis",
           "roles": [
             "LB",
             "DEF"
           ],
-          "rating": 78,
-          "stats": "Scored winner vs Inter Milan in Europe, Relegated for 3rd time in career"
+          "rating": 82,
+          "stats": "Outstanding attacking left-back who registered 18 assists in promotion push"
         },
         {
-          "id": "pl-ips-02-sereni",
-          "name": "Matteo Sereni",
-          "roles": [
-            "GK"
-          ],
-          "rating": 77,
-          "stats": "Record £4.5m Italian goalkeeper replaced Wright, conceded 64 league goals"
-        },
-        {
-          "id": "pl-ips-02-magilton",
-          "name": "Jim Magilton",
+          "id": "ips-20-szmodics",
+          "name": "Sammie Szmodics",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
-          "rating": 77,
-          "stats": "Experienced playmaker struggled to maintain control in chaotic games"
+          "rating": 82,
+          "stats": "Reigning Championship Golden Boot winner with sharp box timing"
         },
         {
-          "id": "pl-ips-02-bent",
-          "name": "Darren Bent",
+          "id": "ips-20-delap",
+          "name": "Liam Delap",
           "roles": [
             "ST",
             "ATT"
           ],
-          "rating": 76,
-          "stats": "Teenage prodigy burst onto scene with 1 goal in 5 appearances"
+          "rating": 82,
+          "stats": "Explosive young center-forward with electric pace and direct finishing power"
         },
         {
-          "id": "pl-ips-02-mcgreal",
-          "name": "John McGreal",
+          "id": "ips-20-hutchinson",
+          "name": "Omari Hutchinson",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "Exciting winger with dazzling one-on-one dribbling ability"
+        },
+        {
+          "id": "ips-20-muric",
+          "name": "Arijanet Muric",
+          "roles": [
+            "GK"
+          ],
+          "rating": 80,
+          "stats": "Towering Kosovo international goalkeeper with outstanding reflex stops"
+        },
+        {
+          "id": "ips-20-greaves",
+          "name": "Jacob Greaves",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
-          "rating": 76,
-          "stats": "Injuries disrupted center-back partnership throughout the season"
+          "rating": 80,
+          "stats": "Dominant left-footed central defender with fine distribution"
         },
         {
-          "id": "pl-ips-02-peralta",
-          "name": "Sixto Peralta",
+          "id": "ips-20-morsy",
+          "name": "Sam Morsy",
           "roles": [
-            "CAM",
-            "CM",
+            "CDM",
             "MID"
           ],
-          "rating": 76,
-          "stats": "Argentine loanee from Inter Milan scored 5 goals in creative midfield role"
+          "rating": 80,
+          "stats": "Inspirational captain and fierce midfield ball-winner who sets the tone"
         },
         {
-          "id": "pl-ips-02-gaardsoe",
-          "name": "Thomas Gaardsøe",
+          "id": "ips-20-woolfenden",
+          "name": "Luke Woolfenden",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
-          "rating": 75,
-          "stats": "Danish defender stepped in during second half of the season"
+          "rating": 79,
+          "stats": "Ball-playing academy graduate center-back with tactical awareness"
         },
         {
-          "id": "pl-ips-02-clapham",
-          "name": "Jamie Clapham",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 75,
-          "stats": "English full-back started 36 league games on the left flank"
-        },
-        {
-          "id": "pl-ips-02-wilnis",
-          "name": "Fabian Wilnis",
+          "id": "ips-20-tuanzebe",
+          "name": "Axel Tuanzebe",
           "roles": [
             "RB",
             "DEF"
           ],
-          "rating": 75,
-          "stats": "Dutch right-back battled on the flank in 20 appearances"
+          "rating": 79,
+          "stats": "Athletic defender with Champions League pedigree, commanding at fullback"
+        },
+        {
+          "id": "ips-20-luongo",
+          "name": "Massimo Luongo",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Australian international midfielder who provides calmness in possession"
+        },
+        {
+          "id": "ips-20-burns",
+          "name": "Wes Burns",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 79,
+          "stats": "Welsh international winger with blistering pace on the counter"
         }
       ]
     },
     {
       "franchise": "Leeds United",
-      "era": "2000–2001 (David O'Leary Champions League Semis & 4th)",
+      "era": "1990s",
+      "players": [
+        {
+          "id": "lee-90-hasselbaink",
+          "name": "Jimmy Floyd Hasselbaink",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 89,
+          "stats": "Premier League Golden Boot winner with explosive finishing thunderbolts"
+        },
+        {
+          "id": "lee-90-martyn",
+          "name": "Nigel Martyn",
+          "roles": [
+            "GK"
+          ],
+          "rating": 88,
+          "stats": "England international goalkeeper and one of the finest shot-stoppers in PL history"
+        },
+        {
+          "id": "lee-90-kewell",
+          "name": "Harry Kewell",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 88,
+          "stats": "PFA Young Player of the Year, Sensational Australian dribbler and creator"
+        },
+        {
+          "id": "lee-90-radebe",
+          "name": "Lucas Radebe",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 87,
+          "stats": "'The Chief', Beloved South African captain and world-class reader of the game"
+        },
+        {
+          "id": "lee-90-speed",
+          "name": "Gary Speed",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 87,
+          "stats": "Welsh midfield powerhouse with incredible aerial leap and tireless stamina"
+        },
+        {
+          "id": "lee-90-batty",
+          "name": "David Batty",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 86,
+          "stats": "Uncompromising midfield destroyer who broke up opposition play relentlessly"
+        },
+        {
+          "id": "lee-90-strachan",
+          "name": "Gordon Strachan",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 86,
+          "stats": "FWA Footballer of the Year and legendary fiery Scottish captain"
+        },
+        {
+          "id": "lee-90-bowyer",
+          "name": "Lee Bowyer",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 85,
+          "stats": "Tenacious goalscoring midfielder with lethal box-to-box timing"
+        },
+        {
+          "id": "lee-90-harte",
+          "name": "Ian Harte",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 84,
+          "stats": "Lethal free kick and penalty specialist with sensational left foot"
+        },
+        {
+          "id": "lee-90-kelly",
+          "name": "Gary Kelly",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 84,
+          "stats": "Over 500 appearances for Leeds, tireless Irish international right-back"
+        },
+        {
+          "id": "lee-90-wetherall",
+          "name": "David Wetherall",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 82,
+          "stats": "Towering central defender who scored iconic survival goals"
+        }
+      ]
+    },
+    {
+      "franchise": "Leeds United",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-lee-01-ferdinand",
           "name": "Rio Ferdinand",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 90,
@@ -7687,17 +7079,6 @@ export const soccerSport = {
           "stats": "17 Premier League Goals including legendary 4-goal haul vs Liverpool (4-3)"
         },
         {
-          "id": "pl-lee-01-kewell",
-          "name": "Harry Kewell",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 87,
-          "stats": "Australian wonder-winger, Blistering pace and sensational left-foot finishing"
-        },
-        {
           "id": "pl-lee-01-martyn",
           "name": "Nigel Martyn",
           "roles": [
@@ -7707,11 +7088,20 @@ export const soccerSport = {
           "stats": "England goalkeeper kept 14 clean sheets in outstanding domestic and European year"
         },
         {
+          "id": "pl-lee-01-kewell",
+          "name": "Harry Kewell",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 87,
+          "stats": "Australian wonder-winger, Blistering pace and sensational left-foot finishing"
+        },
+        {
           "id": "pl-lee-01-bowyer",
           "name": "Lee Bowyer",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 86,
@@ -7722,7 +7112,6 @@ export const soccerSport = {
           "name": "Olivier Dacourt",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 85,
@@ -7753,7 +7142,6 @@ export const soccerSport = {
           "name": "David Batty",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 84,
@@ -7764,7 +7152,6 @@ export const soccerSport = {
           "name": "Robbie Keane",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 84,
@@ -7775,8 +7162,6 @@ export const soccerSport = {
           "name": "Dominic Matteo",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -7796,151 +7181,27 @@ export const soccerSport = {
     },
     {
       "franchise": "Leeds United",
-      "era": "2003–2004 (Financial Collapse & Tearful Relegation)",
-      "players": [
-        {
-          "id": "pl-lee-04-viduka",
-          "name": "Mark Viduka",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "11 Premier League Goals, Sent off vs Bolton in penultimate game as season unraveled"
-        },
-        {
-          "id": "pl-lee-04-smith",
-          "name": "Alan Smith",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "9 Goals, Shed tears upon relegation before controversial transfer to Man United"
-        },
-        {
-          "id": "pl-lee-04-robinson",
-          "name": "Paul Robinson",
-          "roles": [
-            "GK"
-          ],
-          "rating": 80,
-          "stats": "England goalkeeper scored header in cup, Left exposed as defense conceded 79 goals"
-        },
-        {
-          "id": "pl-lee-04-milner",
-          "name": "James Milner",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "18-year-old local prodigy gave everything on the wing before being sold"
-        },
-        {
-          "id": "pl-lee-04-pennant",
-          "name": "Jermaine Pennant",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "Arsenal loanee provided pace and crossing down the right wing"
-        },
-        {
-          "id": "pl-lee-04-harte",
-          "name": "Ian Harte",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Scored free-kick vs Portsmouth but struggled for pace against modern wingers"
-        },
-        {
-          "id": "pl-lee-04-kelly",
-          "name": "Gary Kelly",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Loyal Irish right-back played in 37 league games, club icon"
-        },
-        {
-          "id": "pl-lee-04-matteo",
-          "name": "Dominic Matteo",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Leeds captain fought with aching knees in desperate rearguard effort"
-        },
-        {
-          "id": "pl-lee-04-bakke",
-          "name": "Eirik Bakke",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Norwegian midfielder battled persistent knee injuries in limited starts"
-        },
-        {
-          "id": "pl-lee-04-johnson",
-          "name": "Seth Johnson",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Infamous big-money contract, Plagued by devastating injuries"
-        },
-        {
-          "id": "pl-lee-04-duberry",
-          "name": "Michael Duberry",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 75,
-          "stats": "Physical center-back struggled to organize crumbling backline"
-        },
-        {
-          "id": "pl-lee-04-bridges",
-          "name": "Michael Bridges",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 74,
-          "stats": "Tragic injury story, Once-great striker made brief appearances from bench"
-        }
-      ]
-    },
-    {
-      "franchise": "Leeds United",
-      "era": "2020–2021 (Marcelo Bielsa 9th Place 59 Pts Return)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-lee-21-raphinha",
           "name": "Raphinha",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 86,
           "stats": "6 Goals, 9 Assists, Pure Brazilian magic, Destabilized Premier League defenses"
+        },
+        {
+          "id": "pl-lee-21-phillips",
+          "name": "Kalvin Phillips",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 84,
+          "stats": "The Yorkshire Pirlo, England Player of the Year, Supreme passing and defensive bite"
         },
         {
           "id": "pl-lee-21-bamford",
@@ -7953,15 +7214,13 @@ export const soccerSport = {
           "stats": "17 Premier League Goals, 7 Assists, England call-up, Elite relentless pressing"
         },
         {
-          "id": "pl-lee-21-phillips",
-          "name": "Kalvin Phillips",
+          "id": "pl-lee-21-meslier",
+          "name": "Illan Meslier",
           "roles": [
-            "CDM",
-            "CM",
-            "MID"
+            "GK"
           ],
-          "rating": 84,
-          "stats": "The Yorkshire Pirlo, England Player of the Year, Supreme passing and defensive bite"
+          "rating": 82,
+          "stats": "21-year-old French goalkeeper kept 11 clean sheets with sensational reflexes"
         },
         {
           "id": "pl-lee-21-dallas",
@@ -7974,20 +7233,10 @@ export const soccerSport = {
           "stats": "8 Goals including famous double with 10 men at Man City, The Cookstown Cafu"
         },
         {
-          "id": "pl-lee-21-meslier",
-          "name": "Illan Meslier",
-          "roles": [
-            "GK"
-          ],
-          "rating": 82,
-          "stats": "21-year-old French goalkeeper kept 11 clean sheets with sensational reflexes"
-        },
-        {
           "id": "pl-lee-21-rodrigo",
           "name": "Rodrigo",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -8008,7 +7257,6 @@ export const soccerSport = {
           "name": "Jack Harrison",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -8019,8 +7267,6 @@ export const soccerSport = {
           "name": "Liam Cooper",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -8031,8 +7277,6 @@ export const soccerSport = {
           "name": "Pascal Struijk",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -8062,7 +7306,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Leicester City",
-      "era": "1999–2000 (Martin O'Neill 8th Place & League Cup)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-lei-00-heskey",
@@ -8089,7 +7333,6 @@ export const soccerSport = {
           "name": "Neil Lennon",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -8100,7 +7343,6 @@ export const soccerSport = {
           "name": "Muzzy Izzet",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -8116,11 +7358,20 @@ export const soccerSport = {
           "stats": "Experienced England goalkeeper kept 11 clean sheets in top flight"
         },
         {
+          "id": "pl-lei-00-taggart",
+          "name": "Gerry Taggart",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Northern Ireland defender formed bruising center-back partnership with Elliott"
+        },
+        {
           "id": "pl-lei-00-savage",
           "name": "Robbie Savage",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -8137,23 +7388,10 @@ export const soccerSport = {
           "stats": "13 Premier League Goals at age 34, Pure predatory penalty box master"
         },
         {
-          "id": "pl-lei-00-taggart",
-          "name": "Gerry Taggart",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 80,
-          "stats": "Northern Ireland defender formed bruising center-back partnership with Elliott"
-        },
-        {
           "id": "pl-lei-00-guppy",
           "name": "Steve Guppy",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -8184,8 +7422,6 @@ export const soccerSport = {
           "name": "Andy Impey",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
@@ -8195,14 +7431,128 @@ export const soccerSport = {
     },
     {
       "franchise": "Leicester City",
-      "era": "2015–2016 (5000–1 Premier League Champions)",
+      "era": "2000s",
+      "players": [
+        {
+          "id": "lei-00-izzet",
+          "name": "Muzzy Izzet",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 84,
+          "stats": "Turkish international maestro who led the Premier League in assists"
+        },
+        {
+          "id": "lei-00-elliott",
+          "name": "Matt Elliott",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 83,
+          "stats": "Dominant aerial colossus, captain and club legend who scored cup final doubles"
+        },
+        {
+          "id": "lei-00-lennon",
+          "name": "Neil Lennon",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 83,
+          "stats": "Tenacious midfield controller whose passing anchored the side"
+        },
+        {
+          "id": "lei-00-walker",
+          "name": "Ian Walker",
+          "roles": [
+            "GK"
+          ],
+          "rating": 82,
+          "stats": "England international goalkeeper who made critical penalty saves"
+        },
+        {
+          "id": "lei-00-savage",
+          "name": "Robbie Savage",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 82,
+          "stats": "Fiery, combative midfield wind-up merchant who never stopped running"
+        },
+        {
+          "id": "lei-00-ferdinand",
+          "name": "Les Ferdinand",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "Premier League 100-goal club legend who led the Foxes attack"
+        },
+        {
+          "id": "lei-00-guppy",
+          "name": "Steve Guppy",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "Traditional winger whose left-footed whipped crosses were deadly"
+        },
+        {
+          "id": "lei-00-sinclair",
+          "name": "Frank Sinclair",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Athletic, physical right-back with great tackling and heart"
+        },
+        {
+          "id": "lei-00-taggart",
+          "name": "Gerry Taggart",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "No-nonsense Northern Ireland international center-back enforcer"
+        },
+        {
+          "id": "lei-00-davidson",
+          "name": "Callum Davidson",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Solid Scottish international fullback with disciplined positioning"
+        },
+        {
+          "id": "lei-00-dickov",
+          "name": "Paul Dickov",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 79,
+          "stats": "Tenacious Scottish forward who chased down every lost cause"
+        }
+      ]
+    },
+    {
+      "franchise": "Leicester City",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-lei-16-kante",
           "name": "N'Golo Kanté",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 92,
@@ -8213,7 +7563,6 @@ export const soccerSport = {
           "name": "Riyad Mahrez",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 90,
@@ -8243,8 +7592,6 @@ export const soccerSport = {
           "name": "Wes Morgan",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 85,
@@ -8255,8 +7602,6 @@ export const soccerSport = {
           "name": "Robert Huth",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 85,
@@ -8287,21 +7632,10 @@ export const soccerSport = {
           "name": "Marc Albrighton",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
           "stats": "Unsung hero winger with relentless work ethic and pinpoint crossing delivery"
-        },
-        {
-          "id": "pl-lei-16-okazaki",
-          "name": "Shinji Okazaki",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 81,
-          "stats": "Japanese forward scored sensational bicycle kick vs Newcastle, Tireless pressing"
         },
         {
           "id": "pl-lei-16-simpson",
@@ -8314,11 +7648,20 @@ export const soccerSport = {
           "stats": "Reliable English right-back formed part of impenetrable back four"
         },
         {
+          "id": "pl-lei-16-okazaki",
+          "name": "Shinji Okazaki",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "Japanese forward scored sensational bicycle kick vs Newcastle, Tireless pressing"
+        },
+        {
           "id": "pl-lei-16-ulloa",
           "name": "Leonardo Ulloa",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -8328,7 +7671,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Leicester City",
-      "era": "2020–2021 (Brendan Rodgers 5th Place & FA Cup Winners)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-lei-21-vardy",
@@ -8339,6 +7682,15 @@ export const soccerSport = {
           ],
           "rating": 87,
           "stats": "15 Premier League Goals, 9 Assists, Continued elite goalscoring and running in behind"
+        },
+        {
+          "id": "pl-lei-21-schmeichel",
+          "name": "Kasper Schmeichel",
+          "roles": [
+            "GK"
+          ],
+          "rating": 86,
+          "stats": "Historic FA Cup winning captain made two miracle saves in Wembley final"
         },
         {
           "id": "pl-lei-21-tielemans",
@@ -8355,7 +7707,6 @@ export const soccerSport = {
           "name": "Wilfred Ndidi",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 86,
@@ -8366,32 +7717,30 @@ export const soccerSport = {
           "name": "James Maddison",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 86,
           "stats": "8 Goals, 7 Assists, England international number 10 with supreme technical quality"
         },
         {
-          "id": "pl-lei-21-schmeichel",
-          "name": "Kasper Schmeichel",
-          "roles": [
-            "GK"
-          ],
-          "rating": 86,
-          "stats": "Historic FA Cup winning captain made two miracle saves in Wembley final"
-        },
-        {
           "id": "pl-lei-21-fofana",
           "name": "Wesley Fofana",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 84,
           "stats": "Breakout 20-year-old French defender was one of the finest in the league"
+        },
+        {
+          "id": "pl-lei-21-evans",
+          "name": "Jonny Evans",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 83,
+          "stats": "Northern Ireland defensive general, Masterful tactical positioning and leadership"
         },
         {
           "id": "pl-lei-21-iheanacho",
@@ -8404,23 +7753,10 @@ export const soccerSport = {
           "stats": "12 Goals in final 14 games, Senior Man on historic scoring tear in spring 2021"
         },
         {
-          "id": "pl-lei-21-evans",
-          "name": "Jonny Evans",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 83,
-          "stats": "Northern Ireland defensive general, Masterful tactical positioning and leadership"
-        },
-        {
           "id": "pl-lei-21-barnes",
           "name": "Harvey Barnes",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
@@ -8431,8 +7767,6 @@ export const soccerSport = {
           "name": "Çağlar Söyüncü",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -8461,148 +7795,14 @@ export const soccerSport = {
       ]
     },
     {
-      "franchise": "Leicester City",
-      "era": "2022–2023 (Shock Relegation 7 Years After Title)",
-      "players": [
-        {
-          "id": "pl-lei-23-maddison",
-          "name": "James Maddison",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 84,
-          "stats": "10 Goals, 9 Assists, Star talisman fought desperately against the drop"
-        },
-        {
-          "id": "pl-lei-23-barnes",
-          "name": "Harvey Barnes",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "13 Premier League Goals, Leicester top scorer from the wing"
-        },
-        {
-          "id": "pl-lei-23-tielemans",
-          "name": "Youri Tielemans",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Belgian midfielder struggled for form and fitness in final contract year"
-        },
-        {
-          "id": "pl-lei-23-vardy",
-          "name": "Jamie Vardy",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "Managed only 3 league goals at age 36, Diminished sprint acceleration"
-        },
-        {
-          "id": "pl-lei-23-dewsburyhall",
-          "name": "Kiernan Dewsbury-Hall",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "Homegrown midfielder showed passion and work rate in troubled midfield"
-        },
-        {
-          "id": "pl-lei-23-pereira",
-          "name": "Ricardo Pereira",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Portuguese international right-back devastated by repeated Achilles/ACL injuries"
-        },
-        {
-          "id": "pl-lei-23-castagne",
-          "name": "Timothy Castagne",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Belgian full-back played 37 matches across crumbling defense"
-        },
-        {
-          "id": "pl-lei-23-iheanacho",
-          "name": "Kelechi Iheanacho",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "5 Goals, 5 Assists, Often underused despite impressive per-minute impact"
-        },
-        {
-          "id": "pl-lei-23-evans",
-          "name": "Jonny Evans",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Veteran captain restricted to just 13 appearances due to persistent injuries"
-        },
-        {
-          "id": "pl-lei-23-faes",
-          "name": "Wout Faes",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Belgian defender scored infamous double own goal at Anfield vs Liverpool"
-        },
-        {
-          "id": "pl-lei-23-tete",
-          "name": "Tetê",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Brazilian winger scored on debut but faded as season spiraled"
-        },
-        {
-          "id": "pl-lei-23-ward",
-          "name": "Danny Ward",
-          "roles": [
-            "GK"
-          ],
-          "rating": 73,
-          "stats": "Welsh goalkeeper struggled after replacing Schmeichel, 68 goals conceded"
-        }
-      ]
-    },
-    {
       "franchise": "Liverpool",
-      "era": "1995–1996 (Roy Evans Spice Boys 3rd Place)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-liv-96-fowler",
           "name": "Robbie Fowler",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 91,
@@ -8613,7 +7813,6 @@ export const soccerSport = {
           "name": "Steve McManaman",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 88,
@@ -8634,7 +7833,6 @@ export const soccerSport = {
           "name": "Jamie Redknapp",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 84,
@@ -8664,8 +7862,6 @@ export const soccerSport = {
           "name": "Mark Wright",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -8686,34 +7882,30 @@ export const soccerSport = {
           "name": "Neil Ruddock",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
           "stats": "Razor, Bruising physical center-back gave strikers a nightmare"
         },
         {
-          "id": "pl-liv-96-mcateer",
-          "name": "Jason McAteer",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "Trigger, Tireless right wing-back delivered dangerous crosses"
-        },
-        {
           "id": "pl-liv-96-thomas",
           "name": "Michael Thomas",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 80,
           "stats": "Title-winning midfielder provided steel in central midfield"
+        },
+        {
+          "id": "pl-liv-96-mcateer",
+          "name": "Jason McAteer",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Trigger, Tireless right wing-back delivered dangerous crosses"
         },
         {
           "id": "pl-liv-96-matteo",
@@ -8729,14 +7921,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Liverpool",
-      "era": "2008–2009 (Rafa Benítez 86 Pts Runners-Up)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-liv-09-gerrard",
           "name": "Steven Gerrard",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 94,
@@ -8767,7 +7958,6 @@ export const soccerSport = {
           "name": "Javier Mascherano",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 89,
@@ -8787,8 +7977,6 @@ export const soccerSport = {
           "name": "Jamie Carragher",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 88,
@@ -8799,7 +7987,6 @@ export const soccerSport = {
           "name": "Dirk Kuyt",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 85,
@@ -8810,8 +7997,6 @@ export const soccerSport = {
           "name": "Martin Škrtel",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 84,
@@ -8842,7 +8027,6 @@ export const soccerSport = {
           "name": "Yossi Benayoun",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
@@ -8853,7 +8037,6 @@ export const soccerSport = {
           "name": "Albert Riera",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 81,
@@ -8863,296 +8046,17 @@ export const soccerSport = {
     },
     {
       "franchise": "Liverpool",
-      "era": "2011–2012 (Kenny Dalglish 8th Place Banter)",
-      "players": [
-        {
-          "id": "pl-liv-12-suarez",
-          "name": "Luis Suárez",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 85,
-          "stats": "11 Premier League Goals, Glimpses of genius overshadowed by ban and team struggles"
-        },
-        {
-          "id": "pl-liv-12-gerrard",
-          "name": "Steven Gerrard",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 84,
-          "stats": "Injuries limited talisman to 18 league games, scored hat-trick vs Everton"
-        },
-        {
-          "id": "pl-liv-12-reina",
-          "name": "Pepe Reina",
-          "roles": [
-            "GK"
-          ],
-          "rating": 83,
-          "stats": "Experienced Spanish goalkeeper kept 12 clean sheets in transitional season"
-        },
-        {
-          "id": "pl-liv-12-lucas",
-          "name": "Lucas Leiva",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 82,
-          "stats": "Cruciate ligament injury in December derailed Liverpool's entire league season"
-        },
-        {
-          "id": "pl-liv-12-skrtel",
-          "name": "Martin Škrtel",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 81,
-          "stats": "Liverpool Player of the Year, Solid center-back scored 2 league goals"
-        },
-        {
-          "id": "pl-liv-12-agger",
-          "name": "Daniel Agger",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 81,
-          "stats": "Elegant Danish center-back read the game with trademark class"
-        },
-        {
-          "id": "pl-liv-12-johnson",
-          "name": "Glen Johnson",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 80,
-          "stats": "England right-back scored spectacular solo winner at Stamford Bridge"
-        },
-        {
-          "id": "pl-liv-12-carroll",
-          "name": "Andy Carroll",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "£35m record signing managed just 4 league goals, scored FA Cup semi winner"
-        },
-        {
-          "id": "pl-liv-12-enrique",
-          "name": "José Enrique",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "Spanish left-back brought powerful overlapping runs and pace"
-        },
-        {
-          "id": "pl-liv-12-downing",
-          "name": "Stewart Downing",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "£20m signing hit woodwork multiple times, 0 goals and 0 assists in league"
-        },
-        {
-          "id": "pl-liv-12-adam",
-          "name": "Charlie Adam",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "Signed from Blackpool, Hit 2 league goals but missed decisive penalty in shootout"
-        },
-        {
-          "id": "pl-liv-12-henderson",
-          "name": "Jordan Henderson",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "21-year-old debut season, Deployed out of position on the right wing"
-        }
-      ]
-    },
-    {
-      "franchise": "Liverpool",
-      "era": "2013–2014 (Brendan Rodgers 101 Goals SAS Title Chase)",
-      "players": [
-        {
-          "id": "pl-liv-14-suarez",
-          "name": "Luis Suárez",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 96,
-          "stats": "31 Goals in 33 games (no penalties), PFA & FWA Player of the Year, Golden Shoe"
-        },
-        {
-          "id": "pl-liv-14-gerrard",
-          "name": "Steven Gerrard",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 89,
-          "stats": "13 Goals, 13 Assists, Reinvented as deep-lying quarterback, Heartbreaking slip"
-        },
-        {
-          "id": "pl-liv-14-sturridge",
-          "name": "Daniel Sturridge",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 89,
-          "stats": "21 Premier League Goals, Lethal partner to Suárez in devastating SAS duo"
-        },
-        {
-          "id": "pl-liv-14-sterling",
-          "name": "Raheem Sterling",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 87,
-          "stats": "9 Goals, 5 Assists, 19-year-old electric wonderkid at tip of midfield diamond"
-        },
-        {
-          "id": "pl-liv-14-coutinho",
-          "name": "Philippe Coutinho",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 86,
-          "stats": "5 Goals, 7 Assists, Little Magician scored famous winner vs Man City"
-        },
-        {
-          "id": "pl-liv-14-henderson",
-          "name": "Jordan Henderson",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 84,
-          "stats": "The pressing heartbeat of the team, Red card vs Man City proved fatal"
-        },
-        {
-          "id": "pl-liv-14-skrtel",
-          "name": "Martin Škrtel",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 83,
-          "stats": "7 Goals from set-pieces (and 4 own goals), Eventful season at center-back"
-        },
-        {
-          "id": "pl-liv-14-agger",
-          "name": "Daniel Agger",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 83,
-          "stats": "Danish vice-captain provided calm defending in attack-heavy lineup"
-        },
-        {
-          "id": "pl-liv-14-johnson",
-          "name": "Glen Johnson",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 82,
-          "stats": "Attacking English right-back provided width in Rodgers' diamond"
-        },
-        {
-          "id": "pl-liv-14-mignolet",
-          "name": "Simon Mignolet",
-          "roles": [
-            "GK"
-          ],
-          "rating": 82,
-          "stats": "Belgian goalkeeper saved penalty on debut vs Stoke, 10 clean sheets"
-        },
-        {
-          "id": "pl-liv-14-lucas",
-          "name": "Lucas Leiva",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 81,
-          "stats": "Disciplined Brazilian midfielder protected the open defense"
-        },
-        {
-          "id": "pl-liv-14-flanagan",
-          "name": "Jon Flanagan",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "Red Cafu, Local scouser stepped up at left-back, scored vs Tottenham"
-        }
-      ]
-    },
-    {
-      "franchise": "Liverpool",
-      "era": "2019–2020 (Premier League Champions 99 Pts)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-liv-20-salah",
           "name": "Mohamed Salah",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 93,
           "stats": "19 Goals, 10 Assists, Egyptian King powered Liverpool to first title in 30 years"
-        },
-        {
-          "id": "pl-liv-20-vandijk",
-          "name": "Virgil van Dijk",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 92,
-          "stats": "Played every single minute of the title season, The world's finest center-back"
         },
         {
           "id": "pl-liv-20-alisson",
@@ -9164,11 +8068,20 @@ export const soccerSport = {
           "stats": "World-class Brazilian goalkeeper, 13 clean sheets in 29 games, Assisted Salah vs United"
         },
         {
+          "id": "pl-liv-20-vandijk",
+          "name": "Virgil van Dijk",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 92,
+          "stats": "Played every single minute of the title season, The world's finest center-back"
+        },
+        {
           "id": "pl-liv-20-mane",
           "name": "Sadio Mané",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 91,
@@ -9199,11 +8112,20 @@ export const soccerSport = {
           "name": "Jordan Henderson",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 88,
           "stats": "FWA Footballer of the Year, Captain lifted Premier League trophy with tippy-taps"
+        },
+        {
+          "id": "pl-liv-20-fabinho",
+          "name": "Fabinho",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 88,
+          "stats": "The Lighthouse, Screamer vs Man City, Destroyed opposition counter-attacks"
         },
         {
           "id": "pl-liv-20-firmino",
@@ -9216,22 +8138,10 @@ export const soccerSport = {
           "stats": "9 Goals, 8 Assists, The defensive striker and press-trigger maestro"
         },
         {
-          "id": "pl-liv-20-fabinho",
-          "name": "Fabinho",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 88,
-          "stats": "The Lighthouse, Screamer vs Man City, Destroyed opposition counter-attacks"
-        },
-        {
           "id": "pl-liv-20-wijnaldum",
           "name": "Georginio Wijnaldum",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 86,
@@ -9242,8 +8152,6 @@ export const soccerSport = {
           "name": "Joe Gomez",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 85,
@@ -9262,8 +8170,123 @@ export const soccerSport = {
       ]
     },
     {
+      "franchise": "Liverpool",
+      "era": "2020s",
+      "players": [
+        {
+          "id": "liv-20-vandijk",
+          "name": "Virgil van Dijk",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 94,
+          "stats": "Colossal Dutch captain, effortless aerial dominance and defensive leadership"
+        },
+        {
+          "id": "liv-20-salah",
+          "name": "Mohamed Salah",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 94,
+          "stats": "Relentless goal machine, consistently delivering 20+ goals and 10+ assists"
+        },
+        {
+          "id": "liv-20-alisson",
+          "name": "Alisson Becker",
+          "roles": [
+            "GK"
+          ],
+          "rating": 93,
+          "stats": "World-class Brazilian goalkeeper, unmatched 1-on-1 shot-stopping ability"
+        },
+        {
+          "id": "liv-20-trent",
+          "name": "Trent Alexander-Arnold",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 89,
+          "stats": "Generational passing range and set-piece delivery from fullback"
+        },
+        {
+          "id": "liv-20-robertson",
+          "name": "Andrew Robertson",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 88,
+          "stats": "Relentless Scottish workhorse with lethal overlapping crosses"
+        },
+        {
+          "id": "liv-20-macallister",
+          "name": "Alexis Mac Allister",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 88,
+          "stats": "World Cup winner with sublime tactical vision and composure under pressure"
+        },
+        {
+          "id": "liv-20-diaz",
+          "name": "Luis Diaz",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 87,
+          "stats": "Electric Colombian winger with dazzling dribbling skills and work rate"
+        },
+        {
+          "id": "liv-20-konate",
+          "name": "Ibrahima Konate",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 86,
+          "stats": "Physical monster with rapid recovery pace and aerial command"
+        },
+        {
+          "id": "liv-20-szoboszlai",
+          "name": "Dominik Szoboszlai",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 86,
+          "stats": "Hungarian captain with thunderbolt shooting technique and boundless stamina"
+        },
+        {
+          "id": "liv-20-nunez",
+          "name": "Darwin Nunez",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 85,
+          "stats": "Chaotic attacking powerhouse who creates chances out of nowhere"
+        },
+        {
+          "id": "liv-20-endo",
+          "name": "Wataru Endo",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 83,
+          "stats": "Japanese midfield warrior with exceptional tackling and ball-winning grit"
+        }
+      ]
+    },
+    {
       "franchise": "Luton Town",
-      "era": "2023–2024 (Only Premier League Season Brave Fight)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-lut-24-barkley",
@@ -9329,8 +8352,6 @@ export const soccerSport = {
           "name": "Teden Mengi",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
@@ -9341,7 +8362,6 @@ export const soccerSport = {
           "name": "Marvelous Nakamba",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -9352,8 +8372,6 @@ export const soccerSport = {
           "name": "Gabriel Osho",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 77,
@@ -9374,7 +8392,6 @@ export const soccerSport = {
           "name": "Tahith Chong",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 77,
@@ -9385,8 +8402,6 @@ export const soccerSport = {
           "name": "Amari'i Bell",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
@@ -9396,7 +8411,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Manchester City",
-      "era": "1992–1993 (Peter Reid 9th Place Finish)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-mci-93-coton",
@@ -9418,38 +8433,24 @@ export const soccerSport = {
           "stats": "10 Premier League Goals, Beloved 6ft 4in Irish giant target man"
         },
         {
-          "id": "pl-mci-93-white",
-          "name": "David White",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 81,
-          "stats": "16 Premier League Goals including four against Aston Villa, Electric winger"
-        },
-        {
           "id": "pl-mci-93-curle",
           "name": "Keith Curle",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
           "stats": "City captain and England international center-back with ice-cool penalty record"
         },
         {
-          "id": "pl-mci-93-mcmahon",
-          "name": "Steve McMahon",
+          "id": "pl-mci-93-white",
+          "name": "David White",
           "roles": [
-            "CDM",
-            "CM",
-            "MID"
+            "RW",
+            "ATT"
           ],
-          "rating": 80,
-          "stats": "Former Liverpool midfield warrior brought steel, leadership and ferocious tackling"
+          "rating": 81,
+          "stats": "16 Premier League Goals including four against Aston Villa, Electric winger"
         },
         {
           "id": "pl-mci-93-phelan",
@@ -9462,14 +8463,14 @@ export const soccerSport = {
           "stats": "Irish international left-back with blistering pace and direct attacking runs"
         },
         {
-          "id": "pl-mci-93-sheron",
-          "name": "Mike Sheron",
+          "id": "pl-mci-93-mcmahon",
+          "name": "Steve McMahon",
           "roles": [
-            "ST",
-            "ATT"
+            "CDM",
+            "MID"
           ],
-          "rating": 78,
-          "stats": "14 Premier League Goals, Clinical young forward formed sharp strike duo with Quinn"
+          "rating": 80,
+          "stats": "Former Liverpool midfield warrior brought steel, leadership and ferocious tackling"
         },
         {
           "id": "pl-mci-93-flitcroft",
@@ -9486,11 +8487,20 @@ export const soccerSport = {
           "name": "Peter Reid",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 78,
           "stats": "Player-manager provided veteran midfield grit and tactical leadership"
+        },
+        {
+          "id": "pl-mci-93-sheron",
+          "name": "Mike Sheron",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "14 Premier League Goals, Clinical young forward formed sharp strike duo with Quinn"
         },
         {
           "id": "pl-mci-93-brightwell",
@@ -9507,8 +8517,6 @@ export const soccerSport = {
           "name": "Andy Hill",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
@@ -9519,7 +8527,6 @@ export const soccerSport = {
           "name": "Rick Holden",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -9529,25 +8536,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Manchester City",
-      "era": "2006–2007 (Stuart Pearce 10 Home Goals Banter)",
+      "era": "2000s",
       "players": [
-        {
-          "id": "pl-mci-07-barton",
-          "name": "Joey Barton",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "6 Goals, Top scorer and Player of the Year, Volatile midfield engine"
-        },
         {
           "id": "pl-mci-07-dunne",
           "name": "Richard Dunne",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -9558,12 +8553,20 @@ export const soccerSport = {
           "name": "Sylvain Distin",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
           "stats": "French athletic center-back partnered Dunne before moving to Portsmouth"
+        },
+        {
+          "id": "pl-mci-07-barton",
+          "name": "Joey Barton",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "6 Goals, Top scorer and Player of the Year, Volatile midfield engine"
         },
         {
           "id": "pl-mci-07-isaksson",
@@ -9589,7 +8592,6 @@ export const soccerSport = {
           "name": "Stephen Ireland",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 77,
@@ -9600,7 +8602,6 @@ export const soccerSport = {
           "name": "Dietmar Hamann",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 77,
@@ -9611,7 +8612,6 @@ export const soccerSport = {
           "name": "Trevor Sinclair",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -9628,17 +8628,6 @@ export const soccerSport = {
           "stats": "Greek striker managed only 4 league goals as City scored just 10 at home all year"
         },
         {
-          "id": "pl-mci-07-dickov",
-          "name": "Paul Dickov",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 74,
-          "stats": "Club hero returned to City, 0 league goals in 9 starts"
-        },
-        {
           "id": "pl-mci-07-thatcher",
           "name": "Ben Thatcher",
           "roles": [
@@ -9647,6 +8636,16 @@ export const soccerSport = {
           ],
           "rating": 74,
           "stats": "Aggressive left-back served 6-match ban after infamous elbow on Pedro Mendes"
+        },
+        {
+          "id": "pl-mci-07-dickov",
+          "name": "Paul Dickov",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 74,
+          "stats": "Club hero returned to City, 0 league goals in 9 starts"
         },
         {
           "id": "pl-mci-07-corradi",
@@ -9662,148 +8661,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Manchester City",
-      "era": "2011–2012 (Roberto Mancini 93:20 Inaugural Title)",
-      "players": [
-        {
-          "id": "pl-mci-12-aguero",
-          "name": "Sergio Agüero",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 93,
-          "stats": "23 Goals, 'AGÜEROOOOO!' 93:20 greatest moment in Premier League history"
-        },
-        {
-          "id": "pl-mci-12-kompany",
-          "name": "Vincent Kompany",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 92,
-          "stats": "Premier League Player of the Season, Captain scored legendary header vs United"
-        },
-        {
-          "id": "pl-mci-12-toure",
-          "name": "Yaya Touré",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 91,
-          "stats": "Midfield colossus scored brace at Newcastle to put City on brink of title"
-        },
-        {
-          "id": "pl-mci-12-silva",
-          "name": "David Silva",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 90,
-          "stats": "15 Premier League Assists, El Mago, Volley pass assist in 6-1 derby at Old Trafford"
-        },
-        {
-          "id": "pl-mci-12-hart",
-          "name": "Joe Hart",
-          "roles": [
-            "GK"
-          ],
-          "rating": 89,
-          "stats": "Premier League Golden Glove winner with 17 clean sheets"
-        },
-        {
-          "id": "pl-mci-12-dzeko",
-          "name": "Edin Džeko",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 86,
-          "stats": "14 Goals including 92nd-minute equalizer vs QPR and four goals at Tottenham"
-        },
-        {
-          "id": "pl-mci-12-zabaleta",
-          "name": "Pablo Zabaleta",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 86,
-          "stats": "City warrior scored opening goal on final day, Bleed blue folk hero"
-        },
-        {
-          "id": "pl-mci-12-lescott",
-          "name": "Joleon Lescott",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 85,
-          "stats": "Formed league's best defense with Kompany (only 29 goals conceded)"
-        },
-        {
-          "id": "pl-mci-12-balotelli",
-          "name": "Mario Balotelli",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 85,
-          "stats": "13 Goals, 'Why Always Me?' tee in 6-1 derby, Provided sole assist to Agüero"
-        },
-        {
-          "id": "pl-mci-12-barry",
-          "name": "Gareth Barry",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 84,
-          "stats": "The unheralded midfield stabilizer in Mancini's title-winning machine"
-        },
-        {
-          "id": "pl-mci-12-clichy",
-          "name": "Gaël Clichy",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 84,
-          "stats": "French left-back displaced Kolarov with energetic overlapping and defense"
-        },
-        {
-          "id": "pl-mci-12-milner",
-          "name": "James Milner",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 83,
-          "stats": "Tireless worker made 26 league appearances in title run"
-        }
-      ]
-    },
-    {
-      "franchise": "Manchester City",
-      "era": "2017–2018 (Centurions 100 Pts Record Season)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-mci-18-debruyne",
           "name": "Kevin De Bruyne",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 95,
@@ -9814,7 +8678,6 @@ export const soccerSport = {
           "name": "David Silva",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 92,
@@ -9831,11 +8694,29 @@ export const soccerSport = {
           "stats": "21 Premier League Goals in 25 games, Clinical penalty box legend"
         },
         {
+          "id": "pl-mci-18-ederson",
+          "name": "Ederson",
+          "roles": [
+            "GK"
+          ],
+          "rating": 89,
+          "stats": "Revolutionized modern goalkeeping with 70-yard laser passes, 16 clean sheets"
+        },
+        {
+          "id": "pl-mci-18-fernandinho",
+          "name": "Fernandinho",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 89,
+          "stats": "The tactical anchor of Guardiola's system, Stopped every transition"
+        },
+        {
           "id": "pl-mci-18-sterling",
           "name": "Raheem Sterling",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 89,
@@ -9846,31 +8727,10 @@ export const soccerSport = {
           "name": "Leroy Sané",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 89,
           "stats": "10 Goals, 15 Assists, PFA Young Player of the Year, Blistering German winger"
-        },
-        {
-          "id": "pl-mci-18-fernandinho",
-          "name": "Fernandinho",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 89,
-          "stats": "The tactical anchor of Guardiola's system, Stopped every transition"
-        },
-        {
-          "id": "pl-mci-18-ederson",
-          "name": "Ederson",
-          "roles": [
-            "GK"
-          ],
-          "rating": 89,
-          "stats": "Revolutionized modern goalkeeping with 70-yard laser passes, 16 clean sheets"
         },
         {
           "id": "pl-mci-18-walker",
@@ -9887,8 +8747,6 @@ export const soccerSport = {
           "name": "Vincent Kompany",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 88,
@@ -9899,8 +8757,6 @@ export const soccerSport = {
           "name": "Nicolás Otamendi",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 86,
@@ -9930,7 +8786,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Manchester City",
-      "era": "2022–2023 (Historic Treble Champions)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-mci-23-haaland",
@@ -9947,7 +8803,6 @@ export const soccerSport = {
           "name": "Kevin De Bruyne",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 94,
@@ -9958,7 +8813,6 @@ export const soccerSport = {
           "name": "Rodri",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 91,
@@ -9969,8 +8823,6 @@ export const soccerSport = {
           "name": "Rúben Dias",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 90,
@@ -9981,19 +8833,25 @@ export const soccerSport = {
           "name": "Bernardo Silva",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 90,
           "stats": "Clown-car stamina, Press-resistant genius operating across wing and midfield"
         },
         {
+          "id": "pl-mci-23-ederson",
+          "name": "Ederson",
+          "roles": [
+            "GK"
+          ],
+          "rating": 89,
+          "stats": "Treble-winning goalkeeper, Unflappable sweeping and pinpoint distribution"
+        },
+        {
           "id": "pl-mci-23-stones",
           "name": "John Stones",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 89,
@@ -10010,26 +8868,6 @@ export const soccerSport = {
           "stats": "8 Goals, Captain clutch scored vital late-season braces vs Everton & Leeds"
         },
         {
-          "id": "pl-mci-23-ederson",
-          "name": "Ederson",
-          "roles": [
-            "GK"
-          ],
-          "rating": 89,
-          "stats": "Treble-winning goalkeeper, Unflappable sweeping and pinpoint distribution"
-        },
-        {
-          "id": "pl-mci-23-grealish",
-          "name": "Jack Grealish",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 88,
-          "stats": "5 Goals, 7 Assists, Essential tactical cog, Controlled game tempo on left"
-        },
-        {
           "id": "pl-mci-23-walker",
           "name": "Kyle Walker",
           "roles": [
@@ -10040,11 +8878,20 @@ export const soccerSport = {
           "stats": "Sprint machine, Neutralized Europe's fastest wingers in title run-in"
         },
         {
+          "id": "pl-mci-23-grealish",
+          "name": "Jack Grealish",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 88,
+          "stats": "5 Goals, 7 Assists, Essential tactical cog, Controlled game tempo on left"
+        },
+        {
           "id": "pl-mci-23-foden",
           "name": "Phil Foden",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 87,
@@ -10064,153 +8911,8 @@ export const soccerSport = {
     },
     {
       "franchise": "Manchester United",
-      "era": "1993–1994 (Inaugural Double & King Eric)",
+      "era": "1990s",
       "players": [
-        {
-          "id": "pl-mun-94-cantona",
-          "name": "Eric Cantona",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 95,
-          "stats": "18 Goals, 12 Assists, PFA Players' Player of the Year, King of Old Trafford"
-        },
-        {
-          "id": "pl-mun-94-schmeichel",
-          "name": "Peter Schmeichel",
-          "roles": [
-            "GK"
-          ],
-          "rating": 92,
-          "stats": "Great Dane, 15 clean sheets, Imposing star-jump saves"
-        },
-        {
-          "id": "pl-mun-94-giggs",
-          "name": "Ryan Giggs",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 91,
-          "stats": "Electric young Welsh winger with devastating acceleration and 13 league goals"
-        },
-        {
-          "id": "pl-mun-94-keane",
-          "name": "Roy Keane",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 89,
-          "stats": "£3.75m British record signing from Forest, Dynamic box-to-box midfield engine"
-        },
-        {
-          "id": "pl-mun-94-hughes",
-          "name": "Mark Hughes",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 88,
-          "stats": "Sparky, 12 Premier League Goals, Iconic volley specialist and physical target man"
-        },
-        {
-          "id": "pl-mun-94-ince",
-          "name": "Paul Ince",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 88,
-          "stats": "The Guv'nor, Dominant box-to-box general alongside Keane"
-        },
-        {
-          "id": "pl-mun-94-bruce",
-          "name": "Steve Bruce",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 88,
-          "stats": "Inspirational captain, Courageous defending and leader of backline"
-        },
-        {
-          "id": "pl-mun-94-pallister",
-          "name": "Gary Pallister",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 88,
-          "stats": "Pally, Elegant center-back with speed to complement Bruce's toughness"
-        },
-        {
-          "id": "pl-mun-94-irwin",
-          "name": "Denis Irwin",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 88,
-          "stats": "Ferguson: 'Eight out of ten every single week', Both-footed set-piece master"
-        },
-        {
-          "id": "pl-mun-94-kanchelskis",
-          "name": "Andrei Kanchelskis",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 87,
-          "stats": "6 Goals, Blistering Russian winger tore left-backs to shreds"
-        },
-        {
-          "id": "pl-mun-94-parker",
-          "name": "Paul Parker",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 84,
-          "stats": "Tenacious England international right-back started 40 league matches"
-        },
-        {
-          "id": "pl-mun-94-sharpe",
-          "name": "Lee Sharpe",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 84,
-          "stats": "9 Goals, Flamboyant winger famous for the Sharpey Shuffle"
-        }
-      ]
-    },
-    {
-      "franchise": "Manchester United",
-      "era": "1998–1999 (The Treble Champions)",
-      "players": [
-        {
-          "id": "pl-mun-99-keane",
-          "name": "Roy Keane",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 93,
-          "stats": "Inspirational captain, Ferocious competitor and standard-setter of the Treble"
-        },
         {
           "id": "pl-mun-99-schmeichel",
           "name": "Peter Schmeichel",
@@ -10221,12 +8923,20 @@ export const soccerSport = {
           "stats": "Legendary goalkeeper lifted Treble in final season with iconic cartwheels"
         },
         {
+          "id": "pl-mun-99-keane",
+          "name": "Roy Keane",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 93,
+          "stats": "Inspirational captain, Ferocious competitor and standard-setter of the Treble"
+        },
+        {
           "id": "pl-mun-99-stam",
           "name": "Jaap Stam",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 92,
@@ -10237,22 +8947,10 @@ export const soccerSport = {
           "name": "David Beckham",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 92,
           "stats": "Ballon d'Or runner-up, 6 Goals, 11 Assists, World-class crossing delivery"
-        },
-        {
-          "id": "pl-mun-99-giggs",
-          "name": "Ryan Giggs",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 90,
-          "stats": "Welsh wizard, Sublime solo runs and electric wing play"
         },
         {
           "id": "pl-mun-99-scholes",
@@ -10265,15 +8963,14 @@ export const soccerSport = {
           "stats": "6 Goals, Pinpoint long-range passing and lethal late penalty box arrivals"
         },
         {
-          "id": "pl-mun-99-yorke",
-          "name": "Dwight Yorke",
+          "id": "pl-mun-99-giggs",
+          "name": "Ryan Giggs",
           "roles": [
-            "RW",
-            "WING",
+            "LW",
             "ATT"
           ],
-          "rating": 89,
-          "stats": "18 Premier League Goals, Premier League Player of the Season, Golden Boot"
+          "rating": 90,
+          "stats": "Welsh wizard, Sublime solo runs and electric wing play"
         },
         {
           "id": "pl-mun-99-irwin",
@@ -10286,14 +8983,14 @@ export const soccerSport = {
           "stats": "Ice-cool penalty taker, Flawless full-back consistency"
         },
         {
-          "id": "pl-mun-99-cole",
-          "name": "Andy Cole",
+          "id": "pl-mun-99-yorke",
+          "name": "Dwight Yorke",
           "roles": [
-            "ST",
+            "RW",
             "ATT"
           ],
-          "rating": 88,
-          "stats": "17 Goals, Telepathic telecommunication strikeforce with Dwight Yorke"
+          "rating": 89,
+          "stats": "18 Premier League Goals, Premier League Player of the Season, Golden Boot"
         },
         {
           "id": "pl-mun-99-neville-g",
@@ -10306,11 +9003,20 @@ export const soccerSport = {
           "stats": "England right-back, Telepathic overlapping partnership with Beckham"
         },
         {
+          "id": "pl-mun-99-cole",
+          "name": "Andy Cole",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 88,
+          "stats": "17 Goals, Telepathic telecommunication strikeforce with Dwight Yorke"
+        },
+        {
           "id": "pl-mun-99-solskjaer",
           "name": "Ole Gunnar Solskjær",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 86,
@@ -10321,8 +9027,6 @@ export const soccerSport = {
           "name": "Ronny Johnsen",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 85,
@@ -10332,14 +9036,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Manchester United",
-      "era": "2007–2008 (Double: Ronaldo Ballon d'Or & UCL)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-mun-08-ronaldo",
           "name": "Cristiano Ronaldo",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 97,
@@ -10350,8 +9053,6 @@ export const soccerSport = {
           "name": "Nemanja Vidić",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 92,
@@ -10362,8 +9063,6 @@ export const soccerSport = {
           "name": "Rio Ferdinand",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 92,
@@ -10389,17 +9088,6 @@ export const soccerSport = {
           "stats": "Dutch wall kept 15 clean sheets, Heroic penalty save in Moscow final"
         },
         {
-          "id": "pl-mun-08-tevez",
-          "name": "Carlos Tevez",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 89,
-          "stats": "14 Premier League Goals, Bulldog-like tenacity completed lethal front three"
-        },
-        {
           "id": "pl-mun-08-evra",
           "name": "Patrice Evra",
           "roles": [
@@ -10420,11 +9108,20 @@ export const soccerSport = {
           "stats": "Midfield orchestrator dictated Premier League and Champions League tempo"
         },
         {
+          "id": "pl-mun-08-tevez",
+          "name": "Carlos Tevez",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 89,
+          "stats": "14 Premier League Goals, Bulldog-like tenacity completed lethal front three"
+        },
+        {
           "id": "pl-mun-08-carrick",
           "name": "Michael Carrick",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 87,
@@ -10435,7 +9132,6 @@ export const soccerSport = {
           "name": "Ryan Giggs",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 87,
@@ -10456,7 +9152,6 @@ export const soccerSport = {
           "name": "Nani",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 84,
@@ -10466,7 +9161,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Manchester United",
-      "era": "2012–2013 (Sir Alex Ferguson Final Title #20)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-mun-13-vanpersie",
@@ -10489,17 +9184,6 @@ export const soccerSport = {
           "stats": "12 Goals, 10 Assists, Provided stunning 60-yard assist for Van Persie's volley"
         },
         {
-          "id": "pl-mun-13-carrick",
-          "name": "Michael Carrick",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 88,
-          "stats": "United Players' Player of the Year, Masterclass in holding midfield control"
-        },
-        {
           "id": "pl-mun-13-degea",
           "name": "David de Gea",
           "roles": [
@@ -10509,12 +9193,20 @@ export const soccerSport = {
           "stats": "PFA Team of the Year goalkeeper, Miraculous reflex saves silenced early critics"
         },
         {
+          "id": "pl-mun-13-carrick",
+          "name": "Michael Carrick",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 88,
+          "stats": "United Players' Player of the Year, Masterclass in holding midfield control"
+        },
+        {
           "id": "pl-mun-13-ferdinand",
           "name": "Rio Ferdinand",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 86,
@@ -10525,8 +9217,6 @@ export const soccerSport = {
           "name": "Nemanja Vidić",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 86,
@@ -10547,7 +9237,6 @@ export const soccerSport = {
           "name": "Javier Hernández",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
@@ -10568,7 +9257,6 @@ export const soccerSport = {
           "name": "Shinji Kagawa",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 82,
@@ -10579,7 +9267,6 @@ export const soccerSport = {
           "name": "Danny Welbeck",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -10599,19 +9286,8 @@ export const soccerSport = {
     },
     {
       "franchise": "Manchester United",
-      "era": "2021–2022 (Rangnick & Solskjær 58 Pts Banter)",
+      "era": "2020s",
       "players": [
-        {
-          "id": "pl-mun-22-fernandes",
-          "name": "Bruno Fernandes",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 84,
-          "stats": "10 Goals, 6 Assists, Created chances but struggled in chaotic tactical structure"
-        },
         {
           "id": "pl-mun-22-degea",
           "name": "David de Gea",
@@ -10620,6 +9296,16 @@ export const soccerSport = {
           ],
           "rating": 84,
           "stats": "Sir Matt Busby Player of the Year, Sensational reflex saves prevented catastrophe"
+        },
+        {
+          "id": "pl-mun-22-fernandes",
+          "name": "Bruno Fernandes",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 84,
+          "stats": "10 Goals, 6 Assists, Created chances but struggled in chaotic tactical structure"
         },
         {
           "id": "pl-mun-22-ronaldo",
@@ -10636,8 +9322,6 @@ export const soccerSport = {
           "name": "Raphaël Varane",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -10664,22 +9348,10 @@ export const soccerSport = {
           "stats": "Struggled for consistency after heroic Euro 2020 campaign"
         },
         {
-          "id": "pl-mun-22-rashford",
-          "name": "Marcus Rashford",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "4 Premier League Goals, Deep crisis of confidence and form"
-        },
-        {
           "id": "pl-mun-22-fred",
           "name": "Fred",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 79,
@@ -10690,18 +9362,26 @@ export const soccerSport = {
           "name": "Scott McTominay",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 79,
           "stats": "Combative Scottish midfielder fought in overrun McFred midfield pivot"
         },
         {
+          "id": "pl-mun-22-rashford",
+          "name": "Marcus Rashford",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 79,
+          "stats": "4 Premier League Goals, Deep crisis of confidence and form"
+        },
+        {
           "id": "pl-mun-22-sancho",
           "name": "Jadon Sancho",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
@@ -10722,8 +9402,6 @@ export const soccerSport = {
           "name": "Harry Maguire",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -10733,14 +9411,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Middlesbrough",
-      "era": "1996–1997 (Bryan Robson: Juninho, Ravanelli & Relegation)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-mid-97-juninho",
           "name": "Juninho Paulista",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 88,
@@ -10751,7 +9428,6 @@ export const soccerSport = {
           "name": "Fabrizio Ravanelli",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 86,
@@ -10762,7 +9438,6 @@ export const soccerSport = {
           "name": "Emerson",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 82,
@@ -10782,8 +9457,6 @@ export const soccerSport = {
           "name": "Nigel Pearson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -10800,6 +9473,16 @@ export const soccerSport = {
           "stats": "Tireless midfield workhorse provided balance for Juninho and Emerson"
         },
         {
+          "id": "pl-mid-97-whyte",
+          "name": "Derek Whyte",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 77,
+          "stats": "Scottish international center-back featured in 21 appearances"
+        },
+        {
           "id": "pl-mid-97-beck",
           "name": "Mikkel Beck",
           "roles": [
@@ -10808,18 +9491,6 @@ export const soccerSport = {
           ],
           "rating": 77,
           "stats": "Danish international striker scored 5 league goals as strike partner"
-        },
-        {
-          "id": "pl-mid-97-whyte",
-          "name": "Derek Whyte",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Scottish international center-back featured in 21 appearances"
         },
         {
           "id": "pl-mid-97-fleming",
@@ -10836,8 +9507,6 @@ export const soccerSport = {
           "name": "Steve Vickers",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
@@ -10848,7 +9517,6 @@ export const soccerSport = {
           "name": "Craig Hignett",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -10868,7 +9536,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Middlesbrough",
-      "era": "2005–2006 (Steve McClaren UEFA Cup Final & 14th)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-mid-06-viduka",
@@ -10904,8 +9572,6 @@ export const soccerSport = {
           "name": "Gareth Southgate",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -10916,7 +9582,6 @@ export const soccerSport = {
           "name": "George Boateng",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 82,
@@ -10927,7 +9592,6 @@ export const soccerSport = {
           "name": "Jimmy Floyd Hasselbaink",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
@@ -10938,34 +9602,30 @@ export const soccerSport = {
           "name": "Stewart Downing",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
           "stats": "Local hero winger with magical left foot, created dozens of chances"
         },
         {
-          "id": "pl-mid-06-mendieta",
-          "name": "Gaizka Mendieta",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 81,
-          "stats": "Spanish maestro brought European passing class to the Riverside"
-        },
-        {
           "id": "pl-mid-06-ehiogu",
           "name": "Ugo Ehiogu",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
           "stats": "Towering English center-back partnered Southgate with physical presence"
+        },
+        {
+          "id": "pl-mid-06-mendieta",
+          "name": "Gaizka Mendieta",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Spanish maestro brought European passing class to the Riverside"
         },
         {
           "id": "pl-mid-06-queudrue",
@@ -11000,8 +9660,123 @@ export const soccerSport = {
       ]
     },
     {
+      "franchise": "Middlesbrough",
+      "era": "2010s",
+      "players": [
+        {
+          "id": "mid-10-valdes",
+          "name": "Victor Valdes",
+          "roles": [
+            "GK"
+          ],
+          "rating": 82,
+          "stats": "3x Champions League winner who brought world-class experience in goal"
+        },
+        {
+          "id": "mid-10-gibson",
+          "name": "Ben Gibson",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 82,
+          "stats": "Homegrown captain and stalwart central defender who earned England call-up"
+        },
+        {
+          "id": "mid-10-traore",
+          "name": "Adama Traore",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "Fastest player in the league, unmatched explosive dribbling and power"
+        },
+        {
+          "id": "mid-10-negredo",
+          "name": "Alvaro Negredo",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "'The Beast', Premier League title winner who led Boro with 9 goals"
+        },
+        {
+          "id": "mid-10-deroon",
+          "name": "Marten de Roon",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Dutch international holding midfielder with tireless running and tackling"
+        },
+        {
+          "id": "mid-10-ramirez",
+          "name": "Gaston Ramirez",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Uruguayan playmaker who provided technical brilliance and match-winners"
+        },
+        {
+          "id": "mid-10-chambers",
+          "name": "Calum Chambers",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Classy on-loan Arsenal defender who formed an excellent backline"
+        },
+        {
+          "id": "mid-10-clayton",
+          "name": "Adam Clayton",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Tactically disciplined defensive midfielder who screened the defense"
+        },
+        {
+          "id": "mid-10-downing",
+          "name": "Stewart Downing",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Middlesbrough icon who returned to supply trademark crosses from the left"
+        },
+        {
+          "id": "mid-10-friend",
+          "name": "George Friend",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Beloved left-back with marauding forward runs and committed defending"
+        },
+        {
+          "id": "mid-10-barragan",
+          "name": "Antonio Barragan",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Experienced Spanish fullback who provided defensive solidity"
+        }
+      ]
+    },
+    {
       "franchise": "Newcastle United",
-      "era": "1995–1996 (Kevin Keegan 'The Entertainers' 2nd)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-new-96-shearer",
@@ -11028,7 +9803,6 @@ export const soccerSport = {
           "name": "David Ginola",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 90,
@@ -11049,7 +9823,6 @@ export const soccerSport = {
           "name": "Faustino Asprilla",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 86,
@@ -11060,7 +9833,6 @@ export const soccerSport = {
           "name": "Rob Lee",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 86,
@@ -11071,8 +9843,6 @@ export const soccerSport = {
           "name": "Philippe Albert",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 85,
@@ -11092,8 +9862,6 @@ export const soccerSport = {
           "name": "Steve Howey",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -11124,7 +9892,6 @@ export const soccerSport = {
           "name": "Keith Gillespie",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 82,
@@ -11134,7 +9901,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Newcastle United",
-      "era": "2001–2002 (Sir Bobby Robson 4th Place UCL Return)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-new-02-shearer",
@@ -11156,6 +9923,16 @@ export const soccerSport = {
           "stats": "PFA Team of the Year goalkeeper, Sensational acrobatic saves, 12 clean sheets"
         },
         {
+          "id": "pl-new-02-speed",
+          "name": "Gary Speed",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 85,
+          "stats": "Midfield leader, Aerial supremacy and boundless stamina"
+        },
+        {
           "id": "pl-new-02-bellamy",
           "name": "Craig Bellamy",
           "roles": [
@@ -11170,52 +9947,36 @@ export const soccerSport = {
           "name": "Laurent Robert",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 85,
           "stats": "8 Goals, 11 Assists, Rocket of a left foot, Scored stupendous free-kicks"
         },
         {
-          "id": "pl-new-02-speed",
-          "name": "Gary Speed",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 85,
-          "stats": "Midfield leader, Aerial supremacy and boundless stamina"
-        },
-        {
-          "id": "pl-new-02-solano",
-          "name": "Nolberto Solano",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 84,
-          "stats": "7 Goals, Little Nobby, Trumpet-playing Peruvian wizard with laser crosses"
-        },
-        {
           "id": "pl-new-02-dyer",
           "name": "Kieron Dyer",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 84,
           "stats": "8 Goals, Electric bursts of pace through central midfield"
         },
         {
+          "id": "pl-new-02-solano",
+          "name": "Nolberto Solano",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 84,
+          "stats": "7 Goals, Little Nobby, Trumpet-playing Peruvian wizard with laser crosses"
+        },
+        {
           "id": "pl-new-02-dabizas",
           "name": "Nikos Dabizas",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
@@ -11226,8 +9987,6 @@ export const soccerSport = {
           "name": "Andy O'Brien",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -11267,140 +10026,122 @@ export const soccerSport = {
     },
     {
       "franchise": "Newcastle United",
-      "era": "2008–2009 (Disastrous Relegation Banter)",
+      "era": "2010s",
       "players": [
         {
-          "id": "pl-new-09-owen",
-          "name": "Michael Owen",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 81,
-          "stats": "8 Goals, Plagued by injuries, Lost pace and could not prevent relegation as captain"
-        },
-        {
-          "id": "pl-new-09-martins",
-          "name": "Obafemi Martins",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "8 Goals, Somersault celebrations, Electric pace but lacked consistency"
-        },
-        {
-          "id": "pl-new-09-gutierrez",
-          "name": "Jonás Gutiérrez",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "Spiderman, Argentine winger ran tirelessly down the flank in debut year"
-        },
-        {
-          "id": "pl-new-09-duff",
-          "name": "Damien Duff",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "Scored tragic deflection own goal at Villa on final day that sealed relegation"
-        },
-        {
-          "id": "pl-new-09-harper",
-          "name": "Steve Harper",
-          "roles": [
-            "GK"
-          ],
-          "rating": 78,
-          "stats": "Took over in goal after Given sold to Man City in January, Conceded 59 goals"
-        },
-        {
-          "id": "pl-new-09-coloccini",
-          "name": "Fabricio Coloccini",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "£10m Argentine defender struggled with English physicality in debut season"
-        },
-        {
-          "id": "pl-new-09-taylor",
-          "name": "Steven Taylor",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Committed local defender battled manfully in disorganized defense"
-        },
-        {
-          "id": "pl-new-09-barton",
-          "name": "Joey Barton",
+          "id": "new-10-cabaye",
+          "name": "Yohan Cabaye",
           "roles": [
             "CM",
             "MID"
           ],
-          "rating": 78,
-          "stats": "Red card at Anfield in crucial match earned Shearer's wrath"
+          "rating": 87,
+          "stats": "French midfield maestro with sublime passing vision and free-kick precision"
         },
         {
-          "id": "pl-new-09-enrique",
-          "name": "José Enrique",
+          "id": "new-10-ba",
+          "name": "Demba Ba",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 87,
+          "stats": "16 Premier League Goals in 2011-12, devastating goalscorer"
+        },
+        {
+          "id": "new-10-coloccini",
+          "name": "Fabricio Coloccini",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 86,
+          "stats": "PFA Team of the Year center-back with trademark flowing locks and composure"
+        },
+        {
+          "id": "new-10-benarfa",
+          "name": "Hatem Ben Arfa",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 86,
+          "stats": "Unplayable on his day, scored solo wonder-goals vs Bolton and Blackburn"
+        },
+        {
+          "id": "new-10-cisse",
+          "name": "Papiss Cisse",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 86,
+          "stats": "Scored 13 goals in 14 games, including the famous banana curve at Stamford Bridge"
+        },
+        {
+          "id": "new-10-tiote",
+          "name": "Cheick Tiote",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 85,
+          "stats": "Iconic midfield destroyer who scored legendary 4-4 volley vs Arsenal"
+        },
+        {
+          "id": "new-10-krul",
+          "name": "Tim Krul",
+          "roles": [
+            "GK"
+          ],
+          "rating": 84,
+          "stats": "Dutch shot-stopper who famously made 14 saves in a single match vs Tottenham"
+        },
+        {
+          "id": "new-10-sissoko",
+          "name": "Moussa Sissoko",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 83,
+          "stats": "Powerhouse French midfielder with surging runs and explosive athleticism"
+        },
+        {
+          "id": "new-10-santon",
+          "name": "Davide Santon",
           "roles": [
             "LB",
             "DEF"
           ],
-          "rating": 78,
-          "stats": "Spanish full-back showed glimpses of potential before later success"
+          "rating": 81,
+          "stats": "Italian full-back with technical elegance and ambipedal delivery"
         },
         {
-          "id": "pl-new-09-viduka",
-          "name": "Mark Viduka",
+          "id": "new-10-williamson",
+          "name": "Mike Williamson",
           "roles": [
-            "CAM",
-            "CM",
-            "MID"
+            "CB",
+            "DEF"
           ],
-          "rating": 77,
-          "stats": "Hampered by persistent Achilles issues, 0 goals in limited appearances"
+          "rating": 80,
+          "stats": "Tall central defender who provided reliable aerial clearances"
         },
         {
-          "id": "pl-new-09-beye",
-          "name": "Habib Beye",
+          "id": "new-10-simpson",
+          "name": "Danny Simpson",
           "roles": [
             "RB",
             "DEF"
           ],
-          "rating": 77,
-          "stats": "Senegalese right-back was fan favorite with 'Sunday, Monday, Habib Beye' song"
-        },
-        {
-          "id": "pl-new-09-butt",
-          "name": "Nicky Butt",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Veteran midfielder captained team but lacked mobility in central areas"
+          "rating": 80,
+          "stats": "Disciplined right-back who was an ever-present in Newcastle's 5th place season"
         }
       ]
     },
     {
       "franchise": "Newcastle United",
-      "era": "2022–2023 (Eddie Howe 4th Place UCL Return)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-new-23-trippier",
@@ -11417,7 +10158,6 @@ export const soccerSport = {
           "name": "Bruno Guimarães",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 88,
@@ -11428,7 +10168,6 @@ export const soccerSport = {
           "name": "Alexander Isak",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 87,
@@ -11444,27 +10183,34 @@ export const soccerSport = {
           "stats": "Joint-best defense in Premier League (33 conceded), 14 clean sheets, Sweeping hero"
         },
         {
+          "id": "pl-new-23-botman",
+          "name": "Sven Botman",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 85,
+          "stats": "Towering Dutch center-back transformed back four with unflappable composure"
+        },
+        {
           "id": "pl-new-23-joelinton",
           "name": "Joelinton",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 85,
           "stats": "6 Goals, Miraculous transformation into destructive midfield monster"
         },
         {
-          "id": "pl-new-23-botman",
-          "name": "Sven Botman",
+          "id": "pl-new-23-schar",
+          "name": "Fabian Schär",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
-          "rating": 85,
-          "stats": "Towering Dutch center-back transformed back four with unflappable composure"
+          "rating": 84,
+          "stats": "Swiss defender with sublime 60-yard passing radar and fierce long-range shooting"
         },
         {
           "id": "pl-new-23-wilson",
@@ -11477,37 +10223,14 @@ export const soccerSport = {
           "stats": "18 Premier League Goals, Lethal goal-per-minute strike rate in title chase"
         },
         {
-          "id": "pl-new-23-schar",
-          "name": "Fabian Schär",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 84,
-          "stats": "Swiss defender with sublime 60-yard passing radar and fierce long-range shooting"
-        },
-        {
           "id": "pl-new-23-almiron",
           "name": "Miguel Almirón",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
           "stats": "11 Premier League Goals, Scorched the league with purple-patch screamers"
-        },
-        {
-          "id": "pl-new-23-willock",
-          "name": "Joe Willock",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 82,
-          "stats": "Dynamic English box-to-box midfielder with telepathic linkup with Joelinton"
         },
         {
           "id": "pl-new-23-burn",
@@ -11520,11 +10243,20 @@ export const soccerSport = {
           "stats": "6ft 6in Blyth-born giant locked down the left-back slot, Geordie folk hero"
         },
         {
+          "id": "pl-new-23-willock",
+          "name": "Joe Willock",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 82,
+          "stats": "Dynamic English box-to-box midfielder with telepathic linkup with Joelinton"
+        },
+        {
           "id": "pl-new-23-longstaff",
           "name": "Sean Longstaff",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -11534,7 +10266,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Norwich City",
-      "era": "1992–1993 (Mike Walker 3rd Place Title Race)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-nor-93-gunn",
@@ -11550,7 +10282,6 @@ export const soccerSport = {
           "name": "Mark Robins",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
@@ -11561,7 +10292,6 @@ export const soccerSport = {
           "name": "Ruel Fox",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
@@ -11572,7 +10302,6 @@ export const soccerSport = {
           "name": "Ian Crook",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -11609,16 +10338,6 @@ export const soccerSport = {
           "stats": "Famous volley hero, Scored iconic goal vs Bayern Munich in Europe"
         },
         {
-          "id": "pl-nor-93-phillips",
-          "name": "David Phillips",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 79,
-          "stats": "Welsh international brought experience and tactical maturity to midfield"
-        },
-        {
           "id": "pl-nor-93-culverhouse",
           "name": "Ian Culverhouse",
           "roles": [
@@ -11629,12 +10348,20 @@ export const soccerSport = {
           "stats": "Flawless technical right-back, Model of consistency in 42 matches"
         },
         {
+          "id": "pl-nor-93-phillips",
+          "name": "David Phillips",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Welsh international brought experience and tactical maturity to midfield"
+        },
+        {
           "id": "pl-nor-93-polston",
           "name": "John Polston",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
@@ -11645,8 +10372,6 @@ export const soccerSport = {
           "name": "Rob Newman",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 77,
@@ -11666,18 +10391,123 @@ export const soccerSport = {
     },
     {
       "franchise": "Norwich City",
-      "era": "2011–2012 (Paul Lambert 12th Place Return)",
+      "era": "2000s",
       "players": [
         {
-          "id": "pl-nor-12-holt",
-          "name": "Grant Holt",
+          "id": "nor-00-huckerby",
+          "name": "Darren Huckerby",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 84,
+          "stats": "Norwich legend with blistering speed who terrified Premier League defenses"
+        },
+        {
+          "id": "nor-00-green",
+          "name": "Robert Green",
+          "roles": [
+            "GK"
+          ],
+          "rating": 82,
+          "stats": "England international goalkeeper renowned for acrobatic shot-stopping"
+        },
+        {
+          "id": "nor-00-francis",
+          "name": "Damien Francis",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Towering goalscoring midfielder who scored 7 Premier League goals"
+        },
+        {
+          "id": "nor-00-bentley",
+          "name": "David Bentley",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Talented Arsenal loanee who showed flashes of David Beckham with his crossing"
+        },
+        {
+          "id": "nor-00-fleming",
+          "name": "Craig Fleming",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Dependable center-back who started every game and led the backline"
+        },
+        {
+          "id": "nor-00-drury",
+          "name": "Adam Drury",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Mr. Dependable at left-back, over 300 appearances for the Canaries"
+        },
+        {
+          "id": "nor-00-holt",
+          "name": "Gary Holt",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Scottish international enforcer who was Norwich's midfield engine"
+        },
+        {
+          "id": "nor-00-mckenzie",
+          "name": "Leon McKenzie",
           "roles": [
             "ST",
             "ATT"
           ],
-          "rating": 81,
-          "stats": "15 Premier League Goals, Uncompromising physical striker earned England talk"
+          "rating": 79,
+          "stats": "Dynamic forward who scored crucial top-flight goals"
         },
+        {
+          "id": "nor-00-doherty",
+          "name": "Gary Doherty",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Irish international who could play both center-back and target man"
+        },
+        {
+          "id": "nor-00-mcveigh",
+          "name": "Paul McVeigh",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "Tricky Northern Irish playmaker with sharp close control"
+        },
+        {
+          "id": "nor-00-edworthy",
+          "name": "Marc Edworthy",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 77,
+          "stats": "Experienced right-back who brought top-flight know-how"
+        }
+      ]
+    },
+    {
+      "franchise": "Norwich City",
+      "era": "2010s",
+      "players": [
         {
           "id": "pl-nor-12-ruddy",
           "name": "John Ruddy",
@@ -11692,18 +10522,26 @@ export const soccerSport = {
           "name": "Wes Hoolahan",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 81,
           "stats": "Wesi, The Irish Messi, Silky playmaker unlocked Premier League defenses"
         },
         {
+          "id": "pl-nor-12-holt",
+          "name": "Grant Holt",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "15 Premier League Goals, Uncompromising physical striker earned England talk"
+        },
+        {
           "id": "pl-nor-12-pilkington",
           "name": "Anthony Pilkington",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
@@ -11720,28 +10558,6 @@ export const soccerSport = {
           "stats": "Spurs loanee provided dynamic attacking full-back play"
         },
         {
-          "id": "pl-nor-12-morison",
-          "name": "Steve Morison",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "9 Goals, Formed devastating big-man forward partnership with Grant Holt"
-        },
-        {
-          "id": "pl-nor-12-johnson",
-          "name": "Bradley Johnson",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Midfield enforcer scored famous screamer vs Blackburn, Fierce tackling"
-        },
-        {
           "id": "pl-nor-12-martin",
           "name": "Russell Martin",
           "roles": [
@@ -11752,34 +10568,40 @@ export const soccerSport = {
           "stats": "Norwich captain, Dependable right-back and center-back, 2 league goals"
         },
         {
+          "id": "pl-nor-12-johnson",
+          "name": "Bradley Johnson",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Midfield enforcer scored famous screamer vs Blackburn, Fierce tackling"
+        },
+        {
+          "id": "pl-nor-12-morison",
+          "name": "Steve Morison",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 77,
+          "stats": "9 Goals, Formed devastating big-man forward partnership with Grant Holt"
+        },
+        {
           "id": "pl-nor-12-bennett",
           "name": "Elliott Bennett",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
           "stats": "Pacy right-winger provided energy and whipped crossing delivery"
         },
         {
-          "id": "pl-nor-12-fox",
-          "name": "David Fox",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Deep-lying playmaker with crisp short passing and set-piece delivery"
-        },
-        {
           "id": "pl-nor-12-ward",
           "name": "Elliott Ward",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -11794,146 +10616,137 @@ export const soccerSport = {
           ],
           "rating": 75,
           "stats": "Aggressive left-back battled tenaciously before injury"
+        },
+        {
+          "id": "pl-nor-12-fox",
+          "name": "David Fox",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 75,
+          "stats": "Deep-lying playmaker with crisp short passing and set-piece delivery"
         }
       ]
     },
     {
       "franchise": "Norwich City",
-      "era": "2019–2020 (Daniel Farke 21-Point Relegation)",
+      "era": "2020s",
       "players": [
         {
-          "id": "pl-nor-20-buendia",
-          "name": "Emi Buendía",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "Created 83 chances in relegated team, Silky Argentine playmaker"
-        },
-        {
-          "id": "pl-nor-20-krul",
-          "name": "Tim Krul",
-          "roles": [
-            "GK"
-          ],
-          "rating": 80,
-          "stats": "Norwich Player of the Year, Saved two penalties in one game vs Man United"
-        },
-        {
-          "id": "pl-nor-20-pukki",
+          "id": "nor-20-pukki",
           "name": "Teemu Pukki",
           "roles": [
             "ST",
             "ATT"
           ],
-          "rating": 79,
-          "stats": "11 Premier League Goals including hat-trick vs Newcastle, August Player of the Month"
+          "rating": 83,
+          "stats": "Finnish cult hero who scored 11 Premier League goals with clinical movement"
         },
         {
-          "id": "pl-nor-20-cantwell",
-          "name": "Todd Cantwell",
+          "id": "nor-20-krul",
+          "name": "Tim Krul",
           "roles": [
-            "LW",
-            "WING",
-            "ATT"
+            "GK"
           ],
-          "rating": 77,
-          "stats": "6 Goals, The Dereham Deco, Flair attacker scored against Man City and Chelsea"
+          "rating": 81,
+          "stats": "Veteran goalkeeper and penalty specialist who made countless reflex stops"
         },
         {
-          "id": "pl-nor-20-godfrey",
-          "name": "Ben Godfrey",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Rapid young center-back showed immense promise despite 75 goals conceded"
-        },
-        {
-          "id": "pl-nor-20-aarons",
+          "id": "nor-20-aarons",
           "name": "Max Aarons",
           "roles": [
             "RB",
             "DEF"
           ],
-          "rating": 77,
-          "stats": "Attacking English right-back started 36 league games"
+          "rating": 80,
+          "stats": "Dynamic young attacking right-back linked with European giants"
         },
         {
-          "id": "pl-nor-20-lewis",
-          "name": "Jamal Lewis",
+          "id": "nor-20-rashica",
+          "name": "Milot Rashica",
           "roles": [
-            "LB",
+            "RW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Kosovan winger with blistering speed and ferocious direct running"
+        },
+        {
+          "id": "nor-20-cantwell",
+          "name": "Todd Cantwell",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "'Dereham Deco', creative midfielder who scored memorable goals against Man City"
+        },
+        {
+          "id": "nor-20-hanley",
+          "name": "Grant Hanley",
+          "roles": [
+            "CB",
             "DEF"
           ],
-          "rating": 76,
-          "stats": "Scored stunning winner vs Leicester, Earned £15m move to Newcastle"
+          "rating": 79,
+          "stats": "Scottish international captain and vocal physical leader in defense"
         },
         {
-          "id": "pl-nor-20-mclean",
+          "id": "nor-20-leesmelou",
+          "name": "Pierre Lees-Melou",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "French playmaker with high technical ability in the attacking third"
+        },
+        {
+          "id": "nor-20-mclean",
           "name": "Kenny McLean",
           "roles": [
             "CM",
             "MID"
           ],
-          "rating": 75,
-          "stats": "Scottish international scored famous header in 3-2 shock win over Man City"
+          "rating": 79,
+          "stats": "'Mayor of Norwich', Scottish midfielder who set the tempo in midfield"
         },
         {
-          "id": "pl-nor-20-vrancic",
-          "name": "Mario Vrančić",
+          "id": "nor-20-normann",
+          "name": "Mathias Normann",
           "roles": [
-            "CM",
+            "CDM",
             "MID"
           ],
-          "rating": 74,
-          "stats": "Bosnian free-kick specialist scored sensational goal vs Tottenham"
+          "rating": 79,
+          "stats": "Norwegian midfielder with sharp ball-striking and defensive grit"
         },
         {
-          "id": "pl-nor-20-tettey",
-          "name": "Alexander Tettey",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 74,
-          "stats": "Veteran midfield destroyer captained side with defensive discipline"
-        },
-        {
-          "id": "pl-nor-20-duda",
-          "name": "Ondrej Duda",
-          "roles": [
-            "LW",
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 74,
-          "stats": "Slovakian loanee added technical quality in second half of campaign"
-        },
-        {
-          "id": "pl-nor-20-zimmermann",
-          "name": "Christoph Zimmermann",
+          "id": "nor-20-gibson",
+          "name": "Ben Gibson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
-          "rating": 73,
-          "stats": "German center-back plagued by back and hamstring injuries"
+          "rating": 78,
+          "stats": "Experienced left-footed center-back who organized the backline"
+        },
+        {
+          "id": "nor-20-giannoulis",
+          "name": "Dimitris Giannoulis",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Greek international left-back with relentless stamina on the flank"
         }
       ]
     },
     {
       "franchise": "Nottingham Forest",
-      "era": "1994–1995 (Frank Clark 3rd Place Finish)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-nfo-95-collymore",
@@ -11960,7 +10773,6 @@ export const soccerSport = {
           "name": "Bryan Roy",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 86,
@@ -11971,8 +10783,6 @@ export const soccerSport = {
           "name": "Colin Cooper",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 84,
@@ -11992,22 +10802,10 @@ export const soccerSport = {
           "name": "Steve Stone",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
           "stats": "Engine room dynamo broke into England squad, Sensational running"
-        },
-        {
-          "id": "pl-nfo-95-woan",
-          "name": "Ian Woan",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "Wand of a left foot, Scored legendary long-range curling screamers"
         },
         {
           "id": "pl-nfo-95-bohinen",
@@ -12020,12 +10818,20 @@ export const soccerSport = {
           "stats": "6 Goals, Elegant Norwegian midfielder with exquisite chip finishes"
         },
         {
+          "id": "pl-nfo-95-woan",
+          "name": "Ian Woan",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "Wand of a left foot, Scored legendary long-range curling screamers"
+        },
+        {
           "id": "pl-nfo-95-chettle",
           "name": "Steve Chettle",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
@@ -12036,7 +10842,6 @@ export const soccerSport = {
           "name": "David Phillips",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 79,
@@ -12047,7 +10852,6 @@ export const soccerSport = {
           "name": "Chris Bart-Williams",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 79,
@@ -12067,19 +10871,8 @@ export const soccerSport = {
     },
     {
       "franchise": "Nottingham Forest",
-      "era": "2022–2023 (Steve Cooper Great Survival 30 Signings)",
+      "era": "2020s",
       "players": [
-        {
-          "id": "pl-nfo-23-gibbswhite",
-          "name": "Morgan Gibbs-White",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 84,
-          "stats": "Forest Player of the Year, 5 Goals, 8 Assists, The talismanic heartbeat"
-        },
         {
           "id": "pl-nfo-23-navas",
           "name": "Keylor Navas",
@@ -12088,6 +10881,26 @@ export const soccerSport = {
           ],
           "rating": 84,
           "stats": "3-time Champions League winner made vital reflex saves during run-in"
+        },
+        {
+          "id": "pl-nfo-23-gibbswhite",
+          "name": "Morgan Gibbs-White",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 84,
+          "stats": "Forest Player of the Year, 5 Goals, 8 Assists, The talismanic heartbeat"
+        },
+        {
+          "id": "pl-nfo-23-felipe",
+          "name": "Felipe",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 81,
+          "stats": "January arrival from Atlético Madrid was an absolute mountain in defense"
         },
         {
           "id": "pl-nfo-23-awoniyi",
@@ -12104,23 +10917,10 @@ export const soccerSport = {
           "name": "Brennan Johnson",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 81,
           "stats": "8 Goals, 3 Assists, Homegrown speedster terrorized backlines with pace"
-        },
-        {
-          "id": "pl-nfo-23-felipe",
-          "name": "Felipe",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 81,
-          "stats": "January arrival from Atlético Madrid was an absolute mountain in defense"
         },
         {
           "id": "pl-nfo-23-lodi",
@@ -12133,37 +10933,14 @@ export const soccerSport = {
           "stats": "Brazilian international left-back grew into formidable defensive performer"
         },
         {
-          "id": "pl-nfo-23-danilo",
-          "name": "Danilo",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 79,
-          "stats": "3 Goals in April surge, Brazilian teenager added explosive box-to-box power"
-        },
-        {
           "id": "pl-nfo-23-niakhate",
           "name": "Moussa Niakhaté",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
           "stats": "Colossal center-back with missile long throw that unlocked defenses"
-        },
-        {
-          "id": "pl-nfo-23-freuler",
-          "name": "Remo Freuler",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 79,
-          "stats": "Swiss midfield general brought veteran composure and tactical positioning"
         },
         {
           "id": "pl-nfo-23-aurier",
@@ -12176,11 +10953,30 @@ export const soccerSport = {
           "stats": "Ivorian right-back scored equalizer vs Chelsea, Great leadership"
         },
         {
+          "id": "pl-nfo-23-danilo",
+          "name": "Danilo",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "3 Goals in April surge, Brazilian teenager added explosive box-to-box power"
+        },
+        {
+          "id": "pl-nfo-23-freuler",
+          "name": "Remo Freuler",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Swiss midfield general brought veteran composure and tactical positioning"
+        },
+        {
           "id": "pl-nfo-23-yates",
           "name": "Ryan Yates",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -12200,14 +10996,23 @@ export const soccerSport = {
     },
     {
       "franchise": "Oldham Athletic",
-      "era": "1992–1993 (Joe Royle Final Day Survival Miracle)",
+      "era": "1990s",
       "players": [
+        {
+          "id": "pl-old-93-jobson",
+          "name": "Richard Jobson",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Classy England B center-back read the game with superb anticipation"
+        },
         {
           "id": "pl-old-93-milligan",
           "name": "Mike Milligan",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -12228,33 +11033,19 @@ export const soccerSport = {
           "name": "Graeme Sharp",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
           "stats": "Everton legend added 9 vital league goals in dramatic survival run"
         },
         {
-          "id": "pl-old-93-jobson",
-          "name": "Richard Jobson",
+          "id": "pl-old-93-hallworth",
+          "name": "Jon Hallworth",
           "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Classy England B center-back read the game with superb anticipation"
-        },
-        {
-          "id": "pl-old-93-ritchie",
-          "name": "Andy Ritchie",
-          "roles": [
-            "ST",
-            "ATT"
+            "GK"
           ],
           "rating": 77,
-          "stats": "Club legend scored 5 league goals and created chances with visionary passing"
+          "stats": "Heroic saves in famous 4-3 final day thriller vs Southampton to stay up"
         },
         {
           "id": "pl-old-93-halle",
@@ -12267,15 +11058,6 @@ export const soccerSport = {
           "stats": "Norwegian international right-back, Exceptional defensive discipline"
         },
         {
-          "id": "pl-old-93-hallworth",
-          "name": "Jon Hallworth",
-          "roles": [
-            "GK"
-          ],
-          "rating": 77,
-          "stats": "Heroic saves in famous 4-3 final day thriller vs Southampton to stay up"
-        },
-        {
           "id": "pl-old-93-pointon",
           "name": "Neil Pointon",
           "roles": [
@@ -12284,6 +11066,16 @@ export const soccerSport = {
           ],
           "rating": 77,
           "stats": "Deno, Aggressive left-back with ferocious tackling and 4 league goals"
+        },
+        {
+          "id": "pl-old-93-ritchie",
+          "name": "Andy Ritchie",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 77,
+          "stats": "Club legend scored 5 league goals and created chances with visionary passing"
         },
         {
           "id": "pl-old-93-henry",
@@ -12300,7 +11092,6 @@ export const soccerSport = {
           "name": "Neil Adams",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -12311,8 +11102,6 @@ export const soccerSport = {
           "name": "Craig Fleming",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -12323,7 +11112,6 @@ export const soccerSport = {
           "name": "Paul Bernard",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 75,
@@ -12333,20 +11121,8 @@ export const soccerSport = {
     },
     {
       "franchise": "Portsmouth",
-      "era": "2007–2008 (Harry Redknapp 8th Place & FA Cup Winners)",
+      "era": "2000s",
       "players": [
-        {
-          "id": "pl-por-08-campbell",
-          "name": "Sol Campbell",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 87,
-          "stats": "FA Cup winning captain, Colossal season at center-back alongside Distin"
-        },
         {
           "id": "pl-por-08-james",
           "name": "David James",
@@ -12357,16 +11133,34 @@ export const soccerSport = {
           "stats": "Premier League clean sheet king (16), England number one in career-best form"
         },
         {
+          "id": "pl-por-08-campbell",
+          "name": "Sol Campbell",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 87,
+          "stats": "FA Cup winning captain, Colossal season at center-back alongside Distin"
+        },
+        {
           "id": "pl-por-08-distin",
           "name": "Sylvain Distin",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 85,
           "stats": "French defensive powerhouse with rapid recovery speed and composure"
+        },
+        {
+          "id": "pl-por-08-diarra",
+          "name": "Lassana Diarra",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 85,
+          "stats": "Signed from Arsenal, Phenomenal midfield ball-winning masterclass"
         },
         {
           "id": "pl-por-08-defoe",
@@ -12379,17 +11173,6 @@ export const soccerSport = {
           "stats": "8 Goals in 12 games after January arrival, Lethal predator"
         },
         {
-          "id": "pl-por-08-diarra",
-          "name": "Lassana Diarra",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 85,
-          "stats": "Signed from Arsenal, Phenomenal midfield ball-winning masterclass"
-        },
-        {
           "id": "pl-por-08-muntari",
           "name": "Sulley Muntari",
           "roles": [
@@ -12398,17 +11181,6 @@ export const soccerSport = {
           ],
           "rating": 84,
           "stats": "4 Goals including penalty winner at Old Trafford, Ferocious long-range strikes"
-        },
-        {
-          "id": "pl-por-08-kranjcar",
-          "name": "Niko Kranjčar",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "Croatian magician scored 4 league goals with sublime technique and vision"
         },
         {
           "id": "pl-por-08-johnson",
@@ -12421,26 +11193,34 @@ export const soccerSport = {
           "stats": "Sensational attacking right-back resurrected career at Fratton Park"
         },
         {
-          "id": "pl-por-08-kanu",
-          "name": "Nwankwo Kanu",
+          "id": "pl-por-08-kranjcar",
+          "name": "Niko Kranjčar",
           "roles": [
-            "RW",
-            "WING",
+            "LW",
             "ATT"
           ],
-          "rating": 82,
-          "stats": "Scored winners in both FA Cup semi-final and final, Nigerian genius"
+          "rating": 83,
+          "stats": "Croatian magician scored 4 league goals with sublime technique and vision"
         },
         {
           "id": "pl-por-08-diop",
           "name": "Papa Bouba Diop",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 82,
           "stats": "The Wardrobe, Towering Senegalese midfield destroyer"
+        },
+        {
+          "id": "pl-por-08-kanu",
+          "name": "Nwankwo Kanu",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "Scored winners in both FA Cup semi-final and final, Nigerian genius"
         },
         {
           "id": "pl-por-08-hreidarsson",
@@ -12457,7 +11237,6 @@ export const soccerSport = {
           "name": "John Utaka",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -12467,140 +11246,122 @@ export const soccerSport = {
     },
     {
       "franchise": "Portsmouth",
-      "era": "2009–2010 (Avram Grant Administration & Relegation)",
+      "era": "2010s",
       "players": [
         {
-          "id": "pl-por-10-james",
+          "id": "por-10-prince",
+          "name": "Kevin-Prince Boateng",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 84,
+          "stats": "Explosive Ghanaian playmaker who led Pompey to the FA Cup final"
+        },
+        {
+          "id": "por-10-james",
           "name": "David James",
           "roles": [
             "GK"
           ],
-          "rating": 81,
-          "stats": "England goalkeeper fought bravely despite 9-point deduction and financial ruin"
+          "rating": 83,
+          "stats": "England's #1 goalkeeper whose veteran class kept Pompey competitive"
         },
         {
-          "id": "pl-por-10-boateng",
-          "name": "Kevin-Prince Boateng",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "3 Goals, Dynamic Ghanaian midfielder was standout performer before Wembley final"
-        },
-        {
-          "id": "pl-por-10-kaboul",
-          "name": "Younès Kaboul",
+          "id": "por-10-kaboul",
+          "name": "Younes Kaboul",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
-          "rating": 78,
-          "stats": "Towering French center-back sold in January window to keep club afloat"
+          "rating": 82,
+          "stats": "Powerhouse French center-back with thunderous aerial ability"
         },
         {
-          "id": "pl-por-10-ohara",
+          "id": "por-10-diop",
+          "name": "Papa Bouba Diop",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 82,
+          "stats": "'The Wardrobe', colossal Senegalese midfield destroyer"
+        },
+        {
+          "id": "por-10-ohara",
           "name": "Jamie O'Hara",
           "roles": [
             "CM",
             "MID"
           ],
-          "rating": 78,
-          "stats": "Portsmouth Player of the Year on loan from Spurs, Passionate midfield displays"
+          "rating": 81,
+          "stats": "Spurs loanee who won Pompey Player of the Season with sublime deliveries"
         },
         {
-          "id": "pl-por-10-dindane",
+          "id": "por-10-dindane",
           "name": "Aruna Dindane",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "8 Premier League Goals including hat-trick vs Wigan, Ivorian striker"
-        },
-        {
-          "id": "pl-por-10-piquionne",
-          "name": "Frédéric Piquionne",
           "roles": [
             "ST",
             "ATT"
           ],
-          "rating": 76,
-          "stats": "5 Goals, French forward scored famous brace in FA Cup semi-final vs Spurs"
+          "rating": 81,
+          "stats": "Ivorian striker who scored a Premier League hat-trick vs Wigan"
         },
         {
-          "id": "pl-por-10-hreidarsson",
-          "name": "Hermann Hreiðarsson",
+          "id": "por-10-benhaim",
+          "name": "Tal Ben Haim",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Experienced Israeli defender with aggressive tackling"
+        },
+        {
+          "id": "por-10-hreidarsson",
+          "name": "Hermann Hreidarsson",
           "roles": [
             "LB",
             "DEF"
           ],
-          "rating": 75,
-          "stats": "Relegated for record 5th time in Premier League career"
+          "rating": 80,
+          "stats": "Icelandic warrior who held the record for most PL games by an Icelander"
         },
         {
-          "id": "pl-por-10-elkarkouri",
-          "name": "Talal El Karkouri",
+          "id": "por-10-belhadj",
+          "name": "Nadir Belhadj",
           "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
+            "LW",
+            "ATT"
           ],
-          "rating": 75,
-          "stats": "Experienced Moroccan defender filled in during injury crisis"
+          "rating": 80,
+          "stats": "Algerian wing-back who tore down the left with electric attacking flair"
         },
         {
-          "id": "pl-por-10-yebda",
-          "name": "Hassan Yebda",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Algerian World Cup midfielder added physical presence in midfield"
-        },
-        {
-          "id": "pl-por-10-finnan",
+          "id": "por-10-finnan",
           "name": "Steve Finnan",
           "roles": [
             "RB",
             "DEF"
           ],
-          "rating": 75,
-          "stats": "Champions League winner brought experience to right-back in final PL year"
+          "rating": 79,
+          "stats": "Champions League winner who provided veteran composure at right-back"
         },
         {
-          "id": "pl-por-10-mokoena",
-          "name": "Aaron Mokoena",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 74,
-          "stats": "South African captain nicknamed 'Mbazo' (The Axe) for crunching tackles"
-        },
-        {
-          "id": "pl-por-10-brown",
-          "name": "Michael Brown",
+          "id": "por-10-utaka",
+          "name": "John Utaka",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
-          "rating": 74,
-          "stats": "Tough tackling midfielder played with aggressive competitive fire"
+          "rating": 79,
+          "stats": "Nigerian international winger with great burst and cross-field runs"
         }
       ]
     },
     {
       "franchise": "Queens Park Rangers",
-      "era": "1992–1993 (Gerry Francis Top London Club 5th Place)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-qpr-93-ferdinand",
@@ -12613,17 +11374,6 @@ export const soccerSport = {
           "stats": "20 Premier League Goals, Devastating aerial power and explosive finishing"
         },
         {
-          "id": "pl-qpr-93-sinton",
-          "name": "Andy Sinton",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "England international winger with pinpoint crossing and hat-trick vs Everton"
-        },
-        {
           "id": "pl-qpr-93-wilkins",
           "name": "Ray Wilkins",
           "roles": [
@@ -12634,24 +11384,39 @@ export const soccerSport = {
           "stats": "Butch, Master of midfield distribution and veteran leadership at age 36"
         },
         {
+          "id": "pl-qpr-93-sinton",
+          "name": "Andy Sinton",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "England international winger with pinpoint crossing and hat-trick vs Everton"
+        },
+        {
           "id": "pl-qpr-93-mcdonald",
           "name": "Alan McDonald",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
           "stats": "Northern Ireland captain, Colossal leader and hero of Loftus Road"
         },
         {
+          "id": "pl-qpr-93-stejskal",
+          "name": "Jan Stejskal",
+          "roles": [
+            "GK"
+          ],
+          "rating": 80,
+          "stats": "Czech international goalkeeper kept 11 clean sheets in top flight"
+        },
+        {
           "id": "pl-qpr-93-peacock",
           "name": "Darren Peacock",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -12668,15 +11433,6 @@ export const soccerSport = {
           "stats": "England right-back with deadly crossing and relentless running"
         },
         {
-          "id": "pl-qpr-93-stejskal",
-          "name": "Jan Stejskal",
-          "roles": [
-            "GK"
-          ],
-          "rating": 80,
-          "stats": "Czech international goalkeeper kept 11 clean sheets in top flight"
-        },
-        {
           "id": "pl-qpr-93-wilson",
           "name": "Clive Wilson",
           "roles": [
@@ -12685,17 +11441,6 @@ export const soccerSport = {
           ],
           "rating": 79,
           "stats": "Smooth, composed left-back with superb positional intelligence"
-        },
-        {
-          "id": "pl-qpr-93-allen",
-          "name": "Bradley Allen",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "Sharp young forward scored 10 Premier League goals in breakout season"
         },
         {
           "id": "pl-qpr-93-barker",
@@ -12712,11 +11457,20 @@ export const soccerSport = {
           "name": "Ian Holloway",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 78,
           "stats": "Ollie, Fierce tackling midfielder who was the competitive heartbeat"
+        },
+        {
+          "id": "pl-qpr-93-allen",
+          "name": "Bradley Allen",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "Sharp young forward scored 10 Premier League goals in breakout season"
         },
         {
           "id": "pl-qpr-93-penrice",
@@ -12732,14 +11486,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Queens Park Rangers",
-      "era": "2011–2012 (Mark Hughes Final Day Agüero Drama Survival)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-qpr-12-taarabt",
           "name": "Adel Taarabt",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
@@ -12779,45 +11532,40 @@ export const soccerSport = {
           "name": "Bobby Zamora",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
           "stats": "January signing scored vital late winners vs Wolves and Stoke"
         },
         {
-          "id": "pl-qpr-12-wrightphillips",
-          "name": "Shaun Wright-Phillips",
+          "id": "pl-qpr-12-ferdinand",
+          "name": "Anton Ferdinand",
           "roles": [
-            "LW",
-            "WING",
-            "ATT"
+            "CB",
+            "DEF"
           ],
           "rating": 78,
-          "stats": "Former Man City winger provided rapid pace down the right flank"
+          "stats": "Rio's brother commanded central defense in 31 league appearances"
         },
         {
           "id": "pl-qpr-12-faurlin",
           "name": "Alejandro Faurlín",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 78,
           "stats": "Cult hero Argentine playmaker before tragic ACL injury in January"
         },
         {
-          "id": "pl-qpr-12-ferdinand",
-          "name": "Anton Ferdinand",
+          "id": "pl-qpr-12-wrightphillips",
+          "name": "Shaun Wright-Phillips",
           "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
+            "LW",
+            "ATT"
           ],
           "rating": 78,
-          "stats": "Rio's brother commanded central defense in 31 league appearances"
+          "stats": "Former Man City winger provided rapid pace down the right flank"
         },
         {
           "id": "pl-qpr-12-onuoha",
@@ -12834,7 +11582,6 @@ export const soccerSport = {
           "name": "Jamie Mackie",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 77,
@@ -12855,8 +11602,6 @@ export const soccerSport = {
           "name": "Fitz Hall",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -12866,8 +11611,27 @@ export const soccerSport = {
     },
     {
       "franchise": "Reading",
-      "era": "2006–2007 (Steve Coppell 106-Point Record Promoted 8th)",
+      "era": "2000s",
       "players": [
+        {
+          "id": "pl-rea-07-hahnemann",
+          "name": "Marcus Hahnemann",
+          "roles": [
+            "GK"
+          ],
+          "rating": 83,
+          "stats": "American goalkeeper kept 12 clean sheets with commanding aerial presence"
+        },
+        {
+          "id": "pl-rea-07-sidwell",
+          "name": "Steve Sidwell",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 83,
+          "stats": "Ginger midfielder scored 4 goals, Engine room dynamo earned Chelsea move"
+        },
         {
           "id": "pl-rea-07-doyle",
           "name": "Kevin Doyle",
@@ -12877,26 +11641,6 @@ export const soccerSport = {
           ],
           "rating": 83,
           "stats": "13 Premier League Goals, Irish striker signed for £78k from Cork City, Sensational"
-        },
-        {
-          "id": "pl-rea-07-sidwell",
-          "name": "Steve Sidwell",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 83,
-          "stats": "Ginger midfielder scored 4 goals, Engine room dynamo earned Chelsea move"
-        },
-        {
-          "id": "pl-rea-07-hahnemann",
-          "name": "Marcus Hahnemann",
-          "roles": [
-            "GK"
-          ],
-          "rating": 83,
-          "stats": "American goalkeeper kept 12 clean sheets with commanding aerial presence"
         },
         {
           "id": "pl-rea-07-shorey",
@@ -12909,6 +11653,16 @@ export const soccerSport = {
           "stats": "England international left-back, Exceptional left-footed delivery and free-kicks"
         },
         {
+          "id": "pl-rea-07-sonko",
+          "name": "Ibrahima Sonko",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 81,
+          "stats": "Superman, Senegal center-back dominant in the air before knee injury"
+        },
+        {
           "id": "pl-rea-07-kitson",
           "name": "Dave Kitson",
           "roles": [
@@ -12919,39 +11673,24 @@ export const soccerSport = {
           "stats": "Red-haired target man scored on opening day vs Boro, 4 goals in injury-hit year"
         },
         {
-          "id": "pl-rea-07-sonko",
-          "name": "Ibrahima Sonko",
+          "id": "pl-rea-07-ingimarsson",
+          "name": "Ívar Ingimarsson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
-          "rating": 81,
-          "stats": "Superman, Senegal center-back dominant in the air before knee injury"
+          "rating": 80,
+          "stats": "Icelandic defender played every minute, Formed impenetrable barrier"
         },
         {
           "id": "pl-rea-07-hunt",
           "name": "Stephen Hunt",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
           "stats": "6 Goals, Fiery Irish winger with relentless pressing and stamina"
-        },
-        {
-          "id": "pl-rea-07-ingimarsson",
-          "name": "Ívar Ingimarsson",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 80,
-          "stats": "Icelandic defender played every minute, Formed impenetrable barrier"
         },
         {
           "id": "pl-rea-07-lita",
@@ -12964,16 +11703,6 @@ export const soccerSport = {
           "stats": "7 Goals, Explosive English striker scored acrobatic volleys and headers"
         },
         {
-          "id": "pl-rea-07-harper",
-          "name": "James Harper",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "Tireless midfielder started every single Premier League match"
-        },
-        {
           "id": "pl-rea-07-murty",
           "name": "Graeme Murty",
           "roles": [
@@ -12984,11 +11713,20 @@ export const soccerSport = {
           "stats": "Reading captain led back four with great defensive discipline"
         },
         {
+          "id": "pl-rea-07-harper",
+          "name": "James Harper",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "Tireless midfielder started every single Premier League match"
+        },
+        {
           "id": "pl-rea-07-seol",
           "name": "Seol Ki-hyeon",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -12998,8 +11736,17 @@ export const soccerSport = {
     },
     {
       "franchise": "Reading",
-      "era": "2012–2013 (Brian McDermott & Adkins Relegation 19th)",
+      "era": "2010s",
       "players": [
+        {
+          "id": "pl-rea-13-mccarthy",
+          "name": "Alex McCarthy",
+          "roles": [
+            "GK"
+          ],
+          "rating": 78,
+          "stats": "Made miraculous 10 saves vs Liverpool in 0-0 draw to win praise from Rodgers"
+        },
         {
           "id": "pl-rea-13-lefondre",
           "name": "Adam Le Fondre",
@@ -13009,15 +11756,6 @@ export const soccerSport = {
           ],
           "rating": 78,
           "stats": "12 Premier League Goals as ultimate super-sub, January Player of the Month"
-        },
-        {
-          "id": "pl-rea-13-mccarthy",
-          "name": "Alex McCarthy",
-          "roles": [
-            "GK"
-          ],
-          "rating": 78,
-          "stats": "Made miraculous 10 saves vs Liverpool in 0-0 draw to win praise from Rodgers"
         },
         {
           "id": "pl-rea-13-pogrebnyak",
@@ -13040,35 +11778,30 @@ export const soccerSport = {
           "stats": "Veteran Irish left-back scored penalty and free-kick, lack of pace exposed"
         },
         {
-          "id": "pl-rea-13-mcanuff",
-          "name": "Jobi McAnuff",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 76,
-          "stats": "Reading captain provided leadership and 4 assists on the flank"
-        },
-        {
           "id": "pl-rea-13-mariappa",
           "name": "Adrian Mariappa",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
           "stats": "Jamaican center-back battled manfully in 29 starts"
         },
         {
+          "id": "pl-rea-13-mcanuff",
+          "name": "Jobi McAnuff",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 76,
+          "stats": "Reading captain provided leadership and 4 assists on the flank"
+        },
+        {
           "id": "pl-rea-13-pearce",
           "name": "Alex Pearce",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -13089,7 +11822,6 @@ export const soccerSport = {
           "name": "Garath McCleary",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 75,
@@ -13100,7 +11832,6 @@ export const soccerSport = {
           "name": "Mikele Leigertwood",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 75,
@@ -13129,7 +11860,237 @@ export const soccerSport = {
     },
     {
       "franchise": "Sheffield United",
-      "era": "2019–2020 (Chris Wilder Overlapping Centre-Backs 9th)",
+      "era": "1990s",
+      "players": [
+        {
+          "id": "shu-90-deane",
+          "name": "Brian Deane",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 84,
+          "stats": "Scored the historic FIRST EVER goal in Premier League history in 1992"
+        },
+        {
+          "id": "shu-90-kelly",
+          "name": "Alan Kelly",
+          "roles": [
+            "GK"
+          ],
+          "rating": 82,
+          "stats": "Irish international goalkeeper, 3x Blades Player of the Year"
+        },
+        {
+          "id": "shu-90-hodges",
+          "name": "Glyn Hodges",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Cult hero midfielder famous for audacious lobs and visionary passing"
+        },
+        {
+          "id": "shu-90-beesley",
+          "name": "Paul Beesley",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Tough central defender who won the club's Player of the Year"
+        },
+        {
+          "id": "shu-90-whitehouse",
+          "name": "Dane Whitehouse",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Lifelong blade with wicked left-footed delivery and ferocious tackling"
+        },
+        {
+          "id": "shu-90-gayle",
+          "name": "Brian Gayle",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Athletic center-back whose physical presence anchored the backline"
+        },
+        {
+          "id": "shu-90-ward",
+          "name": "Mitch Ward",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Energetic midfielder who contributed key goals and tireless running"
+        },
+        {
+          "id": "shu-90-tuttle",
+          "name": "David Tuttle",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Rugged defender who shut down opposing wingers"
+        },
+        {
+          "id": "shu-90-gannon",
+          "name": "John Gannon",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "Composed midfield enforcer who protected the back four"
+        },
+        {
+          "id": "shu-90-littlejohn",
+          "name": "Adrian Littlejohn",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "Fleet-footed winger whose pace stretched top-flight defenses"
+        },
+        {
+          "id": "shu-90-carr",
+          "name": "Franz Carr",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 78,
+          "stats": "Blisteringly fast winger who gave the Blades width on the counter"
+        }
+      ]
+    },
+    {
+      "franchise": "Sheffield United",
+      "era": "2000s",
+      "players": [
+        {
+          "id": "shu-00-jagielka",
+          "name": "Phil Jagielka",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 83,
+          "stats": "Future England star who played center-back, midfield, and even in goal!"
+        },
+        {
+          "id": "shu-00-kenny",
+          "name": "Paddy Kenny",
+          "roles": [
+            "GK"
+          ],
+          "rating": 82,
+          "stats": "Irish international goalkeeper who was a brick wall between the posts"
+        },
+        {
+          "id": "shu-00-morgan",
+          "name": "Chris Morgan",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Blades captain and famously uncompromising, ferocious center-back"
+        },
+        {
+          "id": "shu-00-unsworth",
+          "name": "David Unsworth",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Premier League veteran with a bullet penalty and solid positioning"
+        },
+        {
+          "id": "shu-00-tonge",
+          "name": "Michael Tonge",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Classy midfielder with great vision and spectacular long-range finishing"
+        },
+        {
+          "id": "shu-00-webber",
+          "name": "Danny Webber",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Lethal front-runner with electric pace and sharp finishing on the break"
+        },
+        {
+          "id": "shu-00-gillespie",
+          "name": "Keith Gillespie",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Former Man United and Newcastle winger with bags of pace and crossing"
+        },
+        {
+          "id": "shu-00-hulse",
+          "name": "Rob Hulse",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Target man striker whose goals kept the Blades fighting until the final day"
+        },
+        {
+          "id": "shu-00-montgomery",
+          "name": "Nick Montgomery",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Tenacious midfield destroyer who made nearly 400 appearances"
+        },
+        {
+          "id": "shu-00-quinn",
+          "name": "Stephen Quinn",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Creative Irish midfielder with tireless running and sharp technique"
+        },
+        {
+          "id": "shu-00-geary",
+          "name": "Derek Geary",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Pocket-rocket right-back who famously marked Cristiano Ronaldo out of the match"
+        }
+      ]
+    },
+    {
+      "franchise": "Sheffield United",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-shu-20-henderson",
@@ -13145,8 +12106,6 @@ export const soccerSport = {
           "name": "John Egan",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -13157,8 +12116,6 @@ export const soccerSport = {
           "name": "Jack O'Connell",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -13169,8 +12126,6 @@ export const soccerSport = {
           "name": "Chris Basham",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
@@ -13185,28 +12140,6 @@ export const soccerSport = {
           ],
           "rating": 81,
           "stats": "5 Goals, 2 Assists, Scottish midfield maestro dictated play with supreme grit"
-        },
-        {
-          "id": "pl-shu-20-norwood",
-          "name": "Oliver Norwood",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Set-piece wizard and deep-lying quarterback with pinpoint 50-yard passes"
-        },
-        {
-          "id": "pl-shu-20-lundstram",
-          "name": "John Lundstram",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "5 Goals, 3 Assists, Fantasy Premier League cult hero with late penalty box arrivals"
         },
         {
           "id": "pl-shu-20-baldock",
@@ -13229,11 +12162,30 @@ export const soccerSport = {
           "stats": "2 Goals, 4 Assists, Irish left wing-back with superb combination play with O'Connell"
         },
         {
+          "id": "pl-shu-20-norwood",
+          "name": "Oliver Norwood",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Set-piece wizard and deep-lying quarterback with pinpoint 50-yard passes"
+        },
+        {
+          "id": "pl-shu-20-lundstram",
+          "name": "John Lundstram",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "5 Goals, 3 Assists, Fantasy Premier League cult hero with late penalty box arrivals"
+        },
+        {
           "id": "pl-shu-20-mcgoldrick",
           "name": "David McGoldrick",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
@@ -13254,7 +12206,6 @@ export const soccerSport = {
           "name": "Lys Mousset",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
@@ -13264,7 +12215,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Sheffield United",
-      "era": "2023–2024 (Record 104 Goals Conceded Banter Relegation)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-shu-24-hamer",
@@ -13281,11 +12232,30 @@ export const soccerSport = {
           "name": "James McAtee",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 77,
           "stats": "3 Goals, Man City loanee provided flashes of silky Premier League technique"
+        },
+        {
+          "id": "pl-shu-24-ahmedhodzic",
+          "name": "Anel Ahmedhodžić",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 76,
+          "stats": "Bosnian center-back captained side in chaotic, leaky defense"
+        },
+        {
+          "id": "pl-shu-24-souza",
+          "name": "Vini Souza",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 76,
+          "stats": "Brazilian defensive midfielder made high tackle numbers in beleaguered engine room"
         },
         {
           "id": "pl-shu-24-archer",
@@ -13308,29 +12278,6 @@ export const soccerSport = {
           "stats": "6 Goals, Top scorer battled through groin issues and injuries"
         },
         {
-          "id": "pl-shu-24-ahmedhodzic",
-          "name": "Anel Ahmedhodžić",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Bosnian center-back captained side in chaotic, leaky defense"
-        },
-        {
-          "id": "pl-shu-24-souza",
-          "name": "Vini Souza",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Brazilian defensive midfielder made high tackle numbers in beleaguered engine room"
-        },
-        {
           "id": "pl-shu-24-bogle",
           "name": "Jayden Bogle",
           "roles": [
@@ -13345,11 +12292,19 @@ export const soccerSport = {
           "name": "Oliver Norwood",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 75,
           "stats": "Experienced midfield veteran struggled with physical transitions"
+        },
+        {
+          "id": "pl-shu-24-foderingham",
+          "name": "Wes Foderingham",
+          "roles": [
+            "GK"
+          ],
+          "rating": 74,
+          "stats": "Made record 134 saves despite conceding 79 goals in 30 appearances"
         },
         {
           "id": "pl-shu-24-robinson",
@@ -13362,21 +12317,10 @@ export const soccerSport = {
           "stats": "Aggressive defender gave everything with long throw-ins and blocks"
         },
         {
-          "id": "pl-shu-24-foderingham",
-          "name": "Wes Foderingham",
-          "roles": [
-            "GK"
-          ],
-          "rating": 74,
-          "stats": "Made record 134 saves despite conceding 79 goals in 30 appearances"
-        },
-        {
           "id": "pl-shu-24-trusty",
           "name": "Auston Trusty",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 73,
@@ -13396,14 +12340,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Sheffield Wednesday",
-      "era": "1992–1993 (Trevor Francis 7th Place & Two Cup Finals)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-shw-93-waddle",
           "name": "Chris Waddle",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 88,
@@ -13420,15 +12363,13 @@ export const soccerSport = {
           "stats": "11 Goals, Explosive England striker with devastating left-foot rocket"
         },
         {
-          "id": "pl-shw-93-bright",
-          "name": "Mark Bright",
+          "id": "pl-shw-93-woods",
+          "name": "Chris Woods",
           "roles": [
-            "RW",
-            "WING",
-            "ATT"
+            "GK"
           ],
           "rating": 84,
-          "stats": "11 Premier League Goals, Formed lethal traditional strike partnership with Hirst"
+          "stats": "England starting goalkeeper, 13 clean sheets during sensational campaign"
         },
         {
           "id": "pl-shw-93-nilsson",
@@ -13441,24 +12382,34 @@ export const soccerSport = {
           "stats": "Swedish international right-back was one of the finest defenders in Europe"
         },
         {
-          "id": "pl-shw-93-woods",
-          "name": "Chris Woods",
+          "id": "pl-shw-93-bright",
+          "name": "Mark Bright",
           "roles": [
-            "GK"
+            "RW",
+            "ATT"
           ],
           "rating": 84,
-          "stats": "England starting goalkeeper, 13 clean sheets during sensational campaign"
+          "stats": "11 Premier League Goals, Formed lethal traditional strike partnership with Hirst"
         },
         {
           "id": "pl-shw-93-sheridan",
           "name": "John Sheridan",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 83,
           "stats": "Irish international playmaker, Exquisite passing vision and free-kick delivery"
+        },
+        {
+          "id": "pl-shw-93-palmer",
+          "name": "Carlton Palmer",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 82,
+          "stats": "All-action England international midfield enforcer with endless legs"
         },
         {
           "id": "pl-shw-93-warhurst",
@@ -13471,23 +12422,10 @@ export const soccerSport = {
           "stats": "Iconic story: Center-back converted to striker, scored 12 goals in 12 games"
         },
         {
-          "id": "pl-shw-93-palmer",
-          "name": "Carlton Palmer",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 82,
-          "stats": "All-action England international midfield enforcer with endless legs"
-        },
-        {
           "id": "pl-shw-93-shirtliff",
           "name": "Peter Shirtliff",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
@@ -13498,8 +12436,6 @@ export const soccerSport = {
           "name": "Viv Anderson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -13529,140 +12465,122 @@ export const soccerSport = {
     },
     {
       "franchise": "Sheffield Wednesday",
-      "era": "1999–2000 (Danny Wilson Relegation Banter)",
+      "era": "2000s",
       "players": [
         {
-          "id": "pl-shw-00-carbone",
+          "id": "shw-00-carbone",
           "name": "Benito Carbone",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
-          "rating": 80,
-          "stats": "Italian genius walked out over pay dispute after scoring 4 goals"
+          "rating": 83,
+          "stats": "Italian maestro with extraordinary flair, dribbling, and acrobatic volleys"
         },
         {
-          "id": "pl-shw-00-debilde",
+          "id": "shw-00-jonk",
+          "name": "Wim Jonk",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 82,
+          "stats": "Dutch international midfield general with pinpoint passing from Ajax/Inter"
+        },
+        {
+          "id": "shw-00-pressman",
+          "name": "Kevin Pressman",
+          "roles": [
+            "GK"
+          ],
+          "rating": 81,
+          "stats": "Legendary goalkeeper with the most powerful goal kicks and fierce shot-stopping"
+        },
+        {
+          "id": "shw-00-walker",
+          "name": "Des Walker",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 81,
+          "stats": "'You'll never beat Des Walker', England defensive legend"
+        },
+        {
+          "id": "shw-00-alexandersson",
+          "name": "Niclas Alexandersson",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Swedish international midfielder with smooth movement and crossing"
+        },
+        {
+          "id": "shw-00-thome",
+          "name": "Emerson Thome",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Towering Brazilian center-back who was a colossal aerial presence"
+        },
+        {
+          "id": "shw-00-hinchcliffe",
+          "name": "Andy Hinchcliffe",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "England international left-back with legendary corner-kick accuracy"
+        },
+        {
+          "id": "shw-00-debilde",
           "name": "Gilles De Bilde",
           "roles": [
             "ST",
             "ATT"
           ],
-          "rating": 78,
-          "stats": "Belgian striker top scored with 10 Premier League goals"
+          "rating": 80,
+          "stats": "Belgian striker who led Wednesday's scoring charts with smart finishes"
         },
         {
-          "id": "pl-shw-00-walker",
-          "name": "Des Walker",
+          "id": "shw-00-atherton",
+          "name": "Peter Atherton",
           "roles": [
-            "CB",
-            "CB1",
-            "CB2",
+            "RB",
             "DEF"
           ],
-          "rating": 78,
-          "stats": "'You'll never beat Des Walker', Veteran England center-back at age 34"
+          "rating": 79,
+          "stats": "Versatile defensive leader and long-serving Wednesday captain"
         },
         {
-          "id": "pl-shw-00-jonk",
-          "name": "Wim Jonk",
+          "id": "shw-00-rudi",
+          "name": "Petter Rudi",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
-          "rating": 78,
-          "stats": "Former Ajax and Inter Dutch international playmaker plagued by injuries"
+          "rating": 79,
+          "stats": "Norwegian midfielder with smart tactical positioning and neat distribution"
         },
         {
-          "id": "pl-shw-00-alexandersson",
-          "name": "Niclas Alexandersson",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "Swedish winger scored 5 goals and was sold to Everton for £2.5m"
-        },
-        {
-          "id": "pl-shw-00-srnicek",
-          "name": "Pavel Srníček",
-          "roles": [
-            "GK"
-          ],
-          "rating": 77,
-          "stats": "Czech goalkeeper conceded 8-0 at Newcastle in Sir Bobby Robson's first match"
-        },
-        {
-          "id": "pl-shw-00-sibon",
+          "id": "shw-00-sibon",
           "name": "Gerald Sibon",
           "roles": [
             "ST",
             "ATT"
           ],
-          "rating": 76,
-          "stats": "Towering Dutch striker scored 4 goals in second half of campaign"
-        },
-        {
-          "id": "pl-shw-00-booth",
-          "name": "Andy Booth",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Target man striker chipped in with 2 league goals"
-        },
-        {
-          "id": "pl-shw-00-atherton",
-          "name": "Peter Atherton",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 74,
-          "stats": "Club captain fought bravely in crumbling backline (70 goals conceded)"
-        },
-        {
-          "id": "pl-shw-00-rudi",
-          "name": "Petter Rudi",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 74,
-          "stats": "Norwegian midfielder struggled with physical pace of Premier League"
-        },
-        {
-          "id": "pl-shw-00-nolan",
-          "name": "Ian Nolan",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 73,
-          "stats": "Northern Ireland full-back filled in across defense"
-        },
-        {
-          "id": "pl-shw-00-haslam",
-          "name": "Lee Briscoe",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 73,
-          "stats": "Homegrown defender played 18 matches in doomed campaign"
+          "rating": 79,
+          "stats": "6ft 5in Dutch forward with surprisingly delicate touch and link play"
         }
       ]
     },
     {
       "franchise": "Southampton",
-      "era": "1994–1995 (Alan Ball & Matt Le Tissier Masterclass 10th)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-sou-95-letissier",
@@ -13688,8 +12606,6 @@ export const soccerSport = {
           "name": "Ken Monkou",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -13706,6 +12622,16 @@ export const soccerSport = {
           "stats": "Northern Irish midfield orchestrator combined beautifully with Le Tissier"
         },
         {
+          "id": "pl-sou-95-hall",
+          "name": "Richard Hall",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "England U21 center-back formed solid partnership with Monkou"
+        },
+        {
           "id": "pl-sou-95-shipperley",
           "name": "Neil Shipperley",
           "roles": [
@@ -13714,18 +12640,6 @@ export const soccerSport = {
           ],
           "rating": 79,
           "stats": "Signed from Chelsea, Physical target man forward scored 4 vital goals"
-        },
-        {
-          "id": "pl-sou-95-hall",
-          "name": "Richard Hall",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "England U21 center-back formed solid partnership with Monkou"
         },
         {
           "id": "pl-sou-95-dodd",
@@ -13752,7 +12666,6 @@ export const soccerSport = {
           "name": "Iain Dowie",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 77,
@@ -13763,7 +12676,6 @@ export const soccerSport = {
           "name": "Gordon Watson",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -13774,7 +12686,6 @@ export const soccerSport = {
           "name": "Neil Heaney",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -13785,7 +12696,6 @@ export const soccerSport = {
           "name": "Tommy Widdrington",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 75,
@@ -13795,53 +12705,152 @@ export const soccerSport = {
     },
     {
       "franchise": "Southampton",
-      "era": "2014–2015 (Ronald Koeman 7th Place 60 Pts)",
+      "era": "2000s",
+      "players": [
+        {
+          "id": "sou-00-beattie",
+          "name": "James Beattie",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 87,
+          "stats": "23 Premier League Goals in 2002-03, devastating aerial powerhouse striker"
+        },
+        {
+          "id": "sou-00-niemi",
+          "name": "Antti Niemi",
+          "roles": [
+            "GK"
+          ],
+          "rating": 84,
+          "stats": "Sensational Finnish goalkeeper whose reflex saves were among the league's best"
+        },
+        {
+          "id": "sou-00-bridge",
+          "name": "Wayne Bridge",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 84,
+          "stats": "Academy graduate who became England's premier attacking left-back"
+        },
+        {
+          "id": "sou-00-lundekvam",
+          "name": "Claus Lundekvam",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 83,
+          "stats": "Norwegian captain who made over 350 appearances for the Saints"
+        },
+        {
+          "id": "sou-00-pahars",
+          "name": "Marian Pahars",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "'The Latvian Owen', electric forward whose mazy dribbling stunned defenses"
+        },
+        {
+          "id": "sou-00-svensson-m",
+          "name": "Michael Svensson",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 82,
+          "stats": "'Killer', fearless Swedish central defender who dominated the air"
+        },
+        {
+          "id": "sou-00-svensson-a",
+          "name": "Anders Svensson",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 82,
+          "stats": "Swedish playmaker with sublime vision and long-range shooting"
+        },
+        {
+          "id": "sou-00-dodd",
+          "name": "Jason Dodd",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 81,
+          "stats": "Long-serving Saints captain and loyal right-back stalwart"
+        },
+        {
+          "id": "sou-00-marsden",
+          "name": "Chris Marsden",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Cult hero midfielder who captained Saints to the 2003 FA Cup final"
+        },
+        {
+          "id": "sou-00-oakley",
+          "name": "Matt Oakley",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Midfield metronome whose passing and work ethic held the side together"
+        },
+        {
+          "id": "sou-00-fernandes",
+          "name": "Fabrice Fernandes",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "French winger with dazzling flair and left-footed trickery on the right"
+        }
+      ]
+    },
+    {
+      "franchise": "Southampton",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-sou-15-alderweireld",
           "name": "Toby Alderweireld",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 86,
           "stats": "Sensational loan from Atlético Madrid, Redefined Southampton's defense (only 33 conceded)"
         },
         {
-          "id": "pl-sou-15-mane",
-          "name": "Sadio Mané",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 85,
-          "stats": "10 Goals, Scored fastest hat-trick in Premier League history (2 min 56 sec vs Villa)"
-        },
-        {
           "id": "pl-sou-15-schneiderlin",
           "name": "Morgan Schneiderlin",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 85,
           "stats": "Premier League's elite defensive midfielder, Master of reading play and tackling"
         },
         {
-          "id": "pl-sou-15-fonte",
-          "name": "José Fonte",
+          "id": "pl-sou-15-mane",
+          "name": "Sadio Mané",
           "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
+            "LW",
+            "ATT"
           ],
-          "rating": 84,
-          "stats": "Southampton captain, Formed league's second-best defense with Alderweireld"
+          "rating": 85,
+          "stats": "10 Goals, Scored fastest hat-trick in Premier League history (2 min 56 sec vs Villa)"
         },
         {
           "id": "pl-sou-15-forster",
@@ -13853,26 +12862,24 @@ export const soccerSport = {
           "stats": "Great Green Wall kept 14 clean sheets before knee injury"
         },
         {
+          "id": "pl-sou-15-fonte",
+          "name": "José Fonte",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 84,
+          "stats": "Southampton captain, Formed league's second-best defense with Alderweireld"
+        },
+        {
           "id": "pl-sou-15-tadic",
           "name": "Dušan Tadić",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 84,
           "stats": "4 Goals, 7 Assists, Serbian magician with 4 assists in famous 8-0 win vs Sunderland"
-        },
-        {
-          "id": "pl-sou-15-pelle",
-          "name": "Graziano Pellè",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "12 Premier League Goals, Italian target man scored Goal of the Season overhead vs QPR"
         },
         {
           "id": "pl-sou-15-clyne",
@@ -13899,18 +12906,26 @@ export const soccerSport = {
           "name": "Victor Wanyama",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 83,
           "stats": "Big Vic, Imposing physical presence alongside Schneiderlin in midfield"
         },
         {
+          "id": "pl-sou-15-pelle",
+          "name": "Graziano Pellè",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "12 Premier League Goals, Italian target man scored Goal of the Season overhead vs QPR"
+        },
+        {
           "id": "pl-sou-15-davis",
           "name": "Steven Davis",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -13930,7 +12945,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Southampton",
-      "era": "2022–2023 (Jones & Sellés Relegation Banter 25 Pts)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-sou-23-wardprowse",
@@ -13947,7 +12962,6 @@ export const soccerSport = {
           "name": "Roméo Lavia",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -13964,6 +12978,36 @@ export const soccerSport = {
           "stats": "Versatile full-back was lone consistent performer across both flanks"
         },
         {
+          "id": "pl-sou-23-bellakotchap",
+          "name": "Armel Bella-Kotchap",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Germany international center-back showed elite talent before shoulder injuries"
+        },
+        {
+          "id": "pl-sou-23-bednarek",
+          "name": "Jan Bednarek",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Recalled from Villa loan, Battled in defense that conceded 73 goals"
+        },
+        {
+          "id": "pl-sou-23-alcaraz",
+          "name": "Carlos Alcaraz",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "4 Goals including opener in 3-3 thriller at Arsenal, Argentine spark"
+        },
+        {
           "id": "pl-sou-23-adams",
           "name": "Che Adams",
           "roles": [
@@ -13974,46 +13018,10 @@ export const soccerSport = {
           "stats": "5 Premier League Goals, Hardworking striker starved of creative service"
         },
         {
-          "id": "pl-sou-23-bellakotchap",
-          "name": "Armel Bella-Kotchap",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Germany international center-back showed elite talent before shoulder injuries"
-        },
-        {
-          "id": "pl-sou-23-alcaraz",
-          "name": "Carlos Alcaraz",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "4 Goals including opener in 3-3 thriller at Arsenal, Argentine spark"
-        },
-        {
-          "id": "pl-sou-23-bednarek",
-          "name": "Jan Bednarek",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Recalled from Villa loan, Battled in defense that conceded 73 goals"
-        },
-        {
           "id": "pl-sou-23-sulemana",
           "name": "Kamaldeen Sulemana",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 77,
@@ -14034,7 +13042,6 @@ export const soccerSport = {
           "name": "Paul Onuachu",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -14045,7 +13052,6 @@ export const soccerSport = {
           "name": "Theo Walcott",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -14064,152 +13070,123 @@ export const soccerSport = {
     },
     {
       "franchise": "Stoke City",
-      "era": "2011–2012 (Tony Pulis Long Throw & Britannia Fortress)",
+      "era": "2000s",
       "players": [
         {
-          "id": "pl-stk-12-crouch",
-          "name": "Peter Crouch",
+          "id": "sto-00-shawcross",
+          "name": "Ryan Shawcross",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 84,
+          "stats": "Stoke captain, formidable defensive leader who made Britannia a fortress"
+        },
+        {
+          "id": "sto-00-faye",
+          "name": "Abdoulaye Faye",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 83,
+          "stats": "Senegalese colossus who was voted Stoke Player of the Year in debut season"
+        },
+        {
+          "id": "sto-00-delap",
+          "name": "Rory Delap",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 83,
+          "stats": "His supersonic bullet throw-ins caused pure panic across the Premier League"
+        },
+        {
+          "id": "sto-00-fuller",
+          "name": "Ricardo Fuller",
           "roles": [
             "ST",
             "ATT"
           ],
-          "rating": 82,
-          "stats": "10 Premier League Goals including legendary 30-yard dipping volley vs Man City"
+          "rating": 83,
+          "stats": "Jamaican magician whose balance, trickery, and solo goals were iconic"
         },
         {
-          "id": "pl-stk-12-shawcross",
-          "name": "Ryan Shawcross",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 82,
-          "stats": "Stoke captain, Uncompromising defensive warrior in Britannia fortress"
-        },
-        {
-          "id": "pl-stk-12-huth",
-          "name": "Robert Huth",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 82,
-          "stats": "Berlin Wall, 3 Premier League goals, Imposing physical and aerial dominator"
-        },
-        {
-          "id": "pl-stk-12-begovic",
-          "name": "Asmir Begović",
+          "id": "sto-00-sorensen",
+          "name": "Thomas Sorensen",
           "roles": [
             "GK"
           ],
           "rating": 82,
-          "stats": "Bosnian giant kept 10 clean sheets with commanding penalty box aerial claims"
+          "stats": "Danish international goalkeeper who saved penalties from Ronaldo and Lampard"
         },
         {
-          "id": "pl-stk-12-etherington",
+          "id": "sto-00-etherington",
           "name": "Matthew Etherington",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
-          "rating": 81,
-          "stats": "Direct left-winger provided precision crossing and 3 league goals"
+          "rating": 82,
+          "stats": "Lethal left winger whose pace and delivery provided endless assists"
         },
         {
-          "id": "pl-stk-12-walters",
-          "name": "Jonathan Walters",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "7 Goals, Relentless Irish workhorse personified Stoke's unyielding fight"
-        },
-        {
-          "id": "pl-stk-12-jones",
-          "name": "Kenwyne Jones",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "Trinidadian aerial powerhouse target man battered opposition defenses"
-        },
-        {
-          "id": "pl-stk-12-whelan",
-          "name": "Glenn Whelan",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 79,
-          "stats": "Irish midfield anchor provided tactical discipline and tough tackling"
-        },
-        {
-          "id": "pl-stk-12-delap",
-          "name": "Rory Delap",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "Iconic missile long throw caused sheer panic across all Premier League defenses"
-        },
-        {
-          "id": "pl-stk-12-wilson",
-          "name": "Marc Wilson",
+          "id": "sto-00-higginbotham",
+          "name": "Danny Higginbotham",
           "roles": [
             "LB",
             "DEF"
           ],
-          "rating": 78,
-          "stats": "Versatile Irish defender slotted in at left-back and midfield"
+          "rating": 80,
+          "stats": "Reliable left-back and dead-ball striker with fierce commitment"
         },
         {
-          "id": "pl-stk-12-pennant",
-          "name": "Jermaine Pennant",
+          "id": "sto-00-whelan",
+          "name": "Glenn Whelan",
           "roles": [
-            "CAM",
-            "CM",
+            "CDM",
             "MID"
           ],
-          "rating": 78,
-          "stats": "Provided wicked set-piece delivery and pace from the right wing"
+          "rating": 80,
+          "stats": "Republic of Ireland midfielder who was the tactical anchor for a decade"
         },
         {
-          "id": "pl-stk-12-wilkinson",
+          "id": "sto-00-lawrence",
+          "name": "Liam Lawrence",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Hardworking winger with deadly right-footed crossing and free kicks"
+        },
+        {
+          "id": "sto-00-wilkinson",
           "name": "Andy Wilkinson",
           "roles": [
             "RB",
             "DEF"
           ],
-          "rating": 77,
-          "stats": "Local hero right-back known for wholehearted full-blooded challenges"
+          "rating": 79,
+          "stats": "Local hero right-back whose thunderous tackles epitomized the Stoke spirit"
+        },
+        {
+          "id": "sto-00-diao",
+          "name": "Salif Diao",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 79,
+          "stats": "Former Liverpool midfielder who provided veteran calmness in the engine room"
         }
       ]
     },
     {
       "franchise": "Stoke City",
-      "era": "2015–2016 (Mark Hughes 'Stokelona' 9th Place)",
+      "era": "2010s",
       "players": [
-        {
-          "id": "pl-stk-16-arnautovic",
-          "name": "Marko Arnautović",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 84,
-          "stats": "11 Premier League Goals, 6 Assists, Austrian talisman at the peak of his powers"
-        },
         {
           "id": "pl-stk-16-butland",
           "name": "Jack Butland",
@@ -14220,11 +13197,20 @@ export const soccerSport = {
           "stats": "England goalkeeper kept 10 clean sheets, heroic season before ankle fracture"
         },
         {
+          "id": "pl-stk-16-arnautovic",
+          "name": "Marko Arnautović",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 84,
+          "stats": "11 Premier League Goals, 6 Assists, Austrian talisman at the peak of his powers"
+        },
+        {
           "id": "pl-stk-16-shaqiri",
           "name": "Xherdan Shaqiri",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
@@ -14245,22 +13231,10 @@ export const soccerSport = {
           "name": "Ryan Shawcross",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
           "stats": "Captain led backline with traditional toughness mixed with Hughes' passing"
-        },
-        {
-          "id": "pl-stk-16-imbula",
-          "name": "Giannelli Imbula",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "£18m record signing from Porto showed explosive midfield driving runs"
         },
         {
           "id": "pl-stk-16-johnson",
@@ -14273,11 +13247,20 @@ export const soccerSport = {
           "stats": "Free transfer masterstroke, Revitalized at right-back before knee injury"
         },
         {
+          "id": "pl-stk-16-imbula",
+          "name": "Giannelli Imbula",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "£18m record signing from Porto showed explosive midfield driving runs"
+        },
+        {
           "id": "pl-stk-16-afellay",
           "name": "Ibrahim Afellay",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -14288,8 +13271,6 @@ export const soccerSport = {
           "name": "Philipp Wollscheid",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -14310,7 +13291,6 @@ export const soccerSport = {
           "name": "Glenn Whelan",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 79,
@@ -14329,140 +13309,8 @@ export const soccerSport = {
       ]
     },
     {
-      "franchise": "Stoke City",
-      "era": "2017–2018 (Paul Lambert Relegation Banter)",
-      "players": [
-        {
-          "id": "pl-stk-18-shaqiri",
-          "name": "Xherdan Shaqiri",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "8 Goals, 7 Assists, Lone bright spark scored miraculous curling free-kicks"
-        },
-        {
-          "id": "pl-stk-18-zouma",
-          "name": "Kurt Zouma",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "Chelsea loanee was an athletic colossus in defense that conceded 68 goals"
-        },
-        {
-          "id": "pl-stk-18-butland",
-          "name": "Jack Butland",
-          "roles": [
-            "GK"
-          ],
-          "rating": 79,
-          "stats": "England World Cup squad goalkeeper made 143 saves in doomed campaign"
-        },
-        {
-          "id": "pl-stk-18-shawcross",
-          "name": "Ryan Shawcross",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Stoke legend suffered with injuries as 10-year top-flight stay collapsed"
-        },
-        {
-          "id": "pl-stk-18-allen",
-          "name": "Joe Allen",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "Welsh Pirlo ran tireless marathons in midfield, 2 league goals"
-        },
-        {
-          "id": "pl-stk-18-ndiaye",
-          "name": "Badou Ndiaye",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "January signing scored 2 goals and added dynamic athletic midfield running"
-        },
-        {
-          "id": "pl-stk-18-choupo",
-          "name": "Eric Maxim Choupo-Moting",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "5 Goals including double vs Man United before later PSG/Bayern fame"
-        },
-        {
-          "id": "pl-stk-18-diouf",
-          "name": "Mame Biram Diouf",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 76,
-          "stats": "6 Goals, Forward asked to play right wing-back out of desperation"
-        },
-        {
-          "id": "pl-stk-18-crouch",
-          "name": "Peter Crouch",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 76,
-          "stats": "5 Goals, 37-year-old veteran became Premier League substitute record holder"
-        },
-        {
-          "id": "pl-stk-18-pieters",
-          "name": "Erik Pieters",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Fined £70,000 for attending nightclub night before crucial relegation match"
-        },
-        {
-          "id": "pl-stk-18-fletcher",
-          "name": "Darren Fletcher",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Experienced former Man United midfielder lost physical mobility"
-        },
-        {
-          "id": "pl-stk-18-bauer",
-          "name": "Moritz Bauer",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 74,
-          "stats": "Austrian right-back arrived in January to provide energy on the flank"
-        }
-      ]
-    },
-    {
       "franchise": "Sunderland",
-      "era": "1999–2000 (Peter Reid 7th Place & Kevin Phillips Golden Shoe)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-sun-00-phillips",
@@ -14504,38 +13352,24 @@ export const soccerSport = {
           "stats": "Local homegrown left-back earned England cap with flying overlapping runs"
         },
         {
-          "id": "pl-sun-00-schwarz",
-          "name": "Stefan Schwarz",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Swedish international brought World Cup class and fierce tackling to midfield"
-        },
-        {
           "id": "pl-sun-00-bould",
           "name": "Steve Bould",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
           "stats": "Arsenal Double winner brought title-winning defensive steel to Wearside"
         },
         {
-          "id": "pl-sun-00-summerbee",
-          "name": "Nicky Summerbee",
+          "id": "pl-sun-00-schwarz",
+          "name": "Stefan Schwarz",
           "roles": [
-            "RW",
-            "WING",
-            "ATT"
+            "CDM",
+            "MID"
           ],
-          "rating": 79,
-          "stats": "Pinpoint right-wing crossing delivered dozens of chances for Quinn"
+          "rating": 80,
+          "stats": "Swedish international brought World Cup class and fierce tackling to midfield"
         },
         {
           "id": "pl-sun-00-mccann",
@@ -14552,18 +13386,26 @@ export const soccerSport = {
           "name": "Alex Rae",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 79,
           "stats": "Scottish midfield terrier provided aggressive bite and 5 league goals"
         },
         {
+          "id": "pl-sun-00-summerbee",
+          "name": "Nicky Summerbee",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 79,
+          "stats": "Pinpoint right-wing crossing delivered dozens of chances for Quinn"
+        },
+        {
           "id": "pl-sun-00-kilbane",
           "name": "Kevin Kilbane",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
@@ -14584,8 +13426,6 @@ export const soccerSport = {
           "name": "Paul Butler",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 77,
@@ -14595,7 +13435,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Sunderland",
-      "era": "2005–2006 (Record Low 15 Points Mick McCarthy Banter)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-sun-06-arca",
@@ -14612,21 +13452,10 @@ export const soccerSport = {
           "name": "Dean Whitehead",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 74,
           "stats": "Sunderland Player of the Year scored 3 goals in wretched 15-point campaign"
-        },
-        {
-          "id": "pl-sun-06-letallec",
-          "name": "Anthony Le Tallec",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 73,
-          "stats": "Liverpool loanee was top scorer with just 4 league goals"
         },
         {
           "id": "pl-sun-06-mccartney",
@@ -14637,6 +13466,16 @@ export const soccerSport = {
           ],
           "rating": 73,
           "stats": "Northern Ireland full-back missed large chunks of season with injury"
+        },
+        {
+          "id": "pl-sun-06-letallec",
+          "name": "Anthony Le Tallec",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 73,
+          "stats": "Liverpool loanee was top scorer with just 4 league goals"
         },
         {
           "id": "pl-sun-06-nosworthy",
@@ -14653,8 +13492,6 @@ export const soccerSport = {
           "name": "Gary Breen",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 72,
@@ -14665,8 +13502,6 @@ export const soccerSport = {
           "name": "Steven Caldwell",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 72,
@@ -14677,11 +13512,19 @@ export const soccerSport = {
           "name": "Liam Lawrence",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 72,
           "stats": "Scored 1 goal in 29 appearances on the right wing"
+        },
+        {
+          "id": "pl-sun-06-davis",
+          "name": "Kelvin Davis",
+          "roles": [
+            "GK"
+          ],
+          "rating": 71,
+          "stats": "Suffered nightmare season in goal with numerous costly high-profile errors"
         },
         {
           "id": "pl-sun-06-miller",
@@ -14694,174 +13537,30 @@ export const soccerSport = {
           "stats": "Arrived from Ipswich, managed 3 goals in midfield"
         },
         {
-          "id": "pl-sun-06-davis",
-          "name": "Kelvin Davis",
+          "id": "pl-sun-06-stead",
+          "name": "Jon Stead",
           "roles": [
-            "GK"
+            "CAM",
+            "MID"
           ],
           "rating": 71,
-          "stats": "Suffered nightmare season in goal with numerous costly high-profile errors"
+          "stats": "£1.8m striker scored just 1 goal in 30 Premier League appearances"
         },
         {
           "id": "pl-sun-06-kyle",
           "name": "Kevin Kyle",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 71,
           "stats": "Scottish target man managed only 1 league goal in 13 appearances"
-        },
-        {
-          "id": "pl-sun-06-stead",
-          "name": "Jon Stead",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 71,
-          "stats": "£1.8m striker scored just 1 goal in 30 Premier League appearances"
         }
       ]
     },
     {
       "franchise": "Sunderland",
-      "era": "2013–2014 (Gus Poyet 'Miracle' Great Escape)",
-      "players": [
-        {
-          "id": "pl-sun-14-mannone",
-          "name": "Vito Mannone",
-          "roles": [
-            "GK"
-          ],
-          "rating": 82,
-          "stats": "Sunderland Player of the Year, Penalty hero in League Cup semi at Old Trafford"
-        },
-        {
-          "id": "pl-sun-14-johnson",
-          "name": "Adam Johnson",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 81,
-          "stats": "8 Goals including hat-trick at Fulham and derby winner at Newcastle"
-        },
-        {
-          "id": "pl-sun-14-borini",
-          "name": "Fabio Borini",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "7 Goals including famous winning penalty at Chelsea to end Mourinho's home record"
-        },
-        {
-          "id": "pl-sun-14-kisungyueng",
-          "name": "Ki Sung-yueng",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "Swansea loanee was the composed technical heartbeat of Poyet's midfield"
-        },
-        {
-          "id": "pl-sun-14-alonso",
-          "name": "Marcos Alonso",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 80,
-          "stats": "Fiorentina loanee transformed left-back slot with class in Great Escape"
-        },
-        {
-          "id": "pl-sun-14-cattermole",
-          "name": "Lee Cattermole",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 79,
-          "stats": "Clattenburg's best friend, Reborn as midfield general at base of diamond"
-        },
-        {
-          "id": "pl-sun-14-wickham",
-          "name": "Connor Wickham",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "5 Goals in 3 games in April (braces at City & Chelsea) to pull off miracle"
-        },
-        {
-          "id": "pl-sun-14-oshea",
-          "name": "John O'Shea",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "Experienced former Man United defender captained backline with calm poise"
-        },
-        {
-          "id": "pl-sun-14-brown",
-          "name": "Wes Brown",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "Warrior center-back returned from injuries to inspire historic survival run"
-        },
-        {
-          "id": "pl-sun-14-larsson",
-          "name": "Sebastian Larsson",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 79,
-          "stats": "Swedish dead-ball specialist scored vital winner at Old Trafford"
-        },
-        {
-          "id": "pl-sun-14-bardsley",
-          "name": "Phil Bardsley",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Returned from cold to score 2 league goals and fight at right-back"
-        },
-        {
-          "id": "pl-sun-14-colback",
-          "name": "Jack Colback",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 78,
-          "stats": "Homegrown Ginger Pirlo before controversial summer move to Newcastle"
-        }
-      ]
-    },
-    {
-      "franchise": "Sunderland",
-      "era": "2016–2017 (David Moyes Depressing Relegation)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-sun-17-defoe",
@@ -14887,7 +13586,6 @@ export const soccerSport = {
           "name": "Wahbi Khazri",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 77,
@@ -14898,8 +13596,6 @@ export const soccerSport = {
           "name": "Lamine Koné",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
@@ -14910,29 +13606,16 @@ export const soccerSport = {
           "name": "Adnan Januzaj",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
           "stats": "Man United loanee showed fleeting glimpses of talent without a league goal"
         },
         {
-          "id": "pl-sun-17-anichebe",
-          "name": "Victor Anichebe",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 75,
-          "stats": "3 Goals, Beastly physical strike partner for Defoe before hamstring tear"
-        },
-        {
           "id": "pl-sun-17-oshea",
           "name": "John O'Shea",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -14943,7 +13626,6 @@ export const soccerSport = {
           "name": "Didier Ndong",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 75,
@@ -14964,11 +13646,20 @@ export const soccerSport = {
           "name": "Fabio Borini",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 75,
           "stats": "Managed just 2 league goals as Sunderland scored second-lowest in league"
+        },
+        {
+          "id": "pl-sun-17-anichebe",
+          "name": "Victor Anichebe",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 75,
+          "stats": "3 Goals, Beastly physical strike partner for Defoe before hamstring tear"
         },
         {
           "id": "pl-sun-17-oviedo",
@@ -14994,7 +13685,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Swansea City",
-      "era": "2012–2013 (Michael Laudrup League Cup & Michu Mania 9th)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-swa-13-michu",
@@ -15007,18 +13698,6 @@ export const soccerSport = {
           "stats": "18 Premier League Goals, £2m bargain of the century, Iconic ear-twist celebration"
         },
         {
-          "id": "pl-swa-13-williams",
-          "name": "Ashley Williams",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 83,
-          "stats": "Swansea captain, Towering leader, Cleared ball off line with face vs Arsenal"
-        },
-        {
           "id": "pl-swa-13-vorm",
           "name": "Michel Vorm",
           "roles": [
@@ -15028,15 +13707,14 @@ export const soccerSport = {
           "stats": "Dutch goalkeeper kept 12 clean sheets with sensational cat-like reflex stops"
         },
         {
-          "id": "pl-swa-13-hernandez",
-          "name": "Pablo Hernández",
+          "id": "pl-swa-13-williams",
+          "name": "Ashley Williams",
           "roles": [
-            "RW",
-            "WING",
-            "ATT"
+            "CB",
+            "DEF"
           ],
-          "rating": 81,
-          "stats": "Former Valencia winger added Spanish international flair and 6 assists"
+          "rating": 83,
+          "stats": "Swansea captain, Towering leader, Cleared ball off line with face vs Arsenal"
         },
         {
           "id": "pl-swa-13-deguzman",
@@ -15049,23 +13727,20 @@ export const soccerSport = {
           "stats": "5 Goals, 7 Assists, Free-kick specialist on loan from Villarreal"
         },
         {
-          "id": "pl-swa-13-britton",
-          "name": "Leon Britton",
+          "id": "pl-swa-13-hernandez",
+          "name": "Pablo Hernández",
           "roles": [
-            "CDM",
-            "CM",
-            "MID"
+            "RW",
+            "ATT"
           ],
-          "rating": 80,
-          "stats": "Swansea's Xavi, Higher pass completion rate than Xavi in European football"
+          "rating": 81,
+          "stats": "Former Valencia winger added Spanish international flair and 6 assists"
         },
         {
           "id": "pl-swa-13-flores",
           "name": "Chico Flores",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -15082,26 +13757,24 @@ export const soccerSport = {
           "stats": "3 Goals, Long-serving Spanish full-back with attacking overlaps"
         },
         {
+          "id": "pl-swa-13-britton",
+          "name": "Leon Britton",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Swansea's Xavi, Higher pass completion rate than Xavi in European football"
+        },
+        {
           "id": "pl-swa-13-kisungyueng",
           "name": "Ki Sung-yueng",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 80,
           "stats": "South Korean international brought physical presence and passing elegance"
-        },
-        {
-          "id": "pl-swa-13-routledge",
-          "name": "Wayne Routledge",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "5 Goals, Direct English winger found home in South Wales"
         },
         {
           "id": "pl-swa-13-davies",
@@ -15112,6 +13785,16 @@ export const soccerSport = {
           ],
           "rating": 79,
           "stats": "Teenage Welsh left-back broke into team and played with mature poise"
+        },
+        {
+          "id": "pl-swa-13-routledge",
+          "name": "Wayne Routledge",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 79,
+          "stats": "5 Goals, Direct English winger found home in South Wales"
         },
         {
           "id": "pl-swa-13-graham",
@@ -15126,141 +13809,8 @@ export const soccerSport = {
       ]
     },
     {
-      "franchise": "Swansea City",
-      "era": "2017–2018 (Carvalhal Relegation Banter)",
-      "players": [
-        {
-          "id": "pl-swa-18-fabianski",
-          "name": "Łukasz Fabiański",
-          "roles": [
-            "GK"
-          ],
-          "rating": 83,
-          "stats": "Swansea Player of the Year, Premier League save leader (137) was heroic"
-        },
-        {
-          "id": "pl-swa-18-ayew-j",
-          "name": "Jordan Ayew",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "7 Premier League Goals including wonder solo goal vs Wolves in cup"
-        },
-        {
-          "id": "pl-swa-18-mawson",
-          "name": "Alfie Mawson",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 79,
-          "stats": "England squad call-up, Scored iconic winner vs Liverpool at Liberty Stadium"
-        },
-        {
-          "id": "pl-swa-18-ayew-a",
-          "name": "André Ayew",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "Re-signed from West Ham for £18m, 0 league goals in 12 appearances"
-        },
-        {
-          "id": "pl-swa-18-fernandez",
-          "name": "Federico Fernández",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Argentine center-back captained side with defensive commitment"
-        },
-        {
-          "id": "pl-swa-18-abraham",
-          "name": "Tammy Abraham",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "5 Premier League Goals on loan from Chelsea as raw 20-year-old"
-        },
-        {
-          "id": "pl-swa-18-kisungyueng",
-          "name": "Ki Sung-yueng",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "2 Goals, South Korean midfielder had bright spell under Carvalhal"
-        },
-        {
-          "id": "pl-swa-18-clucas",
-          "name": "Sam Clucas",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "3 Goals including famous brace in 3-1 shock victory over Arsenal"
-        },
-        {
-          "id": "pl-swa-18-olsson",
-          "name": "Martin Olsson",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Swedish left-back made 36 appearances on the left flank"
-        },
-        {
-          "id": "pl-swa-18-naughton",
-          "name": "Kyle Naughton",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Former Spurs full-back started 34 league games"
-        },
-        {
-          "id": "pl-swa-18-carroll",
-          "name": "Tom Carroll",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Former Spurs midfielder provided tidy passing in central areas"
-        },
-        {
-          "id": "pl-swa-18-renatosanches",
-          "name": "Renato Sanches",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Golden Boy winner passed to advertising board in disastrous loan spell"
-        }
-      ]
-    },
-    {
       "franchise": "Swindon Town",
-      "era": "1993–1994 (Only Premier League Season 100 Goals Conceded)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-swi-94-fjortoft",
@@ -15277,22 +13827,10 @@ export const soccerSport = {
           "name": "John Moncur",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 75,
           "stats": "Silky central midfield playmaker with crisp passing and aggressive bite"
-        },
-        {
-          "id": "pl-swi-94-summerbee",
-          "name": "Nicky Summerbee",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 74,
-          "stats": "Electric young right-winger earned big-money move to Manchester City"
         },
         {
           "id": "pl-swi-94-bodin",
@@ -15315,23 +13853,20 @@ export const soccerSport = {
           "stats": "Scotland international center-back before £1.25m move to Tottenham"
         },
         {
-          "id": "pl-swi-94-maskell",
-          "name": "Craig Maskell",
+          "id": "pl-swi-94-summerbee",
+          "name": "Nicky Summerbee",
           "roles": [
-            "RW",
-            "WING",
+            "LW",
             "ATT"
           ],
-          "rating": 73,
-          "stats": "6 Premier League Goals including winner in 2-1 shock over QPR"
+          "rating": 74,
+          "stats": "Electric young right-winger earned big-money move to Manchester City"
         },
         {
           "id": "pl-swi-94-kilcline",
           "name": "Brian Kilcline",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 73,
@@ -15342,8 +13877,6 @@ export const soccerSport = {
           "name": "Shaun Taylor",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 73,
@@ -15360,11 +13893,20 @@ export const soccerSport = {
           "stats": "Industrious midfielder made 35 appearances in top flight"
         },
         {
+          "id": "pl-swi-94-maskell",
+          "name": "Craig Maskell",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 73,
+          "stats": "6 Premier League Goals including winner in 2-1 shock over QPR"
+        },
+        {
           "id": "pl-swi-94-nijholt",
           "name": "Luc Nijholt",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 72,
@@ -15393,147 +13935,243 @@ export const soccerSport = {
     },
     {
       "franchise": "Tottenham Hotspur",
-      "era": "2010–2011 (Redknapp UCL Debut & Bale Taxi for Maicon)",
+      "era": "1990s",
       "players": [
         {
-          "id": "pl-tot-11-modric",
-          "name": "Luka Modrić",
+          "id": "tot-90-klinsmann",
+          "name": "Jurgen Klinsmann",
           "roles": [
-            "CM",
-            "MID"
+            "ST",
+            "ATT"
           ],
-          "rating": 91,
-          "stats": "Premier League's premier midfield artist, Dictated games with effortless genius"
+          "rating": 92,
+          "stats": "FWA Footballer of the Year, Iconic German world star with diving celebrations"
         },
         {
-          "id": "pl-tot-11-bale",
-          "name": "Gareth Bale",
+          "id": "tot-90-ginola",
+          "name": "David Ginola",
           "roles": [
             "LW",
-            "WING",
             "ATT"
+          ],
+          "rating": 91,
+          "stats": "PFA & FWA Player of the Year 1999, French virtuoso with majestic solo goals"
+        },
+        {
+          "id": "tot-90-sheringham",
+          "name": "Teddy Sheringham",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 91,
+          "stats": "Inaugural Premier League Golden Boot winner with supreme football brain"
+        },
+        {
+          "id": "tot-90-campbell",
+          "name": "Sol Campbell",
+          "roles": [
+            "CB",
+            "DEF"
           ],
           "rating": 90,
-          "stats": "PFA Players' Player of the Year, 'Taxi for Maicon', Unstoppable Welsh freight train"
+          "stats": "Dominant England international center-back and Spurs captain"
         },
         {
-          "id": "pl-tot-11-vandervaart",
-          "name": "Rafael van der Vaart",
+          "id": "tot-90-anderton",
+          "name": "Darren Anderton",
           "roles": [
-            "ST",
-            "ATT"
+            "CAM",
+            "MID"
           ],
-          "rating": 88,
-          "stats": "13 Goals, 9 Assists, Deadline-day £8m coup from Real Madrid, Pure class"
+          "rating": 87,
+          "stats": "England star with world-class crossing and pinpoint passing range"
         },
         {
-          "id": "pl-tot-11-dawson",
-          "name": "Michael Dawson",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 84,
-          "stats": "Tottenham Player of the Year, Brave English center-back blocked everything"
-        },
-        {
-          "id": "pl-tot-11-defoe",
-          "name": "Jermain Defoe",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 84,
-          "stats": "9 Goals, Explosive striker with lightning-quick trigger in penalty box"
-        },
-        {
-          "id": "pl-tot-11-gallas",
-          "name": "William Gallas",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 84,
-          "stats": "Former Arsenal and Chelsea captain was a rock in Spurs' back four"
-        },
-        {
-          "id": "pl-tot-11-crouch",
-          "name": "Peter Crouch",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "Scored historic winner at San Siro vs AC Milan, Crucial European target man"
-        },
-        {
-          "id": "pl-tot-11-assouekotto",
-          "name": "Benoît Assou-Ekotto",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 82,
-          "stats": "Disco Benny, Honest full-back with brilliant left-footed crossing"
-        },
-        {
-          "id": "pl-tot-11-gomes",
-          "name": "Heurelho Gomes",
+          "id": "tot-90-walker",
+          "name": "Ian Walker",
           "roles": [
             "GK"
           ],
-          "rating": 82,
-          "stats": "Acrobatic Brazilian goalkeeper made miracle saves mixed with high-wire moments"
+          "rating": 84,
+          "stats": "England international shot-stopper who guarded the Spurs net for years"
         },
         {
-          "id": "pl-tot-11-huddlestone",
-          "name": "Tom Huddlestone",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 82,
-          "stats": "Cannonball shooting and 60-yard crossfield passes from central midfield"
-        },
-        {
-          "id": "pl-tot-11-lennon",
-          "name": "Aaron Lennon",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 82,
-          "stats": "Blistering pace down the right flank, 3 goals and 6 assists"
-        },
-        {
-          "id": "pl-tot-11-corluka",
-          "name": "Vedran Ćorluka",
+          "id": "tot-90-carr",
+          "name": "Stephen Carr",
           "roles": [
             "RB",
             "DEF"
           ],
+          "rating": 84,
+          "stats": "PFA Team of the Year right-back famous for thunderous long-range screamers"
+        },
+        {
+          "id": "tot-90-sherwood",
+          "name": "Tim Sherwood",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 84,
+          "stats": "Spurs captain and combative midfield leader with great drive and vision"
+        },
+        {
+          "id": "tot-90-calderwood",
+          "name": "Colin Calderwood",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 82,
+          "stats": "Scottish international central defender with commanding leadership"
+        },
+        {
+          "id": "tot-90-nielsen",
+          "name": "Allan Nielsen",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 82,
+          "stats": "Danish midfielder who scored the 1999 League Cup winning header"
+        },
+        {
+          "id": "tot-90-edinburgh",
+          "name": "Justin Edinburgh",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
           "rating": 81,
-          "stats": "Composed Croatian international defender brought tactical calmness"
+          "stats": "Committed left-back who made nearly 250 appearances over a decade"
         }
       ]
     },
     {
       "franchise": "Tottenham Hotspur",
-      "era": "2012–2013 (Andre Villas-Boas Bale Solo Carry 21 Goals)",
+      "era": "2000s",
+      "players": [
+        {
+          "id": "tot-00-berbatov",
+          "name": "Dimitar Berbatov",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 91,
+          "stats": "Pure genius Bulgarian forward whose elegance and touch left defenders spellbound"
+        },
+        {
+          "id": "tot-00-king",
+          "name": "Ledley King",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 90,
+          "stats": "Henry called him the best defender he faced without needing to train; pure legend"
+        },
+        {
+          "id": "tot-00-modric",
+          "name": "Luka Modric",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 90,
+          "stats": "Croatian midfield wizard whose vision and press-resistance transformed Spurs"
+        },
+        {
+          "id": "tot-00-keane",
+          "name": "Robbie Keane",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 89,
+          "stats": "Over 100 Premier League goals for Spurs, iconic cartwheel celebration"
+        },
+        {
+          "id": "tot-00-carrick",
+          "name": "Michael Carrick",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 87,
+          "stats": "England midfield general whose surgical forward passing dictated tempo"
+        },
+        {
+          "id": "tot-00-lennon",
+          "name": "Aaron Lennon",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 86,
+          "stats": "Pocket rocket winger with blistering straight-line acceleration"
+        },
+        {
+          "id": "tot-00-robinson",
+          "name": "Paul Robinson",
+          "roles": [
+            "GK"
+          ],
+          "rating": 85,
+          "stats": "England's #1 goalkeeper who even scored a memorable 80-yard goal!"
+        },
+        {
+          "id": "tot-00-dawson",
+          "name": "Michael Dawson",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 83,
+          "stats": "Lionhearted central defender with tremendous courage and aerial strength"
+        },
+        {
+          "id": "tot-00-jenas",
+          "name": "Jermaine Jenas",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 83,
+          "stats": "Athletic box-to-box midfielder with dynamic runs and derby goals"
+        },
+        {
+          "id": "tot-00-assouekotto",
+          "name": "Benoit Assou-Ekotto",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 82,
+          "stats": "Cameroonian left-back with cultured distribution and calm composure"
+        },
+        {
+          "id": "tot-00-kelly",
+          "name": "Stephen Kelly",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "Reliable Irish right-back who provided disciplined fullback coverage"
+        }
+      ]
+    },
+    {
+      "franchise": "Tottenham Hotspur",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-tot-13-bale",
           "name": "Gareth Bale",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 94,
@@ -15553,8 +14191,6 @@ export const soccerSport = {
           "name": "Jan Vertonghen",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 86,
@@ -15585,8 +14221,6 @@ export const soccerSport = {
           "name": "Michael Dawson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -15607,7 +14241,6 @@ export const soccerSport = {
           "name": "Aaron Lennon",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
@@ -15628,7 +14261,6 @@ export const soccerSport = {
           "name": "Emmanuel Adebayor",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -15639,7 +14271,6 @@ export const soccerSport = {
           "name": "Scott Parker",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 81,
@@ -15659,148 +14290,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Tottenham Hotspur",
-      "era": "2016–2017 (Pochettino 86 Pts Unbeaten at Lane)",
-      "players": [
-        {
-          "id": "pl-tot-17-kane",
-          "name": "Harry Kane",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 93,
-          "stats": "29 Premier League Goals in 30 games, Golden Boot, 4 hat-tricks, Unstoppable"
-        },
-        {
-          "id": "pl-tot-17-eriksen",
-          "name": "Christian Eriksen",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 90,
-          "stats": "8 Goals, 15 Assists, Master playmaker unlocked Premier League defenses at will"
-        },
-        {
-          "id": "pl-tot-17-alderweireld",
-          "name": "Toby Alderweireld",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 90,
-          "stats": "World-class center-back, Laser 60-yard diagonals, Only 26 goals conceded"
-        },
-        {
-          "id": "pl-tot-17-vertonghen",
-          "name": "Jan Vertonghen",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 89,
-          "stats": "Formed the Premier League's most impenetrable Belgian defensive wall"
-        },
-        {
-          "id": "pl-tot-17-alli",
-          "name": "Dele Alli",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 89,
-          "stats": "18 Premier League Goals, 7 Assists, PFA Young Player of the Year, Sensation"
-        },
-        {
-          "id": "pl-tot-17-dembele",
-          "name": "Mousa Dembélé",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 89,
-          "stats": "Pochettino: 'He is a footballing genius like Maradona and Ronaldinho'"
-        },
-        {
-          "id": "pl-tot-17-lloris",
-          "name": "Hugo Lloris",
-          "roles": [
-            "GK"
-          ],
-          "rating": 89,
-          "stats": "Captain, 15 clean sheets, Premier League's stingiest defense"
-        },
-        {
-          "id": "pl-tot-17-son",
-          "name": "Son Heung-min",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 88,
-          "stats": "14 Premier League Goals, 6 Assists, Dynamic two-footed attacking machine"
-        },
-        {
-          "id": "pl-tot-17-walker",
-          "name": "Kyle Walker",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 88,
-          "stats": "PFA Team of the Year right-back, Devastating overlapping athletic power"
-        },
-        {
-          "id": "pl-tot-17-rose",
-          "name": "Danny Rose",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 87,
-          "stats": "PFA Team of the Year left-back, Ferocious tackling and attacking dynamism"
-        },
-        {
-          "id": "pl-tot-17-wanyama",
-          "name": "Victor Wanyama",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 86,
-          "stats": "4 Goals, Midfield destroyer scored thunderbolt vs Hull, The Beast"
-        },
-        {
-          "id": "pl-tot-17-dier",
-          "name": "Eric Dier",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 84,
-          "stats": "Versatile tactical chameleon stepped between center-back and midfield"
-        }
-      ]
-    },
-    {
-      "franchise": "Tottenham Hotspur",
-      "era": "2021–2022 (Antonio Conte 4th Place UCL & Son Golden Boot)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-tot-22-son",
           "name": "Son Heung-min",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 91,
@@ -15817,18 +14313,6 @@ export const soccerSport = {
           "stats": "17 Goals, 9 Assists, World-class playmaking striker, Masterclass at Etihad"
         },
         {
-          "id": "pl-tot-22-romero",
-          "name": "Cristian Romero",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 86,
-          "stats": "Aggressive World Cup-winning Argentine center-back transformed backline"
-        },
-        {
           "id": "pl-tot-22-lloris",
           "name": "Hugo Lloris",
           "roles": [
@@ -15838,15 +14322,14 @@ export const soccerSport = {
           "stats": "16 Clean sheets, Captain made vital saves during top-four run-in"
         },
         {
-          "id": "pl-tot-22-kulusevski",
-          "name": "Dejan Kulusevski",
+          "id": "pl-tot-22-romero",
+          "name": "Cristian Romero",
           "roles": [
-            "RW",
-            "WING",
-            "ATT"
+            "CB",
+            "DEF"
           ],
-          "rating": 84,
-          "stats": "5 Goals, 8 Assists in 18 games after January move from Juventus"
+          "rating": 86,
+          "stats": "Aggressive World Cup-winning Argentine center-back transformed backline"
         },
         {
           "id": "pl-tot-22-bentancur",
@@ -15859,11 +14342,20 @@ export const soccerSport = {
           "stats": "Uruguayan midfield maestro transformed Spurs' passing rhythm and composure"
         },
         {
+          "id": "pl-tot-22-kulusevski",
+          "name": "Dejan Kulusevski",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 84,
+          "stats": "5 Goals, 8 Assists in 18 games after January move from Juventus"
+        },
+        {
           "id": "pl-tot-22-hojbjerg",
           "name": "Pierre-Emile Højbjerg",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -15874,8 +14366,6 @@ export const soccerSport = {
           "name": "Eric Dier",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
@@ -15886,23 +14376,10 @@ export const soccerSport = {
           "name": "Ben Davies",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
           "stats": "Welsh defender excelled as left-sided center-back in back three"
-        },
-        {
-          "id": "pl-tot-22-skipp",
-          "name": "Oliver Skipp",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 79,
-          "stats": "Tenacious homegrown defensive midfielder before pelvic injury"
         },
         {
           "id": "pl-tot-22-royal",
@@ -15923,147 +14400,22 @@ export const soccerSport = {
           ],
           "rating": 79,
           "stats": "English left wing-back grew into Conte's system during final stretch"
-        }
-      ]
-    },
-    {
-      "franchise": "Tottenham Hotspur",
-      "era": "2022–2023 (Antonio Conte Explosion & 8th Place Banter)",
-      "players": [
-        {
-          "id": "pl-tot-23-kane",
-          "name": "Harry Kane",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 90,
-          "stats": "30 Premier League Goals in struggling side, Equaled personal best season"
         },
         {
-          "id": "pl-tot-23-son",
-          "name": "Son Heung-min",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "10 Goals, 6 Assists, Played through painful sports hernia all season"
-        },
-        {
-          "id": "pl-tot-23-bentancur",
-          "name": "Rodrigo Bentancur",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 82,
-          "stats": "5 Goals including late brace vs Leeds before tragic ACL tear at Leicester"
-        },
-        {
-          "id": "pl-tot-23-romero",
-          "name": "Cristian Romero",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 82,
-          "stats": "World Cup winner struggled with discipline and red cards in disjointed backline"
-        },
-        {
-          "id": "pl-tot-23-kulusevski",
-          "name": "Dejan Kulusevski",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 81,
-          "stats": "Hamstring injuries disrupted momentum, 2 goals and 7 assists"
-        },
-        {
-          "id": "pl-tot-23-hojbjerg",
-          "name": "Pierre-Emile Højbjerg",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 81,
-          "stats": "4 Goals, 5 Assists, Carried heavy midfield burden in 35 appearances"
-        },
-        {
-          "id": "pl-tot-23-porro",
-          "name": "Pedro Porro",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 81,
-          "stats": "3 Goals, 3 Assists after January arrival, Dynamic attacking right wing-back"
-        },
-        {
-          "id": "pl-tot-23-perisic",
-          "name": "Ivan Perišić",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 80,
-          "stats": "8 Assists from left wing-back, but exposed defensively in Premier League transitions"
-        },
-        {
-          "id": "pl-tot-23-richarlison",
-          "name": "Richarlison",
+          "id": "pl-tot-22-skipp",
+          "name": "Oliver Skipp",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 79,
-          "stats": "£60m signing scored just 1 Premier League goal (celebrated with yellow card)"
-        },
-        {
-          "id": "pl-tot-23-forster",
-          "name": "Fraser Forster",
-          "roles": [
-            "GK"
-          ],
-          "rating": 78,
-          "stats": "Stepped in after Lloris's knee injury, Conceded 63 goals in porous defense"
-        },
-        {
-          "id": "pl-tot-23-lenglet",
-          "name": "Clément Lenglet",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Barcelona loanee left-sided center-back struggled against physical strikers"
-        },
-        {
-          "id": "pl-tot-23-dier",
-          "name": "Eric Dier",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Form dipped dramatically as defense conceded 63 goals (6th worst in league)"
+          "stats": "Tenacious homegrown defensive midfielder before pelvic injury"
         }
       ]
     },
     {
       "franchise": "Watford",
-      "era": "1999–2000 (Graham Taylor Relegation 24 Pts)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-wat-00-mooney",
@@ -16076,18 +14428,6 @@ export const soccerSport = {
           "stats": "Top scorer with 6 Premier League goals including famous winner at Anfield"
         },
         {
-          "id": "pl-wat-00-page",
-          "name": "Robert Page",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 74,
-          "stats": "Watford captain and Welsh international center-back led by example"
-        },
-        {
           "id": "pl-wat-00-chamberlain",
           "name": "Alec Chamberlain",
           "roles": [
@@ -16097,24 +14437,14 @@ export const soccerSport = {
           "stats": "Made dozens of saves as Watford suffered 26 defeats in inaugural PL year"
         },
         {
-          "id": "pl-wat-00-ngonge",
-          "name": "Michel Ngonge",
+          "id": "pl-wat-00-page",
+          "name": "Robert Page",
           "roles": [
-            "ST",
-            "ATT"
+            "CB",
+            "DEF"
           ],
-          "rating": 73,
-          "stats": "5 Premier League Goals, Zairean forward scored winner vs Chelsea"
-        },
-        {
-          "id": "pl-wat-00-hyde",
-          "name": "Micah Hyde",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 73,
-          "stats": "Silky Jamaican international midfielder provided technical composure"
+          "rating": 74,
+          "stats": "Watford captain and Welsh international center-back led by example"
         },
         {
           "id": "pl-wat-00-robinson",
@@ -16137,11 +14467,20 @@ export const soccerSport = {
           "stats": "Club legend right-back with over 400 appearances for the Hornets"
         },
         {
+          "id": "pl-wat-00-hyde",
+          "name": "Micah Hyde",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 73,
+          "stats": "Silky Jamaican international midfielder provided technical composure"
+        },
+        {
           "id": "pl-wat-00-johnson",
           "name": "Richard Johnson",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 73,
@@ -16152,41 +14491,46 @@ export const soccerSport = {
           "name": "Neil Cox",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 73,
           "stats": "Former Aston Villa defender added top-flight experience"
         },
         {
-          "id": "pl-wat-00-smart",
-          "name": "Allan Smart",
+          "id": "pl-wat-00-ngonge",
+          "name": "Michel Ngonge",
           "roles": [
-            "RW",
-            "WING",
+            "ST",
             "ATT"
           ],
-          "rating": 72,
-          "stats": "Scored playoff final goal, chipped in with 2 Premier League goals"
+          "rating": 73,
+          "stats": "5 Premier League Goals, Zairean forward scored winner vs Chelsea"
         },
         {
           "id": "pl-wat-00-palmer",
           "name": "Steve Palmer",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 72,
           "stats": "Cambridge university graduate played in every position during career"
         },
         {
+          "id": "pl-wat-00-smart",
+          "name": "Allan Smart",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 72,
+          "stats": "Scored playoff final goal, chipped in with 2 Premier League goals"
+        },
+        {
           "id": "pl-wat-00-kennedy",
           "name": "Peter Kennedy",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 72,
@@ -16196,18 +14540,131 @@ export const soccerSport = {
     },
     {
       "franchise": "Watford",
-      "era": "2018–2019 (Javi Gracia 11th Place & FA Cup Final)",
+      "era": "2000s",
       "players": [
         {
-          "id": "pl-wat-19-deulofeu",
-          "name": "Gerard Deulofeu",
+          "id": "wat-00-young",
+          "name": "Ashley Young",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
+          "rating": 84,
+          "stats": "Academy prodigy whose electric wing play and delivery announced him as a star"
+        },
+        {
+          "id": "wat-00-foster",
+          "name": "Ben Foster",
+          "roles": [
+            "GK"
+          ],
           "rating": 83,
-          "stats": "10 Goals, 5 Assists, Sublime Wembley semi-final chip, Spanish magician"
+          "stats": "Spectacular shot-stopper on loan from Man United who earned England caps"
+        },
+        {
+          "id": "wat-00-king",
+          "name": "Marlon King",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "Talismanic striker who fired Watford to promotion and scored key PL goals"
+        },
+        {
+          "id": "wat-00-demerit",
+          "name": "Jay DeMerit",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 80,
+          "stats": "American folk hero who rose from Sunday league to Premier League rock"
+        },
+        {
+          "id": "wat-00-francis",
+          "name": "Damien Francis",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "Strong, energetic box-to-box midfielder who brought Premier League goals"
+        },
+        {
+          "id": "wat-00-smith",
+          "name": "Tommy Smith",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 80,
+          "stats": "Versatile attacking winger with sharp finishing and set-piece delivery"
+        },
+        {
+          "id": "wat-00-mackay",
+          "name": "Malky Mackay",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 79,
+          "stats": "Scottish international center-back and commanding aerial leader"
+        },
+        {
+          "id": "wat-00-stewart",
+          "name": "Jordan Stewart",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Athletic left-back with fine overlapping runs and recovery speed"
+        },
+        {
+          "id": "wat-00-doyley",
+          "name": "Lloyd Doyley",
+          "roles": [
+            "RB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Club legend with over 400 appearances, immovable defensive stalwart"
+        },
+        {
+          "id": "wat-00-mahon",
+          "name": "Gavin Mahon",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 78,
+          "stats": "Watford captain whose tireless tackling anchored the midfield"
+        },
+        {
+          "id": "wat-00-bangura",
+          "name": "Al Bangura",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 77,
+          "stats": "Combative young midfielder with great tenacity in the tackle"
+        }
+      ]
+    },
+    {
+      "franchise": "Watford",
+      "era": "2010s",
+      "players": [
+        {
+          "id": "pl-wat-19-foster",
+          "name": "Ben Foster",
+          "roles": [
+            "GK"
+          ],
+          "rating": 83,
+          "stats": "Cycling GK kept 7 clean sheets and made 122 saves in outstanding year"
         },
         {
           "id": "pl-wat-19-doucoure",
@@ -16220,13 +14677,24 @@ export const soccerSport = {
           "stats": "5 Goals, 6 Assists, Dynamic French box-to-box midfield powerhouse"
         },
         {
-          "id": "pl-wat-19-foster",
-          "name": "Ben Foster",
+          "id": "pl-wat-19-deulofeu",
+          "name": "Gerard Deulofeu",
           "roles": [
-            "GK"
+            "LW",
+            "ATT"
           ],
           "rating": 83,
-          "stats": "Cycling GK kept 7 clean sheets and made 122 saves in outstanding year"
+          "stats": "10 Goals, 5 Assists, Sublime Wembley semi-final chip, Spanish magician"
+        },
+        {
+          "id": "pl-wat-19-capoue",
+          "name": "Étienne Capoue",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 82,
+          "stats": "Watford Player of the Year, Imposing French midfield interceptor"
         },
         {
           "id": "pl-wat-19-deeney",
@@ -16243,22 +14711,10 @@ export const soccerSport = {
           "name": "Roberto Pereyra",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
           "stats": "6 Goals, Silky Argentine playmaker with dazzling close control and dribbling"
-        },
-        {
-          "id": "pl-wat-19-capoue",
-          "name": "Étienne Capoue",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 82,
-          "stats": "Watford Player of the Year, Imposing French midfield interceptor"
         },
         {
           "id": "pl-wat-19-holebas",
@@ -16275,8 +14731,6 @@ export const soccerSport = {
           "name": "Craig Cathcart",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -16287,7 +14741,6 @@ export const soccerSport = {
           "name": "Will Hughes",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
@@ -16298,8 +14751,6 @@ export const soccerSport = {
           "name": "Christian Kabasele",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
@@ -16320,7 +14771,6 @@ export const soccerSport = {
           "name": "Andre Gray",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -16330,14 +14780,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Watford",
-      "era": "2021–2022 (Ranieri & Hodgson Relegation Banter 23 Pts)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-wat-22-dennis",
           "name": "Emmanuel Dennis",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -16348,7 +14797,6 @@ export const soccerSport = {
           "name": "Ismaïla Sarr",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -16368,7 +14816,6 @@ export const soccerSport = {
           "name": "Moussa Sissoko",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -16395,17 +14842,6 @@ export const soccerSport = {
           "stats": "3 Goals, 20-year-old Brazilian prodigy showed elite future promise"
         },
         {
-          "id": "pl-wat-22-louza",
-          "name": "Imran Louza",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Moroccan playmaker showed fine passing vision in central midfield"
-        },
-        {
           "id": "pl-wat-22-kamara",
           "name": "Hassane Kamara",
           "roles": [
@@ -16414,16 +14850,6 @@ export const soccerSport = {
           ],
           "rating": 76,
           "stats": "January signing was named Player of the Season for relentless tackling"
-        },
-        {
-          "id": "pl-wat-22-kucka",
-          "name": "Juraj Kucka",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Slovakian midfield veteran scored 1 goal and brought physical aggression"
         },
         {
           "id": "pl-wat-22-femenia",
@@ -16436,12 +14862,30 @@ export const soccerSport = {
           "stats": "5 Assists from Spanish right-back with dangerous crossing delivery"
         },
         {
+          "id": "pl-wat-22-louza",
+          "name": "Imran Louza",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 76,
+          "stats": "Moroccan playmaker showed fine passing vision in central midfield"
+        },
+        {
+          "id": "pl-wat-22-kucka",
+          "name": "Juraj Kucka",
+          "roles": [
+            "CM",
+            "MID"
+          ],
+          "rating": 76,
+          "stats": "Slovakian midfield veteran scored 1 goal and brought physical aggression"
+        },
+        {
           "id": "pl-wat-22-samir",
           "name": "Samir",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -16452,8 +14896,6 @@ export const soccerSport = {
           "name": "Craig Cathcart",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -16463,14 +14905,13 @@ export const soccerSport = {
     },
     {
       "franchise": "West Bromwich Albion",
-      "era": "2004–2005 (Bryan Robson 'The Great Escape')",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-wba-05-richardson",
           "name": "Kieran Richardson",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 81,
@@ -16481,7 +14922,6 @@ export const soccerSport = {
           "name": "Zoltán Gera",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -16498,6 +14938,15 @@ export const soccerSport = {
           "stats": "11 Premier League Goals including hat-trick at Charlton, Somersault king"
         },
         {
+          "id": "pl-wba-05-hoult",
+          "name": "Russell Hoult",
+          "roles": [
+            "GK"
+          ],
+          "rating": 78,
+          "stats": "Heroic saves in famous 2-0 final day victory to become first team bottom at Christmas to survive"
+        },
+        {
           "id": "pl-wba-05-greening",
           "name": "Jonathan Greening",
           "roles": [
@@ -16508,36 +14957,24 @@ export const soccerSport = {
           "stats": "Champions League winner with United was the passing heartbeat of midfield"
         },
         {
-          "id": "pl-wba-05-hoult",
-          "name": "Russell Hoult",
+          "id": "pl-wba-05-purse",
+          "name": "Darren Purse",
           "roles": [
-            "GK"
+            "CB",
+            "DEF"
           ],
-          "rating": 78,
-          "stats": "Heroic saves in famous 2-0 final day victory to become first team bottom at Christmas to survive"
+          "rating": 77,
+          "stats": "No-nonsense English center-back led defense with bruised shins and courage"
         },
         {
           "id": "pl-wba-05-horsfield",
           "name": "Geoff Horsfield",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 77,
           "stats": "The Feed, Scored with first touch and set up second in final-day miracle"
-        },
-        {
-          "id": "pl-wba-05-purse",
-          "name": "Darren Purse",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "No-nonsense English center-back led defense with bruised shins and courage"
         },
         {
           "id": "pl-wba-05-robinson",
@@ -16554,8 +14991,6 @@ export const soccerSport = {
           "name": "Neil Clement",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
@@ -16566,23 +15001,10 @@ export const soccerSport = {
           "name": "Thomas Gaardsøe",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
           "stats": "Danish defender formed stubborn center-back partnership with Purse"
-        },
-        {
-          "id": "pl-wba-05-johnson",
-          "name": "Andy Johnson",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Welsh midfield enforcer won crucial tackles in the engine room"
         },
         {
           "id": "pl-wba-05-scimeca",
@@ -16593,12 +15015,22 @@ export const soccerSport = {
           ],
           "rating": 76,
           "stats": "Versatile defender provided stability on the right flank"
+        },
+        {
+          "id": "pl-wba-05-johnson",
+          "name": "Andy Johnson",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 76,
+          "stats": "Welsh midfield enforcer won crucial tackles in the engine room"
         }
       ]
     },
     {
       "franchise": "West Bromwich Albion",
-      "era": "2012–2013 (Steve Clarke 8th Place & Lukaku 17 Goals)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-wba-13-lukaku",
@@ -16620,23 +15052,10 @@ export const soccerSport = {
           "stats": "WBA Player of the Year kept 7 clean sheets and made sensational reflex stops"
         },
         {
-          "id": "pl-wba-13-mulumbu",
-          "name": "Youssouf Mulumbu",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 81,
-          "stats": "Congolese midfield destroyer broke up play and drove West Brom forward"
-        },
-        {
           "id": "pl-wba-13-mcauley",
           "name": "Gareth McAuley",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
@@ -16647,12 +15066,30 @@ export const soccerSport = {
           "name": "Jonas Olsson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
           "stats": "Imposing Swedish center-back leader formed formidable wall with McAuley"
+        },
+        {
+          "id": "pl-wba-13-mulumbu",
+          "name": "Youssouf Mulumbu",
+          "roles": [
+            "CDM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "Congolese midfield destroyer broke up play and drove West Brom forward"
+        },
+        {
+          "id": "pl-wba-13-morrison",
+          "name": "James Morrison",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "5 Goals, 6 Assists, Scottish international midfielder with superb technique"
         },
         {
           "id": "pl-wba-13-long",
@@ -16669,29 +15106,16 @@ export const soccerSport = {
           "name": "Chris Brunt",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
           "stats": "WBA captain with wand of a left foot, created 8 assists from set-pieces"
         },
         {
-          "id": "pl-wba-13-morrison",
-          "name": "James Morrison",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 80,
-          "stats": "5 Goals, 6 Assists, Scottish international midfielder with superb technique"
-        },
-        {
           "id": "pl-wba-13-yacob",
           "name": "Claudio Yacob",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 79,
@@ -16702,7 +15126,6 @@ export const soccerSport = {
           "name": "Peter Odemwingie",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
@@ -16732,14 +15155,13 @@ export const soccerSport = {
     },
     {
       "franchise": "West Bromwich Albion",
-      "era": "2020–2021 (Bilić & Allardyce Relegation Banter)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-wba-21-pereira",
           "name": "Matheus Pereira",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
@@ -16769,11 +15191,30 @@ export const soccerSport = {
           "name": "Okay Yokuşlu",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 77,
           "stats": "Turkish midfield anchor joined in January to add defensive bite"
+        },
+        {
+          "id": "pl-wba-21-bartley",
+          "name": "Kyle Bartley",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 76,
+          "stats": "Dominant in the air, Captained side with vocal presence in 30 appearances"
+        },
+        {
+          "id": "pl-wba-21-ajayi",
+          "name": "Semi Ajayi",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 76,
+          "stats": "Nigerian international center-back scored at Man City and Liverpool"
         },
         {
           "id": "pl-wba-21-diagne",
@@ -16786,35 +15227,10 @@ export const soccerSport = {
           "stats": "3 Goals, Senegalese striker caused chaos in opposition boxes after January arrival"
         },
         {
-          "id": "pl-wba-21-bartley",
-          "name": "Kyle Bartley",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Dominant in the air, Captained side with vocal presence in 30 appearances"
-        },
-        {
-          "id": "pl-wba-21-ajayi",
-          "name": "Semi Ajayi",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Nigerian international center-back scored at Man City and Liverpool"
-        },
-        {
           "id": "pl-wba-21-robinson",
           "name": "Callum Robinson",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -16841,40 +15257,36 @@ export const soccerSport = {
           "stats": "English left-back provided reliable service down the left flank"
         },
         {
-          "id": "pl-wba-21-snodgrass",
-          "name": "Robert Snodgrass",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 75,
-          "stats": "Scottish veteran brought set-piece quality after January transfer"
-        },
-        {
           "id": "pl-wba-21-livermore",
           "name": "Jake Livermore",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 75,
           "stats": "Club captain sent off vs Villa as Allardyce struggled to organize defense"
+        },
+        {
+          "id": "pl-wba-21-snodgrass",
+          "name": "Robert Snodgrass",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 75,
+          "stats": "Scottish veteran brought set-piece quality after January transfer"
         }
       ]
     },
     {
       "franchise": "West Ham United",
-      "era": "1998–1999 (Harry Redknapp 5th Place & Intertoto Cup)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-wed-99-ferdinand",
           "name": "Rio Ferdinand",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 86,
@@ -16885,8 +15297,6 @@ export const soccerSport = {
           "name": "Paolo Di Canio",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 85,
@@ -16916,7 +15326,6 @@ export const soccerSport = {
           "name": "Eyal Berkovic",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -16937,7 +15346,6 @@ export const soccerSport = {
           "name": "Trevor Sinclair",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
@@ -16964,34 +15372,30 @@ export const soccerSport = {
           "stats": "The Terminator, Iconic hard-man left-back with cannonball penalty kicks"
         },
         {
-          "id": "pl-wed-99-cole",
-          "name": "Joe Cole",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 81,
-          "stats": "17-year-old English wonderkid made Premier League debut to huge fanfare"
-        },
-        {
           "id": "pl-wed-99-ruddock",
           "name": "Neil Ruddock",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
           "stats": "Razor, Bruising physical center-back gave strikers a nightmare"
         },
         {
+          "id": "pl-wed-99-cole",
+          "name": "Joe Cole",
+          "roles": [
+            "LW",
+            "ATT"
+          ],
+          "rating": 81,
+          "stats": "17-year-old English wonderkid made Premier League debut to huge fanfare"
+        },
+        {
           "id": "pl-wed-99-lomas",
           "name": "Steve Lomas",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -17001,8 +15405,17 @@ export const soccerSport = {
     },
     {
       "franchise": "West Ham United",
-      "era": "2002–2003 (Too Good to Go Down 42 Pts Relegation)",
+      "era": "2000s",
       "players": [
+        {
+          "id": "pl-wed-03-james",
+          "name": "David James",
+          "roles": [
+            "GK"
+          ],
+          "rating": 84,
+          "stats": "England number one goalkeeper made sensational saves in 42-point relegation"
+        },
         {
           "id": "pl-wed-03-dicanio",
           "name": "Paolo Di Canio",
@@ -17014,24 +15427,24 @@ export const soccerSport = {
           "stats": "9 Goals including final emotional goal vs Chelsea, Iconic Italian genius"
         },
         {
-          "id": "pl-wed-03-james",
-          "name": "David James",
-          "roles": [
-            "GK"
-          ],
-          "rating": 84,
-          "stats": "England number one goalkeeper made sensational saves in 42-point relegation"
-        },
-        {
           "id": "pl-wed-03-cole",
           "name": "Joe Cole",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 83,
           "stats": "Hammer of the Year, Captained side at age 21, Dazzling individual technique"
+        },
+        {
+          "id": "pl-wed-03-carrick",
+          "name": "Michael Carrick",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 82,
+          "stats": "Elegant 21-year-old playmaker dictated passing from central midfield"
         },
         {
           "id": "pl-wed-03-defoe",
@@ -17048,29 +15461,16 @@ export const soccerSport = {
           "name": "Frédéric Kanouté",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
           "stats": "5 Goals in 17 appearances, Elegant Malian target man with silk and power"
         },
         {
-          "id": "pl-wed-03-carrick",
-          "name": "Michael Carrick",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 82,
-          "stats": "Elegant 21-year-old playmaker dictated passing from central midfield"
-        },
-        {
           "id": "pl-wed-03-sinclair",
           "name": "Trevor Sinclair",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 82,
@@ -17081,8 +15481,6 @@ export const soccerSport = {
           "name": "Tomáš Řepka",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -17093,8 +15491,6 @@ export const soccerSport = {
           "name": "Christian Dailly",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 78,
@@ -17105,7 +15501,6 @@ export const soccerSport = {
           "name": "Edouard Cissé",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -17135,40 +15530,17 @@ export const soccerSport = {
     },
     {
       "franchise": "West Ham United",
-      "era": "2015–2016 (Slaven Bilić Final Season at Boleyn 7th)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-wed-16-payet",
           "name": "Dimitri Payet",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 90,
           "stats": "9 Goals, 12 Assists, Free-kick maestro, PFA Team of the Year, 'We've got Payet'"
-        },
-        {
-          "id": "pl-wed-16-antonio",
-          "name": "Michail Antonio",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "8 Goals, Homer Simpson celebration, Header king scored in final Boleyn game"
-        },
-        {
-          "id": "pl-wed-16-lanzini",
-          "name": "Manuel Lanzini",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 83,
-          "stats": "6 Goals, The Jewel, Silky Argentine playmaker with sublime close control"
         },
         {
           "id": "pl-wed-16-reid",
@@ -17179,6 +15551,45 @@ export const soccerSport = {
           ],
           "rating": 83,
           "stats": "Scored iconic final-ever goal at the Boleyn Ground in 3-2 win over Man United"
+        },
+        {
+          "id": "pl-wed-16-lanzini",
+          "name": "Manuel Lanzini",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 83,
+          "stats": "6 Goals, The Jewel, Silky Argentine playmaker with sublime close control"
+        },
+        {
+          "id": "pl-wed-16-antonio",
+          "name": "Michail Antonio",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "8 Goals, Homer Simpson celebration, Header king scored in final Boleyn game"
+        },
+        {
+          "id": "pl-wed-16-adrian",
+          "name": "Adrián",
+          "roles": [
+            "GK"
+          ],
+          "rating": 82,
+          "stats": "Spanish goalkeeper kept 9 clean sheets with impassioned celebratory dives"
+        },
+        {
+          "id": "pl-wed-16-cresswell",
+          "name": "Aaron Cresswell",
+          "roles": [
+            "LB",
+            "DEF"
+          ],
+          "rating": 82,
+          "stats": "Superb English left-back with pinpoint crossing delivery and free-kicks"
         },
         {
           "id": "pl-wed-16-noble",
@@ -17195,38 +15606,16 @@ export const soccerSport = {
           "name": "Cheikhou Kouyaté",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 82,
           "stats": "5 Goals, Senegalese physical midfield monster scored opener vs Man United"
         },
         {
-          "id": "pl-wed-16-cresswell",
-          "name": "Aaron Cresswell",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 82,
-          "stats": "Superb English left-back with pinpoint crossing delivery and free-kicks"
-        },
-        {
-          "id": "pl-wed-16-adrian",
-          "name": "Adrián",
-          "roles": [
-            "GK"
-          ],
-          "rating": 82,
-          "stats": "Spanish goalkeeper kept 9 clean sheets with impassioned celebratory dives"
-        },
-        {
           "id": "pl-wed-16-ogbonna",
           "name": "Angelo Ogbonna",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
@@ -17247,8 +15636,6 @@ export const soccerSport = {
           "name": "James Collins",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -17268,14 +15655,13 @@ export const soccerSport = {
     },
     {
       "franchise": "West Ham United",
-      "era": "2020–2021 (David Moyes 6th Place 65 Pts Europa League)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-wed-21-rice",
           "name": "Declan Rice",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 87,
@@ -17286,7 +15672,6 @@ export const soccerSport = {
           "name": "Jesse Lingard",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 86,
@@ -17312,16 +15697,6 @@ export const soccerSport = {
           "stats": "Polish goalkeeper kept 10 clean sheets with reliable, calm shot-stopping"
         },
         {
-          "id": "pl-wed-21-antonio",
-          "name": "Michail Antonio",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 83,
-          "stats": "10 Premier League Goals, 5 Assists, Bulldozer number 9 held off backlines"
-        },
-        {
           "id": "pl-wed-21-coufal",
           "name": "Vladimír Coufal",
           "roles": [
@@ -17332,11 +15707,20 @@ export const soccerSport = {
           "stats": "7 Assists, Czech right-back was a £5m bargain of the season, relentless tackling"
         },
         {
+          "id": "pl-wed-21-antonio",
+          "name": "Michail Antonio",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 83,
+          "stats": "10 Premier League Goals, 5 Assists, Bulldozer number 9 held off backlines"
+        },
+        {
           "id": "pl-wed-21-bowen",
           "name": "Jarrod Bowen",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
@@ -17357,43 +15741,36 @@ export const soccerSport = {
           "name": "Angelo Ogbonna",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
           "stats": "Italian center-back was the bedrock of Moyes' defense before injury"
         },
         {
-          "id": "pl-wed-21-fornals",
-          "name": "Pablo Fornals",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 81,
-          "stats": "5 Goals, 4 Assists, Hardworking Spanish midfielder scored brace vs Southampton"
-        },
-        {
           "id": "pl-wed-21-dawson",
           "name": "Craig Dawson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
           "stats": "3 Goals, Ballon d'Awson, Cult hero center-back transformed defense on loan"
         },
         {
+          "id": "pl-wed-21-fornals",
+          "name": "Pablo Fornals",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 81,
+          "stats": "5 Goals, 4 Assists, Hardworking Spanish midfielder scored brace vs Southampton"
+        },
+        {
           "id": "pl-wed-21-diop",
           "name": "Issa Diop",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -17403,7 +15780,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Wigan Athletic",
-      "era": "2005–2006 (Paul Jewell Inaugural 10th Place & Cup Final)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-wig-06-chimbonda",
@@ -17426,16 +15803,6 @@ export const soccerSport = {
           "stats": "Homegrown English left-back with ferocious crossing and free-kick prowess"
         },
         {
-          "id": "pl-wig-06-camara",
-          "name": "Henri Camara",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 82,
-          "stats": "12 Premier League Goals, Electric Senegalese striker scored hat-trick vs Charlton"
-        },
-        {
           "id": "pl-wig-06-bullard",
           "name": "Jimmy Bullard",
           "roles": [
@@ -17446,12 +15813,20 @@ export const soccerSport = {
           "stats": "Midfield heartbeat, High-energy pressing and Premier League set-piece master"
         },
         {
+          "id": "pl-wig-06-camara",
+          "name": "Henri Camara",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 82,
+          "stats": "12 Premier League Goals, Electric Senegalese striker scored hat-trick vs Charlton"
+        },
+        {
           "id": "pl-wig-06-dezeeuw",
           "name": "Arjan de Zeeuw",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 81,
@@ -17472,8 +15847,6 @@ export const soccerSport = {
           "name": "Stéphane Henchoz",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 80,
@@ -17493,7 +15866,6 @@ export const soccerSport = {
           "name": "Graham Kavanagh",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 78,
@@ -17504,7 +15876,6 @@ export const soccerSport = {
           "name": "Lee McCulloch",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
@@ -17525,7 +15896,6 @@ export const soccerSport = {
           "name": "Alan Mahon",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 76,
@@ -17535,14 +15905,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Wigan Athletic",
-      "era": "2012–2013 (Roberto Martínez FA Cup Winners & Relegation)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-wig-13-mccarthy",
           "name": "James McCarthy",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 82,
@@ -17563,22 +15932,10 @@ export const soccerSport = {
           "name": "Shaun Maloney",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 81,
           "stats": "6 Goals, 8 Assists, Scottish wizard with deadly free-kicks and Wembley cross"
-        },
-        {
-          "id": "pl-wig-13-mcmanaman",
-          "name": "Callum McManaman",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "Man of the Match in FA Cup final, Tormented Clichy with electric dribbling"
         },
         {
           "id": "pl-wig-13-robles",
@@ -17590,6 +15947,26 @@ export const soccerSport = {
           "stats": "Spanish goalkeeper kept clean sheet in FA Cup final triumph over Man City"
         },
         {
+          "id": "pl-wig-13-mcmanaman",
+          "name": "Callum McManaman",
+          "roles": [
+            "RW",
+            "ATT"
+          ],
+          "rating": 79,
+          "stats": "Man of the Match in FA Cup final, Tormented Clichy with electric dribbling"
+        },
+        {
+          "id": "pl-wig-13-figueroa",
+          "name": "Maynor Figueroa",
+          "roles": [
+            "CB",
+            "DEF"
+          ],
+          "rating": 78,
+          "stats": "Honduran defender famous for 60-yard goal, Rock in 3-man backline"
+        },
+        {
           "id": "pl-wig-13-gomez",
           "name": "Jordi Gómez",
           "roles": [
@@ -17598,18 +15975,6 @@ export const soccerSport = {
           ],
           "rating": 78,
           "stats": "Spanish midfielder scored sensational hat-trick against Reading"
-        },
-        {
-          "id": "pl-wig-13-figueroa",
-          "name": "Maynor Figueroa",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 78,
-          "stats": "Honduran defender famous for 60-yard goal, Rock in 3-man backline"
         },
         {
           "id": "pl-wig-13-boyce",
@@ -17636,8 +16001,6 @@ export const soccerSport = {
           "name": "Gary Caldwell",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
@@ -17648,7 +16011,6 @@ export const soccerSport = {
           "name": "Franco Di Santo",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 76,
@@ -17668,7 +16030,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Wimbledon",
-      "era": "1993–1994 (Joe Kinnear 'Crazy Gang' 6th Place Peak)",
+      "era": "1990s",
       "players": [
         {
           "id": "pl-wim-94-fashanu",
@@ -17685,7 +16047,6 @@ export const soccerSport = {
           "name": "Robbie Earle",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 83,
@@ -17696,8 +16057,6 @@ export const soccerSport = {
           "name": "John Scales",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -17708,7 +16067,6 @@ export const soccerSport = {
           "name": "Vinnie Jones",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 82,
@@ -17725,6 +16083,15 @@ export const soccerSport = {
           "stats": "17 Premier League Goals, Sharp penalty-box predator with lightning finish"
         },
         {
+          "id": "pl-wim-94-segers",
+          "name": "Hans Segers",
+          "roles": [
+            "GK"
+          ],
+          "rating": 81,
+          "stats": "Dutch goalkeeper kept 10 clean sheets with exceptional agility in goal"
+        },
+        {
           "id": "pl-wim-94-barton",
           "name": "Warren Barton",
           "roles": [
@@ -17733,15 +16100,6 @@ export const soccerSport = {
           ],
           "rating": 81,
           "stats": "Attacking right-back earned England cap with brilliant performances"
-        },
-        {
-          "id": "pl-wim-94-segers",
-          "name": "Hans Segers",
-          "roles": [
-            "GK"
-          ],
-          "rating": 81,
-          "stats": "Dutch goalkeeper kept 10 clean sheets with exceptional agility in goal"
         },
         {
           "id": "pl-wim-94-sanchez",
@@ -17758,7 +16116,6 @@ export const soccerSport = {
           "name": "Marcus Gayle",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 78,
@@ -17769,8 +16126,6 @@ export const soccerSport = {
           "name": "Brian McAllister",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 77,
@@ -17791,7 +16146,6 @@ export const soccerSport = {
           "name": "Neal Ardley",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 77,
@@ -17800,148 +16154,14 @@ export const soccerSport = {
       ]
     },
     {
-      "franchise": "Wimbledon",
-      "era": "1999–2000 (Egil Olsen Disastrous Relegation)",
-      "players": [
-        {
-          "id": "pl-wim-00-hartson",
-          "name": "John Hartson",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "9 Premier League Goals, Powerful Welsh striker battled through injuries"
-        },
-        {
-          "id": "pl-wim-00-sullivan",
-          "name": "Neil Sullivan",
-          "roles": [
-            "GK"
-          ],
-          "rating": 80,
-          "stats": "Scotland international goalkeeper made remarkable saves, conceded 74 goals"
-        },
-        {
-          "id": "pl-wim-00-cort",
-          "name": "Carl Cort",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "9 Goals, Athletic young forward earned £7m big-money move to Newcastle"
-        },
-        {
-          "id": "pl-wim-00-euell",
-          "name": "Jason Euell",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "4 Goals, Silky young forward was lone creative spark in team"
-        },
-        {
-          "id": "pl-wim-00-cunningham",
-          "name": "Kenny Cunningham",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Irish international center-back captained defense with determination"
-        },
-        {
-          "id": "pl-wim-00-hreidarsson",
-          "name": "Hermann Hreiðarsson",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 77,
-          "stats": "Icelandic powerhouse joined from Brentford, Relegated at end of season"
-        },
-        {
-          "id": "pl-wim-00-earle",
-          "name": "Robbie Earle",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Crazy Gang veteran played final season, scoring 1 goal in midfield"
-        },
-        {
-          "id": "pl-wim-00-gayle",
-          "name": "Marcus Gayle",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 76,
-          "stats": "4 Goals, Featured in 33 appearances across wing and attack"
-        },
-        {
-          "id": "pl-wim-00-hughes",
-          "name": "Michael Hughes",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 76,
-          "stats": "Northern Irish winger provided left-footed delivery and grit"
-        },
-        {
-          "id": "pl-wim-00-thatcher",
-          "name": "Ben Thatcher",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Aggressive defender was sold to Tottenham following relegation"
-        },
-        {
-          "id": "pl-wim-00-andersen",
-          "name": "Trond Andersen",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Norwegian midfielder signed by Egil Olsen struggled with English tempo"
-        },
-        {
-          "id": "pl-wim-00-kimble",
-          "name": "Alan Kimble",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 74,
-          "stats": "Veteran left-back battled through final Premier League season"
-        }
-      ]
-    },
-    {
       "franchise": "Wolverhampton Wanderers",
-      "era": "2003–2004 (Dave Jones Bottom Relegation Inaugural)",
+      "era": "2000s",
       "players": [
         {
           "id": "pl-wol-04-ince",
           "name": "Paul Ince",
           "roles": [
             "CDM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -17977,16 +16197,6 @@ export const soccerSport = {
           "stats": "Manchester United legend brought experience to full-back in final career year"
         },
         {
-          "id": "pl-wol-04-miller",
-          "name": "Kenny Miller",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 77,
-          "stats": "Scored iconic winner against Manchester United at Molineux"
-        },
-        {
           "id": "pl-wol-04-rae",
           "name": "Alex Rae",
           "roles": [
@@ -17995,6 +16205,16 @@ export const soccerSport = {
           ],
           "rating": 77,
           "stats": "Combative Scottish midfielder scored 8 goals in all competitions"
+        },
+        {
+          "id": "pl-wol-04-miller",
+          "name": "Kenny Miller",
+          "roles": [
+            "ST",
+            "ATT"
+          ],
+          "rating": 77,
+          "stats": "Scored iconic winner against Manchester United at Molineux"
         },
         {
           "id": "pl-wol-04-lescott",
@@ -18011,8 +16231,6 @@ export const soccerSport = {
           "name": "Jody Craddock",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 76,
@@ -18023,7 +16241,6 @@ export const soccerSport = {
           "name": "Colin Cameron",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 76,
@@ -18034,7 +16251,6 @@ export const soccerSport = {
           "name": "Mark Kennedy",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 76,
@@ -18045,8 +16261,6 @@ export const soccerSport = {
           "name": "Paul Butler",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 75,
@@ -18057,7 +16271,6 @@ export const soccerSport = {
           "name": "Shaun Newton",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 75,
@@ -18067,141 +16280,7 @@ export const soccerSport = {
     },
     {
       "franchise": "Wolverhampton Wanderers",
-      "era": "2011–2012 (Mick McCarthy & Connor 25 Pts Relegation)",
-      "players": [
-        {
-          "id": "pl-wol-12-fletcher",
-          "name": "Steven Fletcher",
-          "roles": [
-            "ST",
-            "ATT"
-          ],
-          "rating": 80,
-          "stats": "12 Premier League Goals, Clinical Scottish striker scored nearly half team's goals"
-        },
-        {
-          "id": "pl-wol-12-jarvis",
-          "name": "Matt Jarvis",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 79,
-          "stats": "England winger provided 8 assists with blistering pace down the left wing"
-        },
-        {
-          "id": "pl-wol-12-hennessey",
-          "name": "Wayne Hennessey",
-          "roles": [
-            "GK"
-          ],
-          "rating": 78,
-          "stats": "Welsh goalkeeper made 131 saves before tearing cruciate ligament in April"
-        },
-        {
-          "id": "pl-wol-12-doyle",
-          "name": "Kevin Doyle",
-          "roles": [
-            "RW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 78,
-          "stats": "Hardworking Irish striker scored 4 goals and won relentless aerial duels"
-        },
-        {
-          "id": "pl-wol-12-ohara",
-          "name": "Jamie O'Hara",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 77,
-          "stats": "Midfielder scored 2 goals before persistent groin injuries ruined campaign"
-        },
-        {
-          "id": "pl-wol-12-johnson",
-          "name": "Roger Johnson",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "£7m captain signed from Birmingham, Stripped of captaincy amid dressing room rifts"
-        },
-        {
-          "id": "pl-wol-12-hunt",
-          "name": "Stephen Hunt",
-          "roles": [
-            "LW",
-            "WING",
-            "ATT"
-          ],
-          "rating": 76,
-          "stats": "Fiery Irish winger brought relentless pressing and 3 league goals"
-        },
-        {
-          "id": "pl-wol-12-ward",
-          "name": "Stephen Ward",
-          "roles": [
-            "LB",
-            "DEF"
-          ],
-          "rating": 76,
-          "stats": "Versatile Irish international played every single league match at left-back"
-        },
-        {
-          "id": "pl-wol-12-stearman",
-          "name": "Richard Stearman",
-          "roles": [
-            "RB",
-            "DEF"
-          ],
-          "rating": 75,
-          "stats": "Committed defender featured across right-back and central defense"
-        },
-        {
-          "id": "pl-wol-12-berra",
-          "name": "Christophe Berra",
-          "roles": [
-            "CB",
-            "CB1",
-            "CB2",
-            "DEF"
-          ],
-          "rating": 75,
-          "stats": "Scottish center-back battled in defense that conceded 82 goals"
-        },
-        {
-          "id": "pl-wol-12-henry",
-          "name": "Karl Henry",
-          "roles": [
-            "CDM",
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Midfield enforcer known for crunching challenges and fiery duels"
-        },
-        {
-          "id": "pl-wol-12-edwards",
-          "name": "Dave Edwards",
-          "roles": [
-            "CAM",
-            "CM",
-            "MID"
-          ],
-          "rating": 75,
-          "stats": "Welsh international midfielder provided energetic penalty-box runs"
-        }
-      ]
-    },
-    {
-      "franchise": "Wolverhampton Wanderers",
-      "era": "2018–2019 (Nuno Espírito Santo 7th Place Europa)",
+      "era": "2010s",
       "players": [
         {
           "id": "pl-wol-19-neves",
@@ -18224,6 +16303,15 @@ export const soccerSport = {
           "stats": "Wolves Player of the Year, Euro 2016 winner brought Champions League class"
         },
         {
+          "id": "pl-wol-19-patricio",
+          "name": "Rui Patrício",
+          "roles": [
+            "GK"
+          ],
+          "rating": 85,
+          "stats": "Portugal's Euro-winning goalkeeper kept 9 clean sheets in inspired debut year"
+        },
+        {
           "id": "pl-wol-19-jimenez",
           "name": "Raúl Jiménez",
           "roles": [
@@ -18234,20 +16322,10 @@ export const soccerSport = {
           "stats": "13 Goals, 7 Assists, Sensational Mexican number 9, Complete focal point"
         },
         {
-          "id": "pl-wol-19-patricio",
-          "name": "Rui Patrício",
-          "roles": [
-            "GK"
-          ],
-          "rating": 85,
-          "stats": "Portugal's Euro-winning goalkeeper kept 9 clean sheets in inspired debut year"
-        },
-        {
           "id": "pl-wol-19-jota",
           "name": "Diogo Jota",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 84,
@@ -18258,8 +16336,6 @@ export const soccerSport = {
           "name": "Willy Boly",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 83,
@@ -18280,8 +16356,6 @@ export const soccerSport = {
           "name": "Conor Coady",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
@@ -18302,7 +16376,6 @@ export const soccerSport = {
           "name": "Leander Dendoncker",
           "roles": [
             "CAM",
-            "CM",
             "MID"
           ],
           "rating": 80,
@@ -18313,7 +16386,6 @@ export const soccerSport = {
           "name": "Adama Traoré",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 80,
@@ -18324,7 +16396,6 @@ export const soccerSport = {
           "name": "Hélder Costa",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 79,
@@ -18334,14 +16405,13 @@ export const soccerSport = {
     },
     {
       "franchise": "Wolverhampton Wanderers",
-      "era": "2023–2024 (Gary O'Neil 14th Place Revamp)",
+      "era": "2020s",
       "players": [
         {
           "id": "pl-wol-24-neto",
           "name": "Pedro Neto",
           "roles": [
             "LW",
-            "WING",
             "ATT"
           ],
           "rating": 85,
@@ -18362,32 +16432,19 @@ export const soccerSport = {
           "name": "Hwang Hee-chan",
           "roles": [
             "RW",
-            "WING",
             "ATT"
           ],
           "rating": 83,
           "stats": "12 Premier League Goals, The Korean Guy, Lethal clinical finishing"
         },
         {
-          "id": "pl-wol-24-gomes",
-          "name": "João Gomes",
+          "id": "pl-wol-24-sa",
+          "name": "José Sá",
           "roles": [
-            "CDM",
-            "CM",
-            "MID"
+            "GK"
           ],
           "rating": 82,
-          "stats": "The Pitbull, Brazil international midfielder led team in tackles and turnovers"
-        },
-        {
-          "id": "pl-wol-24-lemina",
-          "name": "Mario Lemina",
-          "roles": [
-            "CM",
-            "MID"
-          ],
-          "rating": 82,
-          "stats": "4 Goals, Gabonese midfield warrior and vocal leader was Wolves' engine"
+          "stats": "Portuguese shot-stopper made crucial penalty saves and acrobatic stops"
         },
         {
           "id": "pl-wol-24-aitnouri",
@@ -18404,32 +16461,30 @@ export const soccerSport = {
           "name": "Max Kilman",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 82,
           "stats": "Wolves captain played every single minute of the Premier League campaign"
         },
         {
-          "id": "pl-wol-24-sa",
-          "name": "José Sá",
+          "id": "pl-wol-24-gomes",
+          "name": "João Gomes",
           "roles": [
-            "GK"
+            "CDM",
+            "MID"
           ],
           "rating": 82,
-          "stats": "Portuguese shot-stopper made crucial penalty saves and acrobatic stops"
+          "stats": "The Pitbull, Brazil international midfielder led team in tackles and turnovers"
         },
         {
-          "id": "pl-wol-24-sarabia",
-          "name": "Pablo Sarabia",
+          "id": "pl-wol-24-lemina",
+          "name": "Mario Lemina",
           "roles": [
-            "CAM",
             "CM",
             "MID"
           ],
-          "rating": 80,
-          "stats": "4 Goals, 7 Assists including 91st-minute equalizer and 97th-minute assist vs Spurs"
+          "rating": 82,
+          "stats": "4 Goals, Gabonese midfield warrior and vocal leader was Wolves' engine"
         },
         {
           "id": "pl-wol-24-semedo",
@@ -18442,12 +16497,20 @@ export const soccerSport = {
           "stats": "Experienced Portuguese right-back was defensively stubborn all campaign"
         },
         {
+          "id": "pl-wol-24-sarabia",
+          "name": "Pablo Sarabia",
+          "roles": [
+            "CAM",
+            "MID"
+          ],
+          "rating": 80,
+          "stats": "4 Goals, 7 Assists including 91st-minute equalizer and 97th-minute assist vs Spurs"
+        },
+        {
           "id": "pl-wol-24-dawson",
           "name": "Craig Dawson",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,
@@ -18458,8 +16521,6 @@ export const soccerSport = {
           "name": "Toti Gomes",
           "roles": [
             "CB",
-            "CB1",
-            "CB2",
             "DEF"
           ],
           "rating": 79,

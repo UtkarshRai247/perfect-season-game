@@ -48,7 +48,7 @@ describe('App', () => {
 
     // Re-roll Era
     await user.click(eraBtn)
-    expect(screen.getByRole('heading', { name: /2000–2001/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /2000s/i })).toBeInTheDocument()
     expect(eraBtn).toHaveTextContent(/0 left/i)
     expect(eraBtn).toBeDisabled()
   })
@@ -260,8 +260,8 @@ describe('App', () => {
     await user.click(screen.getByRole('button', { name: /play soccer/i }))
     await user.click(screen.getByRole('button', { name: /spin for a team and era/i }))
 
-    // Draw is Arsenal (2003–2004)
-    expect(screen.getByRole('heading', { name: /arsenal \(2003–2004/i })).toBeInTheDocument()
+    // Draw is Arsenal (2000s)
+    expect(screen.getByRole('heading', { name: /arsenal \(2000s\)/i })).toBeInTheDocument()
 
     // Candidates must be ordered from highest rating (top overall) to lowest rating (bottom overall)
     const candidateCards = screen.getAllByText(/\d{2}/, { selector: '.candidate-rating' })
