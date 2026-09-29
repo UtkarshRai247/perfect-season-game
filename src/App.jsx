@@ -32,6 +32,7 @@ export default function App({ random = Math.random }) {
 
   // Slot machine animation state
   const [isSpinning, setIsSpinning] = useState(false)
+  const [spinMode, setSpinMode] = useState(null)
   const [reelTeam, setReelTeam] = useState('???')
   const [reelEra, setReelEra] = useState('???')
 
@@ -59,6 +60,7 @@ export default function App({ random = Math.random }) {
     setErrorMessage(null)
     setReelTeam('???')
     setReelEra('???')
+    setSpinMode(null)
     setSoccerFormation('4-3-3')
     setRosterDisplayMode('board')
     setAnnouncement(`Started ${SPORTS[sportId].label} draft. Choose positions freely or spin the wheel.`)
@@ -68,11 +70,13 @@ export default function App({ random = Math.random }) {
     if (typeof window === 'undefined' || process.env.NODE_ENV === 'test') {
       setReelTeam(finalDraw.franchise)
       setReelEra(finalDraw.era)
+      setSpinMode(null)
       onComplete()
       return
     }
 
     setIsSpinning(true)
+    setSpinMode(mode)
     const allDraws = currentSport.draws
     let step = 0
     const totalSteps = 16
@@ -95,6 +99,7 @@ export default function App({ random = Math.random }) {
         setReelTeam(finalDraw.franchise)
         setReelEra(finalDraw.era)
         setIsSpinning(false)
+        setSpinMode(null)
         playWinChime(soundEnabled)
         onComplete()
       }
@@ -120,7 +125,7 @@ export default function App({ random = Math.random }) {
       const nextRun = rerollTeam(run, currentSport, random)
       triggerSlotAnimation(nextRun.activeDraw, () => {
         setRun(nextRun)
-        setAnnouncement(`Re-rolled team to ${nextRun.activeDraw.franchise} (${nextRun.activeDraw.era}).`)
+        setAnnouncement(`Re-rolled team to ${nextRun.activeDraw.franchise} (Era: ${nextRun.activeDraw.era}).`)
       }, 'team')
     } catch (err) {
       setErrorMessage(err.message)
@@ -208,6 +213,11 @@ export default function App({ random = Math.random }) {
   const targetedSlot = targetedSlotIndex !== null && run ? run.slots[targetedSlotIndex] : null
   const teamRerollsLeft = run ? Math.max(0, 1 - (run.teamRerollsUsed || 0)) : 1
   const eraRerollsLeft = run ? Math.max(0, 1 - (run.eraRerollsUsed || 0)) : 1
+  const availableErasForCurrentTeam = run?.activeDraw && currentSport
+    ? currentSport.draws.filter(
+        (d) => d.franchise === run.activeDraw.franchise && d.era !== run.activeDraw.era,
+      ).length
+    : 0
 
   return (
     <main className={`app-container sport-${selectedSportId || 'none'}`}>
@@ -406,7 +416,11 @@ export default function App({ random = Math.random }) {
           {!complete ? (
             <div className="draft-action-container">
               {/* CASINO SLOT MACHINE */}
-              <div className={`casino-slot-machine ${isSpinning ? 'spinning' : ''}`}>
+              <div
+                className={`casino-slot-machine ${
+                  isSpinning ? `spinning spinning-${spinMode || 'both'}` : ''
+                }`}
+              >
                 <div className="slot-machine-marquee">
                   <span className="bulb"></span>
                   <span className="bulb"></span>
@@ -419,7 +433,13 @@ export default function App({ random = Math.random }) {
                   <div className="slot-reel reel-team">
                     <span className="reel-label">FRANCHISE</span>
                     <div className="reel-window">
-                      <span className="reel-value">{run.activeDraw ? run.activeDraw.franchise : reelTeam}</span>
+                      <span className="reel-value">
+                        {isSpinning && (spinMode === 'both' || spinMode === 'team')
+                          ? reelTeam
+                          : run.activeDraw
+                          ? run.activeDraw.franchise
+                          : reelTeam}
+                      </span>
                     </div>
                   </div>
 
@@ -428,7 +448,13 @@ export default function App({ random = Math.random }) {
                   <div className="slot-reel reel-era">
                     <span className="reel-label">ERA</span>
                     <div className="reel-window">
-                      <span className="reel-value">{run.activeDraw ? run.activeDraw.era : reelEra}</span>
+                      <span className="reel-value">
+                        {isSpinning && (spinMode === 'both' || spinMode === 'era')
+                          ? reelEra
+                          : run.activeDraw
+                          ? run.activeDraw.era
+                          : reelEra}
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -458,8 +484,17 @@ export default function App({ random = Math.random }) {
                         type="button"
                         className="btn btn-reroll btn-reroll-era"
                         onClick={handleRerollEra}
-                        disabled={isSpinning || eraRerollsLeft <= 0}
+                        disabled={
+                          isSpinning ||
+                          eraRerollsLeft <= 0 ||
+                          (run.activeDraw && availableErasForCurrentTeam <= 0)
+                        }
                         aria-label="Re-roll era"
+                        title={
+                          run.activeDraw && availableErasForCurrentTeam <= 0
+                            ? 'No other eras available for this club'
+                            : undefined
+                        }
                       >
                         ⏳ Re-roll Era ({eraRerollsLeft} left)
                       </button>

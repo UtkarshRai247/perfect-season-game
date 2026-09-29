@@ -129,20 +129,39 @@ describe('game engine draft rules', () => {
 
   it('allows separate team and era re-rolls with 1-use quota limits', () => {
     const run = createRun('nba', nba)
-    const first = spinDraw(run, nba, () => 0) // Bulls 1995-1996
+    const first = spinDraw(run, nba, () => 0) // Bulls 1990s
     expect(first.activeDraw.franchise).toBe('Chicago Bulls')
+    expect(first.activeDraw.era).toBe('1990s')
 
-    // Team re-roll
+    // Team re-roll: changes team, PRESERVES era
     const teamRerolled = rerollTeam(first, nba, () => 0)
     expect(teamRerolled.activeDraw.franchise).not.toBe('Chicago Bulls')
+    expect(teamRerolled.activeDraw.era).toBe('1990s') // discrete: era remains 1990s!
     expect(teamRerolled.teamRerollsUsed).toBe(1)
     expect(() => rerollTeam(teamRerolled, nba)).toThrow('No team re-rolls remaining')
 
-    // Era re-roll
+    // Era re-roll: changes era, PRESERVES team
     expect(teamRerolled.eraRerollsUsed).toBe(0)
     const eraRerolled = rerollEra(teamRerolled, nba, () => 0)
+    expect(eraRerolled.activeDraw.franchise).toBe(teamRerolled.activeDraw.franchise) // discrete: team remains Lakers!
+    expect(eraRerolled.activeDraw.era).not.toBe('1990s')
     expect(eraRerolled.eraRerollsUsed).toBe(1)
     expect(() => rerollEra(eraRerolled, nba)).toThrow('No era re-rolls remaining')
+  })
+
+  it('keeps team and era re-rolls discrete when re-rolling era before team', () => {
+    const run = createRun('nba', nba)
+    const first = spinDraw(run, nba, () => 0) // Bulls 1990s
+
+    // Re-roll Era first: changes era, keeps Bulls
+    const eraRerolled = rerollEra(first, nba, () => 0)
+    expect(eraRerolled.activeDraw.franchise).toBe('Chicago Bulls')
+    expect(eraRerolled.activeDraw.era).not.toBe('1990s')
+
+    // Re-roll Team second: changes team, keeps the newly rerolled era
+    const teamRerolled = rerollTeam(eraRerolled, nba, () => 0)
+    expect(teamRerolled.activeDraw.franchise).not.toBe('Chicago Bulls')
+    expect(teamRerolled.activeDraw.era).toBe(eraRerolled.activeDraw.era)
   })
 
   it('does not permit selecting the same player twice', () => {

@@ -30,7 +30,7 @@ describe('App', () => {
     await user.click(screen.getByRole('button', { name: /play nba/i }))
 
     await user.click(screen.getByRole('button', { name: /spin for a team and era/i }))
-    expect(screen.getByRole('heading', { name: /chicago bulls/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /chicago bulls \(1990s\)/i })).toBeInTheDocument()
 
     const teamBtn = screen.getByRole('button', { name: /re-roll team/i })
     const eraBtn = screen.getByRole('button', { name: /re-roll era/i })
@@ -38,17 +38,17 @@ describe('App', () => {
     expect(teamBtn).toHaveTextContent(/1 left/i)
     expect(eraBtn).toHaveTextContent(/1 left/i)
 
-    // Re-roll Team
+    // Re-roll Team (discrete: changes team to Lakers, keeps era 1990s)
     await user.click(teamBtn)
-    expect(screen.getByRole('heading', { name: /los angeles lakers/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /los angeles lakers \(1990s\)/i })).toBeInTheDocument()
     expect(teamBtn).toHaveTextContent(/0 left/i)
     expect(teamBtn).toBeDisabled()
     expect(eraBtn).toHaveTextContent(/1 left/i)
     expect(eraBtn).not.toBeDisabled()
 
-    // Re-roll Era
+    // Re-roll Era (discrete: keeps team Lakers, changes era to 1980s)
     await user.click(eraBtn)
-    expect(screen.getByRole('heading', { name: /2000s/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /los angeles lakers \(1980s\)/i })).toBeInTheDocument()
     expect(eraBtn).toHaveTextContent(/0 left/i)
     expect(eraBtn).toBeDisabled()
   })

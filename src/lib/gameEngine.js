@@ -123,7 +123,11 @@ export function rerollTeam(run, sport, random = Math.random) {
   }
 
   const currentFranchise = run.activeDraw.franchise
-  let pool = sport.draws.filter((d) => d.franchise !== currentFranchise)
+  const currentEra = run.activeDraw.era
+
+  // Discrete Team Re-roll: keep current era, switch only franchise
+  let pool = sport.draws.filter((d) => d.franchise !== currentFranchise && d.era === currentEra)
+  if (pool.length === 0) pool = sport.draws.filter((d) => d.franchise !== currentFranchise)
   if (pool.length === 0) pool = sport.draws
 
   const roll = typeof random === 'function' ? random() : Math.random()
@@ -159,18 +163,14 @@ export function rerollEra(run, sport, random = Math.random) {
   const currentFranchise = run.activeDraw.franchise
   const currentEra = run.activeDraw.era
 
-  // Look for another era for the same franchise first
+  // Discrete Era Re-roll: keep current franchise, switch only era
   const sameFranchisePool = sport.draws.filter(
     (d) => d.franchise === currentFranchise && d.era !== currentEra,
   )
 
   let pool = sameFranchisePool
   if (pool.length === 0) {
-    // If no other era for this team, pick another draw with a different era
-    pool = sport.draws.filter((d) => d.era !== currentEra)
-  }
-  if (pool.length === 0) {
-    pool = sport.draws
+    throw new Error(`No other eras available for ${currentFranchise}`)
   }
 
   const roll = typeof random === 'function' ? random() : Math.random()

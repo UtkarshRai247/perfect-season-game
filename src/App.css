@@ -473,7 +473,10 @@ body {
   transition: transform 0.1s;
 }
 
-.casino-slot-machine.spinning .reel-value {
+.casino-slot-machine.spinning:not(.spinning-team):not(.spinning-era) .reel-value,
+.casino-slot-machine.spinning-both .reel-value,
+.casino-slot-machine.spinning-team .reel-team .reel-value,
+.casino-slot-machine.spinning-era .reel-era .reel-value {
   animation: reelBlur 0.08s infinite alternate;
   filter: blur(1.5px);
   color: #fde047;
