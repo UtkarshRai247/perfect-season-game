@@ -71,29 +71,29 @@ describe('game engine draft rules', () => {
   })
 
   it('enforces soccer positional integrity: defenders in defense, midfielders in midfield, attackers in attack', () => {
-    const barcaDraw = soccer.draws.find((d) => d.franchise === 'Barcelona')
-    const puyol = barcaDraw.players.find((p) => p.name.includes('Puyol'))
-    const xavi = barcaDraw.players.find((p) => p.name.includes('Xavi'))
-    const messi = barcaDraw.players.find((p) => p.name.includes('Messi'))
+    const arsenalDraw = soccer.draws.find((d) => d.franchise === 'Arsenal')
+    const campbell = arsenalDraw.players.find((p) => p.name.includes('Campbell'))
+    const vieira = arsenalDraw.players.find((p) => p.name.includes('Vieira'))
+    const henry = arsenalDraw.players.find((p) => p.name.includes('Henry'))
 
-    // Defender Puyol can play in defense (LB, CB1, CB2, RB) but NOT midfield or attack
-    expect(isSlotCompatible({ role: 'CB1' }, puyol)).toBe(true)
-    expect(isSlotCompatible({ role: 'RB' }, puyol)).toBe(true)
-    expect(isSlotCompatible({ role: 'CDM' }, puyol)).toBe(false)
-    expect(isSlotCompatible({ role: 'ST' }, puyol)).toBe(false)
+    // Defender Campbell can play in defense (LB, CB1, CB2, RB) but NOT midfield or attack
+    expect(isSlotCompatible({ role: 'CB1' }, campbell)).toBe(true)
+    expect(isSlotCompatible({ role: 'RB' }, campbell)).toBe(true)
+    expect(isSlotCompatible({ role: 'CDM' }, campbell)).toBe(false)
+    expect(isSlotCompatible({ role: 'ST' }, campbell)).toBe(false)
 
-    // Midfielder Xavi can play in midfield (CDM, CM, CAM) but NOT defense or attack
-    expect(isSlotCompatible({ role: 'CM' }, xavi)).toBe(true)
-    expect(isSlotCompatible({ role: 'CAM' }, xavi)).toBe(true)
-    expect(isSlotCompatible({ role: 'CB1' }, xavi)).toBe(false)
-    expect(isSlotCompatible({ role: 'ST' }, xavi)).toBe(false)
+    // Midfielder Vieira can play in midfield (CDM, CM, CAM) but NOT defense or attack
+    expect(isSlotCompatible({ role: 'CM' }, vieira)).toBe(true)
+    expect(isSlotCompatible({ role: 'CDM' }, vieira)).toBe(true)
+    expect(isSlotCompatible({ role: 'CB1' }, vieira)).toBe(false)
+    expect(isSlotCompatible({ role: 'ST' }, vieira)).toBe(false)
 
-    // Attacker Messi can play in attack (LW, ST, RW) and attacking midfield (CAM) but NOT defense
-    expect(isSlotCompatible({ role: 'RW' }, messi)).toBe(true)
-    expect(isSlotCompatible({ role: 'ST' }, messi)).toBe(true)
-    expect(isSlotCompatible({ role: 'CAM' }, messi)).toBe(true)
-    expect(isSlotCompatible({ role: 'CB1' }, messi)).toBe(false)
-    expect(isSlotCompatible({ role: 'LB' }, messi)).toBe(false)
+    // Attacker Henry can play in attack (LW, ST, RW) but NOT defense
+    expect(isSlotCompatible({ role: 'RW' }, henry)).toBe(true)
+    expect(isSlotCompatible({ role: 'ST' }, henry)).toBe(true)
+    expect(isSlotCompatible({ role: 'LW' }, henry)).toBe(true)
+    expect(isSlotCompatible({ role: 'CB1' }, henry)).toBe(false)
+    expect(isSlotCompatible({ role: 'LB' }, henry)).toBe(false)
   })
 
   it('allows drafting any player who matches at least one open slot', () => {

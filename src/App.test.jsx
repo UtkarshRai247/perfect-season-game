@@ -260,15 +260,15 @@ describe('App', () => {
     await user.click(screen.getByRole('button', { name: /play soccer/i }))
     await user.click(screen.getByRole('button', { name: /spin for a team and era/i }))
 
-    // Draw is Barcelona (2008-2011)
-    expect(screen.getByRole('heading', { name: /barcelona \(2008–2011/i })).toBeInTheDocument()
+    // Draw is Arsenal (2003–2004)
+    expect(screen.getByRole('heading', { name: /arsenal \(2003–2004/i })).toBeInTheDocument()
 
     // Candidates must be ordered from highest rating (top overall) to lowest rating (bottom overall)
     const candidateCards = screen.getAllByText(/\d{2}/, { selector: '.candidate-rating' })
     const ratings = candidateCards.map((el) => Number.parseInt(el.textContent, 10))
 
     expect(ratings.length).toBeGreaterThanOrEqual(10)
-    expect(ratings[0]).toBe(99) // Lionel Messi (99) is at the very top!
+    expect(ratings[0]).toBe(98) // Thierry Henry (98) is at the very top!
     for (let i = 0; i < ratings.length - 1; i++) {
       expect(ratings[i]).toBeGreaterThanOrEqual(ratings[i + 1])
     }

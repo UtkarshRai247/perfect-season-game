@@ -251,8 +251,8 @@ export default function App({ random = Math.random }) {
               <span className="season-tag">82-Game Season</span>
             </div>
             <div className="sport-card sport-card-soccer">
-              <h3>Soccer Football</h3>
-              <p>Full Starting XI: 1 GK, 4 DEF, 3 MID, 2 WINGS, 1 ST</p>
+              <h3>Premier League Soccer</h3>
+              <p>All 51 Clubs All-Time: Starting XI (1 GK, 4 DEF, 3 MID, 3 ATT)</p>
               <span className="season-tag">38-Match Season (W-D-L)</span>
             </div>
             <div className="sport-card sport-card-nfl">
